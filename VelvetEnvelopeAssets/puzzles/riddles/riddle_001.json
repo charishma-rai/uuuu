@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "riddle_001",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "easy",
+  "title": "The Silent Witness",
+  "question": "I have no voice, but I tell of the past. I have no eyes, but I hold memories fast. What am I?",
+  "answer": "A portrait",
+  "solution": "portrait",
+  "hint": "You hang it on a wall inside the study.",
+  "time_limit": 60,
+  "reward_points": 50,
+  "recommended_for": ["Portrait", "Painting", "Wall Frame"]
+}

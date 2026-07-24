@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "id": "victim_006",
+  "image_filename": "victim_006.png",
+  "name": "Prof. Thaddeus Montgomery",
+  "occupation": "Dean of Archaeology & Relic Custodian",
+  "short_backstory": "Eminent archaeologist found dead inside the university museum holding a cracked clay cylinder covered in cuneiform cipher.",
+  "recommended_story_title": "The Cipher of the Lost Tomb",
+  "recommended_location": "University Antiquities Museum",
+  "recommended_theme": "Academic Archaeological Noir"
+}

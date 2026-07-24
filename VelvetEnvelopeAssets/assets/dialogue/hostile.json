@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "hostile",
+  "prompt_instructions": "The NPC expresses defensive anger, resentment toward the victim or police, and challenges the detective's authority.",
+  "dialogue_cues": ["crossed arms", "glaring stance", "sharp interruptions"],
+  "sample_phrases": [
+    "You have no right to interrogate me in my own establishment!",
+    "Reginald got what was coming to him, but that doesn't make me a killer.",
+    "Show me a warrant or get out of my sight!"
+  ]
+}

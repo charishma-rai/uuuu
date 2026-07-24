@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "id": "story_003",
+  "title": "The Alchemy Laboratory Incident",
+  "difficulty": "Hard",
+  "victim_id": "victim_003",
+  "victim_image_filename": "victim_003.png",
+  "suspect_ids": ["suspect_001", "suspect_007", "suspect_014", "suspect_017"],
+  "suspect_relationships": {
+    "suspect_001": "Collaborating Toxicologist",
+    "suspect_007": "Research Fellow",
+    "suspect_014": "Chief Mechanical Engineer",
+    "suspect_017": "University Apothecary"
+  },
+  "location": "Sterling University Chemical Laboratory",
+  "weapon": "Volatile Gas Compound Exposure",
+  "motive": "Theft of a revolutionary patent for synthetic nerve tonic.",
+  "timeline": [
+    { "time": "11:00 PM", "event": "Dr. Sterling locks the laboratory doors to begin nocturnal distillation." },
+    { "time": "11:45 PM", "event": "Exhaust fan abruptly stops working." },
+    { "time": "12:15 AM", "event": "Night watchman notices smoke leaking under the heavy iron door." }
+  ],
+  "crime_scene_theme": "Victorian Science & Medicine",
+  "evidence_list": [
+    {
+      "id": "ev_04",
+      "name": "Sabotaged Valve Gear",
+      "evidence_category": "electronics",
+      "puzzle_category": "sorting",
+      "puzzle_type": "Rotate Symbols",
+      "puzzle_id": "sorting_006"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_001": "We were testing non-lethal dosages earlier in the day.",
+    "suspect_007": "I was archiving ancient herbals in the adjacent wing.",
+    "suspect_014": "The ventilation system was inspected yesterday and worked perfectly.",
+    "suspect_017": "Alistair stole my chemical formulas 20 years ago!"
+  }
+}

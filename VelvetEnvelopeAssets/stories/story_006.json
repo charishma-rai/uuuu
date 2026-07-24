@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "id": "story_006",
+  "title": "The Cipher of the Lost Tomb",
+  "difficulty": "Hard",
+  "victim_id": "victim_006",
+  "victim_image_filename": "victim_006.png",
+  "suspect_ids": ["suspect_006", "suspect_007", "suspect_016", "suspect_019"],
+  "suspect_relationships": {
+    "suspect_006": "Museum Head Chef & Tenant",
+    "suspect_007": "Archaeology Fellow",
+    "suspect_016": "Chief Archivist",
+    "suspect_019": "Sponsoring Merchant"
+  },
+  "location": "University Antiquities Museum",
+  "weapon": "Crushed Venomous Scorpion Extract",
+  "motive": "Ownership of an unearthed ancient golden tomb cylinder.",
+  "timeline": [
+    { "time": "09:00 PM", "event": "Museum doors locked for the night." },
+    { "time": "10:15 PM", "event": "Prof. Montgomery deciphers final cylinder inscription in private study." },
+    { "time": "11:00 PM", "event": "Security guard hears glass smashing in Egyptian wing." }
+  ],
+  "crime_scene_theme": "Academic Archaeological Noir",
+  "evidence_list": [
+    {
+      "id": "ev_07",
+      "name": "Cuneiform Clay Cipher",
+      "evidence_category": "documents",
+      "puzzle_category": "cipher",
+      "puzzle_type": "Morse Code",
+      "puzzle_id": "cipher_002"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_006": "I was catering late for the museum trustees board.",
+    "suspect_007": "Professor Montgomery promised me co-authorship on the discovery paper!",
+    "suspect_016": "The artifact belonged in the central library vault, not his desk.",
+    "suspect_019": "I funded the entire expedition! I deserved first rights!"
+  }
+}

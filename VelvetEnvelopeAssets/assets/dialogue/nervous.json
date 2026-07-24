@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "nervous",
+  "prompt_instructions": "The NPC fears being falsely accused or losing their livelihood, stuttering slightly and exhibiting anxious body language.",
+  "dialogue_cues": ["trembling hands", "quick glances at exits", "nervous swallowing"],
+  "sample_phrases": [
+    "P-please, Detective, I had nothing to do with this terrible tragedy!",
+    "I... I was only doing as I was instructed! I didn't know what was in the bottle!",
+    "Am I under arrest? Do I need a lawyer?"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "category": "keys",
+  "items": [
+    {
+      "id": "key_001",
+      "name": "Engraved Skeleton Key",
+      "description": "A heavy antique iron skeleton key with initials 'R.B.' stamped on the bow.",
+      "puzzle_type_recommendation": "Safe Combination"
+    },
+    {
+      "id": "key_002",
+      "name": "Brass Safe Combination Dial",
+      "description": "A detached brass safe lock dial with a three-digit combination code requirement.",
+      "puzzle_type_recommendation": "Safe Combination"
+    }
+  ]
+}

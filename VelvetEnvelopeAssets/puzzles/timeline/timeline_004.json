@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_004",
+  "category": "timeline",
+  "puzzle_type": "Timeline Ordering",
+  "difficulty": "medium",
+  "title": "Carriage Movements Log",
+  "question": "Arrange the arrival of four horse carriages at Blackwood Manor.",
+  "answer": "Doctor, Lawyer, Journalist, Baroness",
+  "solution": "Doctor, Lawyer, Journalist, Baroness",
+  "hint": "The doctor's carriage arrived before storm clouds broke.",
+  "time_limit": 90,
+  "reward_points": 90,
+  "recommended_for": ["Gate Keeper Log", "Stable Master Book", "Carriage Ticket"]
+}

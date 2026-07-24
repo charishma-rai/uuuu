@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "category": "jewellery",
+  "items": [
+    {
+      "id": "jewel_001",
+      "name": "Blood-Red Ruby Pocket Watch",
+      "description": "A gold pocket watch stopped at 10:15 PM with a cracked ruby glass face.",
+      "puzzle_type_recommendation": "Timeline Ordering"
+    },
+    {
+      "id": "jewel_002",
+      "name": "Carved Jade Locket",
+      "description": "A silver-bound jade locket containing a hidden portrait photo.",
+      "puzzle_type_recommendation": "Photo Matching"
+    }
+  ]
+}

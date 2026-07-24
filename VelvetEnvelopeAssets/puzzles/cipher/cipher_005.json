@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_005",
+  "category": "cipher",
+  "puzzle_type": "Caesar Cipher",
+  "difficulty": "easy",
+  "title": "The Scrawled Will Code",
+  "question": "Decode shift +1: 'IFJS'",
+  "answer": "HEIR",
+  "solution": "HEIR",
+  "hint": "Shift each letter back by 1 (I -> H).",
+  "time_limit": 45,
+  "reward_points": 50,
+  "recommended_for": ["Will", "Testament", "Legal Slip"]
+}

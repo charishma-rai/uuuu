@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "matching_004",
+  "category": "matching",
+  "puzzle_type": "Map Navigation",
+  "difficulty": "medium",
+  "title": "Manor Escape Route Mapping",
+  "question": "Trace the shortest unmonitored path from the Library to the East Gate.",
+  "answer": "Library -> Conservatory Corridor -> Servants' Staircase -> East Gate",
+  "solution": "Library -> Conservatory Corridor -> Servants' Staircase -> East Gate",
+  "hint": "Avoid the Main Foyer where the guard was stationed.",
+  "time_limit": 90,
+  "reward_points": 90,
+  "recommended_for": ["Floor Plan", "Estate Map", "Escape Route Sketch"]
+}

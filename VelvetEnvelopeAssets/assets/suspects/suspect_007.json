@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_007",
+  "image_filename": "suspect_007.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 29,
+  "ethnicity": "middle_eastern",
+  "appearance": {
+    "hair": "wavy_raven_hair",
+    "eye_color": "dark_hazel",
+    "facial_hair": "none",
+    "clothing_style": "academic_gowned_suit",
+    "accessories": ["spectacles", "leather_satchel"]
+  },
+  "appearance_description": "A brilliant archaeology fellow holding ancient parchment scrolls, sporting round brass spectacles.",
+  "height": "5 ft 8 in",
+  "body_type": "slender",
+  "dominant_hand": "left",
+  "walking_style": "smooth, quiet pace",
+  "voice": "soft, intellectual alto",
+  "accent": "Levantine Oxford",
+  "allowed_occupations": ["Archaeologist", "Professor", "Archivist", "Librarian"],
+  "personality_tags": ["scholarly", "inquisitive", "secretive", "focused"],
+  "story_tags": ["relic", "university", "manuscript", "museum"],
+  "possible_relationships": ["Research Assistant", "Colleague", "Student", "Niece", "Cryptographer"]
+}

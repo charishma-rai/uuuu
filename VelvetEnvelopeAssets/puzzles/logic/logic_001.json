@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_001",
+  "category": "logic",
+  "puzzle_type": "Grid Logic",
+  "difficulty": "medium",
+  "title": "Alibi Elimination Matrix",
+  "question": "Suspect A was in the library. Suspect B was not in the conservatory. Who was in the dining hall if only Suspect C remains?",
+  "answer": "Suspect C",
+  "solution": "Suspect C",
+  "hint": "Use process of elimination for three suspects.",
+  "time_limit": 120,
+  "reward_points": 100,
+  "recommended_for": ["Police Dossier", "Suspect Timetable", "Interrogation Grid"]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "riddle_003",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "hard",
+  "title": "The Key without a Lock",
+  "question": "I have space but no room, I have keys but no locks. You can enter, but you can't go outside. What am I?",
+  "answer": "A keyboard",
+  "solution": "keyboard",
+  "hint": "Or a mechanical typewriter.",
+  "time_limit": 90,
+  "reward_points": 150,
+  "recommended_for": ["Typewriter", "Telegram", "Code Key"]
+}

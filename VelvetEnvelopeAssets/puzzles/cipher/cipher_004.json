@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_004",
+  "category": "cipher",
+  "puzzle_type": "Code Breaking",
+  "difficulty": "hard",
+  "title": "Substituted Vigenere Key",
+  "question": "Crack the 4-letter keyword used to lock the vault ledger.",
+  "answer": "RUBY",
+  "solution": "RUBY",
+  "hint": "It is the name of a precious gemstone.",
+  "time_limit": 120,
+  "reward_points": 150,
+  "recommended_for": ["Vault Ledger", "Encrypted Dispatch", "Cipher Book"]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_005",
+  "category": "timeline",
+  "puzzle_type": "Timeline Ordering",
+  "difficulty": "easy",
+  "title": "Alibi Verification Sequence",
+  "question": "Which event occurred FIRST? (A. Screaming sound, B. Lightning flash, C. Power outage)",
+  "answer": "B. Lightning flash",
+  "solution": "B. Lightning flash",
+  "hint": "Light travels faster than sound.",
+  "time_limit": 45,
+  "reward_points": 40,
+  "recommended_for": ["Interrogation Log", "Witness Statement", "Flashback"]
+}

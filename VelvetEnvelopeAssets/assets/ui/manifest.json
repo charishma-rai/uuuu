@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "name": "VelvetEnvelopeUIAssets",
+  "categories": [
+    "backgrounds",
+    "folders",
+    "paper",
+    "wax_seals",
+    "buttons",
+    "icons",
+    "textures",
+    "bookmarks",
+    "pins",
+    "coffee_stains",
+    "stamps"
+  ],
+  "expected_files": {
+    "backgrounds": ["main_menu_bg.png", "detective_desk_bg.png", "interrogation_bg.png"],
+    "folders": ["folder_closed.png", "folder_open.png", "confidential_file.png"],
+    "paper": ["vintage_parchment.png", "torn_note_edge.png", "newspaper_clipping.png"],
+    "wax_seals": ["red_seal_unbroken.png", "gold_seal_broken.png", "black_seal_stamped.png"],
+    "buttons": ["button_red.png", "button_gold.png", "button_brass.png", "button_wood.png"],
+    "icons": ["magnifying_glass.png", "fingerprint_icon.png", "lock_icon.png", "skull_icon.png"],
+    "textures": ["wood_grain.png", "dark_velvet.png", "leather_cover.png"],
+    "bookmarks": ["ribbon_red.png", "ribbon_gold.png"],
+    "pins": ["push_pin_red.png", "brass_tack.png"],
+    "coffee_stains": ["ring_stain_01.png", "spill_splatter.png"],
+    "stamps": ["stamp_confidential.png", "stamp_solved.png", "stamp_classified.png"]
+  }
+}

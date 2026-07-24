@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_010",
+  "image_filename": "suspect_010.png",
+  "gender": "male",
+  "age_group": "young_adult",
+  "approximate_age": 30,
+  "ethnicity": "hispanic",
+  "appearance": {
+    "hair": "curly_dark_hair",
+    "eye_color": "dark_brown",
+    "facial_hair": "short_stubble",
+    "clothing_style": "canvas_expedition_jacket",
+    "accessories": ["brass_compass", "leather_canteen"]
+  },
+  "appearance_description": "A rugged field botanist and explorer dressed in a worn canvas expedition coat with brass compass pinned to his lapel.",
+  "height": "6 ft 0 in",
+  "body_type": "athletic",
+  "dominant_hand": "left",
+  "walking_style": "heavy, grounded steps",
+  "voice": "husky, gravelly tenor",
+  "accent": "Argentine English",
+  "allowed_occupations": ["Botanist", "Explorer", "Geologist", "Guide"],
+  "personality_tags": ["adventurous", "rebellious", "blunt", "observant"],
+  "story_tags": ["expedition", "rare_plant", "jungle", "poison"],
+  "possible_relationships": ["Expedition Guide", "Former Student", "Nephew", "Rival Explorer", "Contractor"]
+}

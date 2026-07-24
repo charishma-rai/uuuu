@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "memory_002",
+  "category": "memory",
+  "puzzle_type": "Color Sequence",
+  "difficulty": "medium",
+  "title": "Apothecary Bottle Sequence",
+  "question": "Repeat the 5-bottle color flashing sequence: Red -> Blue -> Amber -> Emerald -> Red",
+  "answer": "Red, Blue, Amber, Emerald, Red",
+  "solution": "Red, Blue, Amber, Emerald, Red",
+  "hint": "Remember the first and last bottle are both Red.",
+  "time_limit": 60,
+  "reward_points": 75,
+  "recommended_for": ["Apothecary Shelf", "Chemical Rack", "Tincture Set"]
+}

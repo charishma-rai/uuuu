@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "id": "victim_003",
+  "image_filename": "victim_003.png",
+  "name": "Dr. Alistair Sterling",
+  "occupation": "Chief Pharmacologist & Alchemy Lecturer",
+  "short_backstory": "Renowned chemist found unresponsive in his university research laboratory amidst smashed vials and scorched formula notes.",
+  "recommended_story_title": "The Alchemy Laboratory Incident",
+  "recommended_location": "Sterling University Chemical Laboratory",
+  "recommended_theme": "Victorian Science & Medicine"
+}

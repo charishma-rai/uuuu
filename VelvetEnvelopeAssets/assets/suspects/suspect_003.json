@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_003",
+  "image_filename": "suspect_003.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 31,
+  "ethnicity": "afro_caribbean",
+  "appearance": {
+    "hair": "braided_crown",
+    "eye_color": "amber",
+    "facial_hair": "none",
+    "clothing_style": "tweed_investigator_suit",
+    "accessories": ["silver_pocket_watch", "leather_bound_notebook"]
+  },
+  "appearance_description": "A sharp investigative journalist wearing a tailored tweed suit and carrying a brass-trimmed notebook.",
+  "height": "5 ft 9 in",
+  "body_type": "athletic",
+  "dominant_hand": "right",
+  "walking_style": "brisk, decisive stride",
+  "voice": "confident, clear contralto",
+  "accent": "London Urban",
+  "allowed_occupations": ["Journalist", "Private Investigator", "Author", "Reporter"],
+  "personality_tags": ["relentless", "skeptical", "witty", "bold"],
+  "story_tags": ["scandal", "press", "blackmail", "investigation"],
+  "possible_relationships": ["Investigative Reporter", "Neighbour", "Estranged Sister", "Blackmailer", "Informant"]
+}

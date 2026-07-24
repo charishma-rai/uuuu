@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_001",
+  "image_filename": "suspect_001.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 27,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "auburn_updo",
+    "eye_color": "hazel",
+    "facial_hair": "none",
+    "clothing_style": "victorian_doctor_coat",
+    "accessories": ["silver_stethoscope", "gold_monocle"]
+  },
+  "appearance_description": "A sharp-eyed young woman in a tailored dark velvet doctor coat, her hair pinned in a sleek Victorian updo.",
+  "height": "5 ft 7 in",
+  "body_type": "slender",
+  "dominant_hand": "right",
+  "walking_style": "swift, purposeful stride with light footsteps",
+  "voice": "calm, articulate alto with precise diction",
+  "accent": "Received Pronunciation British",
+  "allowed_occupations": ["Doctor", "Toxicologist", "Surgeon", "Botanist"],
+  "personality_tags": ["analytical", "reserved", "observant", "calculating"],
+  "story_tags": ["medical", "poison", "high_society", "laboratory"],
+  "possible_relationships": ["Personal Physician", "Niece", "Business Partner", "Student", "Rival Collector"]
+}

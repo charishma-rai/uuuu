@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "story_005",
+  "title": "The Stolen Sapphire Affair",
+  "difficulty": "Expert",
+  "victim_id": "victim_005",
+  "victim_image_filename": "victim_005.png",
+  "suspect_ids": ["suspect_004", "suspect_005", "suspect_009", "suspect_018"],
+  "suspect_relationships": {
+    "suspect_004": "Jewellery Appraiser",
+    "suspect_005": "Personal Assistant",
+    "suspect_009": "Gallery Legal Counsel",
+    "suspect_018": "Retired Judge & Co-Trustee"
+  },
+  "location": "Royal Fine Arts Gallery Vault",
+  "weapon": "Silent Strangle Cord",
+  "motive": "Substitution of a 100-carat blue sapphire with a glass fake before auction.",
+  "timeline": [
+    { "time": "06:00 PM", "event": "VIP auction preview closes." },
+    { "time": "06:30 PM", "event": "Baroness von Haven enters vault alone to verify sapphire." },
+    { "time": "07:00 PM", "event": "Vault time-lock engages automatically." },
+    { "time": "08:00 PM", "event": "Security team overrides lock and discovers body inside empty vault." }
+  ],
+  "crime_scene_theme": "High Society Art Auction",
+  "evidence_list": [
+    {
+      "id": "ev_06",
+      "name": "Vault Master Combination Lock",
+      "evidence_category": "keys",
+      "puzzle_category": "sorting",
+      "puzzle_type": "Safe Combination",
+      "puzzle_id": "sorting_003"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_004": "The sapphire was genuine when I examined it at 5:30 PM.",
+    "suspect_005": "The Baroness instructed me to wait outside the main gallery doors.",
+    "suspect_009": "I was drafting auction insurance contracts in the office.",
+    "suspect_018": "The vault lock code is known to only three trustees!"
+  }
+}

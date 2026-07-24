@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "sorting_002",
+  "category": "sorting",
+  "puzzle_type": "Object Classification",
+  "difficulty": "easy",
+  "title": "Apothecary Jar Sorting",
+  "question": "Group 6 chemical tinctures into 'Organic Toxins' and 'Mineral Acids'.",
+  "answer": "Toxins: Nightshade, Aconite, Hemlock. Acids: Vitriol, Nitric, Muriatic.",
+  "solution": "toxins_acids_grouped",
+  "hint": "Nightshade and Hemlock are plant-based organic toxins.",
+  "time_limit": 60,
+  "reward_points": 60,
+  "recommended_for": ["Apothecary Rack", "Lab Shelf", "Chemical Cabinet"]
+}

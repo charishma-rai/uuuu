@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_004",
+  "image_filename": "suspect_004.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 28,
+  "ethnicity": "south_asian",
+  "appearance": {
+    "hair": "long_dark_waves",
+    "eye_color": "dark_brown",
+    "facial_hair": "none",
+    "clothing_style": "embroidered_velvet_coat",
+    "accessories": ["ruby_ring", "magnifying_glass"]
+  },
+  "appearance_description": "An antiquarian and gemologist wearing rich velvet embroidered with golden thread, sporting an antique ruby ring.",
+  "height": "5 ft 6 in",
+  "body_type": "slender",
+  "dominant_hand": "right",
+  "walking_style": "measured and deliberate",
+  "voice": "soft, lyrical soprano",
+  "accent": "Anglo-Indian",
+  "allowed_occupations": ["Jeweller", "Antiquarian", "Appraiser", "Art Restorer"],
+  "personality_tags": ["meticulous", "shrewd", "polite", "guarded"],
+  "story_tags": ["heist", "jewels", "auction", "antiques"],
+  "possible_relationships": ["Art Dealer", "Business Partner", "Appraiser", "Niece", "Buyer"]
+}

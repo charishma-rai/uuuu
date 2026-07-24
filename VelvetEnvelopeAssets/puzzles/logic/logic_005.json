@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_005",
+  "category": "logic",
+  "puzzle_type": "Code Breaking",
+  "difficulty": "medium",
+  "title": "Master Key Code",
+  "question": "If 1=A, 4=D, 7=G, what 3-letter word does '2-1-4' spell?",
+  "answer": "BAD",
+  "solution": "BAD",
+  "hint": "Convert numbers to corresponding letters in the alphabet.",
+  "time_limit": 45,
+  "reward_points": 60,
+  "recommended_for": ["Briefcase Lock", "Key Tag", "Secret Slip"]
+}

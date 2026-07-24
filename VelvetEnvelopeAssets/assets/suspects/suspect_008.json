@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_008",
+  "image_filename": "suspect_008.png",
+  "gender": "male",
+  "age_group": "young_adult",
+  "approximate_age": 32,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "slicked_back_dark_brown",
+    "eye_color": "steel_blue",
+    "facial_hair": "neatly_trimmed_mustache",
+    "clothing_style": "double_breasted_tailored_suit",
+    "accessories": ["gold_pocket_watch", "diamond_cufflinks"]
+  },
+  "appearance_description": "A suave venture capitalist wearing a pristine navy double-breasted suit with polished gold cufflinks.",
+  "height": "6 ft 1 in",
+  "body_type": "broad_shouldered",
+  "dominant_hand": "right",
+  "walking_style": "commanding, rhythmic stride",
+  "voice": "deep baritone with smooth cadence",
+  "accent": "Mid-Atlantic Accent",
+  "allowed_occupations": ["Banker", "Businessperson", "Investor", "Broker"],
+  "personality_tags": ["ambitious", "charismatic", "ruthless", "persuasive"],
+  "story_tags": ["finance", "fraud", "stocks", "mansion"],
+  "possible_relationships": ["Business Partner", "Financial Advisor", "Son-in-law", "Debtor", "Rival"]
+}

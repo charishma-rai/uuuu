@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_011",
+  "image_filename": "suspect_011.png",
+  "gender": "male",
+  "age_group": "young_adult",
+  "approximate_age": 28,
+  "ethnicity": "afro_descendant",
+  "appearance": {
+    "hair": "short_fade",
+    "eye_color": "brown",
+    "facial_hair": "neat_goatee",
+    "clothing_style": "tailored_vest_and_rolled_sleeves",
+    "accessories": ["engraved_pocket_lighter", "silver_watch"]
+  },
+  "appearance_description": "An enigmatic club owner and information broker wearing a crisp waistcoat with rolled sleeves and a heavy silver signet ring.",
+  "height": "6 ft 2 in",
+  "body_type": "muscular",
+  "dominant_hand": "right",
+  "walking_style": "confident, panther-like stride",
+  "voice": "smooth, resonant bass",
+  "accent": "New Orleans Jazz Creole",
+  "allowed_occupations": ["Club Owner", "Informant", "Trader", "Gambler"],
+  "personality_tags": ["calculating", "charming", "secretive", "fearless"],
+  "story_tags": ["underworld", "casino", "gambling", "secrecy"],
+  "possible_relationships": ["Club Owner", "Informant", "Secret Brother", "Creditor", "Associate"]
+}

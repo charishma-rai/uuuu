@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "themes": [
+    {
+      "id": "gothic_mansion",
+      "name": "Gothic Victorian Mansion",
+      "description": "High ceilinged, dark oak paneling, velvet drapery, polished mahogany furniture, ornate chandeliers."
+    },
+    {
+      "id": "modern_noir",
+      "name": "1940s Noir Office",
+      "description": "Venetian blinds casting shadow lines, frosted glass doors, smoke-filled air, heavy wooden desk, brass desk lamps."
+    },
+    {
+      "id": "luxury_yacht",
+      "name": "Luxury Ocean Steamship",
+      "description": "Brass fittings, polished teakwood decks, nautical portholes, velvet parlor chairs, stormy sea backdrop."
+    },
+    {
+      "id": "abandoned_manor",
+      "name": "Abandoned Manor Estate",
+      "description": "Cobwebbed ceilings, peeling wallpaper, dust-covered mirrors, boarded windows, cracked marble fireplace."
+    },
+    {
+      "id": "hospital_ward",
+      "name": "Victorian Sanatorium Ward",
+      "description": "Sterile white ceramic tiles, brass medical cabinets, glass tincture bottles, wrought-iron beds."
+    },
+    {
+      "id": "underground_lab",
+      "name": "Underground Alchemical Laboratory",
+      "description": "Stone archways, bubbling glass retorts, copper distillation pipes, glowing chemical braziers."
+    },
+    {
+      "id": "express_train",
+      "name": "Orient Express Parlor Car",
+      "description": "Mahogany inlaid woodwork, plush silk seating, crystal sconces, narrow corridors, snow-covered mountain vista."
+    },
+    {
+      "id": "antiquities_museum",
+      "name": "Grand Antiquities Museum",
+      "description": "Glass display cases, stone sarcophagi, marble pillars, vaulted glass roof, velvet velvet stanchions."
+    }
+  ]
+}

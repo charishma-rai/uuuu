@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_016",
+  "image_filename": "suspect_016.png",
+  "gender": "elderly_female",
+  "age_group": "elderly",
+  "approximate_age": 72,
+  "ethnicity": "east_asian",
+  "appearance": {
+    "hair": "white_updo_with_jade_pins",
+    "eye_color": "dark_brown",
+    "facial_hair": "none",
+    "clothing_style": "embroidered_silk_robe",
+    "accessories": ["jade_bangles", "reading_glasses_on_chain"]
+  },
+  "appearance_description": "A retired imperial librarian and archivist with white hair fastened by carved green jade hairpins.",
+  "height": "5 ft 1 in",
+  "body_type": "petite",
+  "dominant_hand": "right",
+  "walking_style": "quiet, shuffled steps",
+  "voice": "soft, whispering soprano",
+  "accent": "Mandarin Scholar",
+  "allowed_occupations": ["Archivist", "Retired Librarian", "Historian", "Curator"],
+  "personality_tags": ["wise", "enigmatic", "patient", "observant"],
+  "story_tags": ["library", "scrolls", "ancient_history", "archive"],
+  "possible_relationships": ["Chief Archivist", "Grandmother", "Mentor", "Former Employer", "Trustee"]
+}

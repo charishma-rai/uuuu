@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_015",
+  "image_filename": "suspect_015.png",
+  "gender": "elderly_female",
+  "age_group": "elderly",
+  "approximate_age": 68,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "silver_bun",
+    "eye_color": "sharp_gray",
+    "facial_hair": "none",
+    "clothing_style": "heavy_black_velvet_widow_dress",
+    "accessories": ["silver_cameo_brooch", "ebony_walking_cane"]
+  },
+  "appearance_description": "An imposing matriarch in high-collared black mourning velvet, leaning lightly on a silver-capped ebony cane.",
+  "height": "5 ft 5 in",
+  "body_type": "slender_frail",
+  "dominant_hand": "right",
+  "walking_style": "slow, deliberate tapping cane footsteps",
+  "voice": "imperious, rasping alto with icy warmth",
+  "accent": "Aristocratic English",
+  "allowed_occupations": ["Matriarch", "Dowager", "Estate Owner", "Philanthropist"],
+  "personality_tags": ["commanding", "astute", "unforgiving", "proud"],
+  "story_tags": ["estate", "dynasty", "will", "family_secrets"],
+  "possible_relationships": ["Widow", "Mother", "Estate Owner", "Aunt", "Benefactor"]
+}

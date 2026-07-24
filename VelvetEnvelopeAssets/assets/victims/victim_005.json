@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "id": "victim_005",
+  "image_filename": "victim_005.png",
+  "name": "Baroness Eleanor von Haven",
+  "occupation": "Art Collector & Gallery Trustee",
+  "short_backstory": "Prominent art patron murdered inside a locked vault at the Royal Fine Arts Gallery right before the auction of a priceless sapphire.",
+  "recommended_story_title": "The Stolen Sapphire Affair",
+  "recommended_location": "Royal Fine Arts Gallery Vault",
+  "recommended_theme": "High Society Art Auction"
+}

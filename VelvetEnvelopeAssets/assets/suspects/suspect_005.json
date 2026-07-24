@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_005",
+  "image_filename": "suspect_005.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 22,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "blond_pin_curls",
+    "eye_color": "blue",
+    "facial_hair": "none",
+    "clothing_style": "parlor_maid_apron_dress",
+    "accessories": ["brass_keyring", "silver_pendant"]
+  },
+  "appearance_description": "A quiet parlor maid with attentive blue eyes, clutching a heavy ring of brass household keys.",
+  "height": "5 ft 3 in",
+  "body_type": "petite",
+  "dominant_hand": "right",
+  "walking_style": "silent, rapid steps along corridors",
+  "voice": "soft-spoken, hesitant treble",
+  "accent": "Cockney British",
+  "allowed_occupations": ["Parlor Maid", "Housekeeper", "Assistant", "Nurse"],
+  "personality_tags": ["timid", "observant", "loyal", "anxious"],
+  "story_tags": ["manor", "secrets", "domestic", "servant"],
+  "possible_relationships": ["Housemaid", "Assistant", "Witness", "Informant", "Illegitimate Daughter"]
+}

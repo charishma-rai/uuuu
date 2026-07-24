@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "locations": [
+    { "id": "private_library", "name": "Private Library", "keywords": ["bookshelves", "leather_armchair", "fireplace", "mahogany_desk"] },
+    { "id": "wine_cellar", "name": "Underground Wine Cellar", "keywords": ["oak_casks", "cobblestone_floor", "wrought_iron_gate", "dusty_bottles"] },
+    { "id": "conservatory", "name": "Glass Conservatory", "keywords": ["wrought_iron_frame", "exotic_ferns", "nightshade_vines", "moonlit_glass"] },
+    { "id": "study_vault", "name": "Secret Study Vault", "keywords": ["brass_safe", "hidden_wall_panel", "ledger_books", "velvet_key_case"] },
+    { "id": "art_gallery", "name": "Private Art Gallery", "keywords": ["framed_portraits", "marble_busts", "velvet_ropes", "spotlights"] },
+    { "id": "billiards_room", "name": "Billiards Parlor", "keywords": ["green_felt_table", "brass_cues", "cigar_ash", "leather_benches"] }
+  ]
+}

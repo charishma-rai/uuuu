@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "sorting_003",
+  "category": "sorting",
+  "puzzle_type": "Safe Combination",
+  "difficulty": "hard",
+  "title": "Three-Dial Wall Safe",
+  "question": "Rotate three concentric brass dials to line up with the red pointer arrow.",
+  "answer": "Dial 1: 45, Dial 2: 12, Dial 3: 88",
+  "solution": "45-12-88",
+  "hint": "Listen for the metallic click sound on dial 2 at 12.",
+  "time_limit": 120,
+  "reward_points": 150,
+  "recommended_for": ["Wall Safe", "Heavy Iron Chest", "Vault Door"]
+}

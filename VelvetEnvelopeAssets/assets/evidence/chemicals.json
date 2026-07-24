@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "category": "chemicals",
+  "items": [
+    {
+      "id": "chem_001",
+      "name": "Bitter Almond Tincture Bottle",
+      "description": "An amber glass apothecary jar labeled 'Bitter Almond Extract', containing traces of cyanide.",
+      "puzzle_type_recommendation": "Object Classification"
+    },
+    {
+      "id": "chem_002",
+      "name": "Vial of Nightshade Poison",
+      "description": "A sealed crystal dropper bottle containing concentrated belladonna extract.",
+      "puzzle_type_recommendation": "Mini Nonogram"
+    }
+  ]
+}

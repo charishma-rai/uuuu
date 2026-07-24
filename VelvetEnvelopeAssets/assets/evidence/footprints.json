@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "category": "footprints",
+  "items": [
+    {
+      "id": "foot_001",
+      "name": "Muddy Boot Impression",
+      "description": "A size 10 mud footprint on the conservatory floor showing a distinct hobnail heel pattern.",
+      "puzzle_type_recommendation": "Shadow Matching"
+    },
+    {
+      "id": "foot_002",
+      "name": "Silk Slipper Tread Mark",
+      "description": "A faint damp impression made by a small silk evening slipper on the library rug.",
+      "puzzle_type_recommendation": "Shape Matching"
+    }
+  ]
+}

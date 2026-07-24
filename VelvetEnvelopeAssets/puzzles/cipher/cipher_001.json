@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_001",
+  "category": "cipher",
+  "puzzle_type": "Caesar Cipher",
+  "difficulty": "medium",
+  "title": "The Cipher of Lord Blackwood",
+  "question": "Decrypt this message shift +3: 'PHHW PH DW PIGQLJKW'",
+  "answer": "MEET ME AT MIDNIGHT",
+  "solution": "MEET ME AT MIDNIGHT",
+  "hint": "Shift each letter backward by 3 positions in the alphabet (P -> M).",
+  "time_limit": 120,
+  "reward_points": 100,
+  "recommended_for": ["Encrypted Letter", "Diary Page", "Notebook"]
+}

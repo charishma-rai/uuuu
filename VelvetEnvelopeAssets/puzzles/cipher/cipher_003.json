@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_003",
+  "category": "cipher",
+  "puzzle_type": "Word Search",
+  "difficulty": "medium",
+  "title": "Hidden Poison Word Search",
+  "question": "Find the toxic plant hidden in this grid: A C O N I T E B",
+  "answer": "ACONITE",
+  "solution": "ACONITE",
+  "hint": "Starts with A and ends with E.",
+  "time_limit": 90,
+  "reward_points": 75,
+  "recommended_for": ["Botanical Note", "Apothecary Journal", "Newspaper"]
+}

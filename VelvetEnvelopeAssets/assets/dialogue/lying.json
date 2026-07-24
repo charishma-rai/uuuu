@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "lying",
+  "prompt_instructions": "The NPC attempts to mislead the detective with overly detailed alibis, shifting timelines, and deflection toward other suspects.",
+  "dialogue_cues": ["avoiding direct eye contact", "fidgeting with cuffs or jewelry", "over-explaining simple actions"],
+  "sample_phrases": [
+    "I was nowhere near the study, I assure you! Ask anyone in the kitchen!",
+    "Why focus on me when others had far more to gain from his passing?",
+    "I might have walked past the door, but I certainly didn't enter!"
+  ]
+}

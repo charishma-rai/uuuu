@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "category": "weapons",
+  "items": [
+    {
+      "id": "wep_001",
+      "name": "Ornate Silver Dagger",
+      "description": "A double-edged ceremonial dagger with an obsidian handle and dried blood traces on the hilt.",
+      "puzzle_type_recommendation": "Fingerprint Matching"
+    },
+    {
+      "id": "wep_002",
+      "name": "Antique Flintlock Pistol",
+      "description": "An 18th-century brass flintlock pistol recently fired, smelling of black powder.",
+      "puzzle_type_recommendation": "Pattern Recognition"
+    },
+    {
+      "id": "wep_003",
+      "name": "Poisoned Syringe",
+      "description": "A brass and glass syringe containing faint residue of aconite poison.",
+      "puzzle_type_recommendation": "Object Classification"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_013",
+  "image_filename": "suspect_013.png",
+  "gender": "male",
+  "age_group": "young_adult",
+  "approximate_age": 33,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "sandy_blond_crew_cut",
+    "eye_color": "green",
+    "facial_hair": "short_trimmed_beard",
+    "clothing_style": "military_dress_uniform",
+    "accessories": ["honor_medals", "leather_gloves"]
+  },
+  "appearance_description": "A decorated former army captain standing stiffly in a dark green military parade uniform with brass medals.",
+  "height": "6 ft 3 in",
+  "body_type": "broad_athletic",
+  "dominant_hand": "right",
+  "walking_style": "rigid military march",
+  "voice": "stern, booming baritone",
+  "accent": "Scottish Highlands",
+  "allowed_occupations": ["Military Officer", "Bodyguard", "Security Chief", "Tactician"],
+  "personality_tags": ["disciplined", "stoic", "suspicious", "fierce"],
+  "story_tags": ["military", "security", "weaponry", "duty"],
+  "possible_relationships": ["Bodyguard", "Head of Security", "Brother-in-law", "Tactical Advisor", "Comrade"]
+}

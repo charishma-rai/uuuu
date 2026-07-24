@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_018",
+  "image_filename": "suspect_018.png",
+  "gender": "elderly_male",
+  "age_group": "elderly",
+  "approximate_age": 74,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "receding_white_hair",
+    "eye_color": "pale_blue",
+    "facial_hair": "bushy_white_sideburns",
+    "clothing_style": "formal_judicial_frock_coat",
+    "accessories": ["gold_wire_spectacles", "carved_wooden_gavel_brooch"]
+  },
+  "appearance_description": "A retired High Court magistrate with piercing blue eyes, wearing gold wire-rimmed spectacles and a heavy judicial wool coat.",
+  "height": "6 ft 0 in",
+  "body_type": "stooped_tall",
+  "dominant_hand": "right",
+  "walking_style": "slow, solemn stride",
+  "voice": "booming, gravelly bass with dry authority",
+  "accent": "Oxford High English",
+  "allowed_occupations": ["Retired Judge", "Magistrate", "Legal Scholar", "Politician"],
+  "personality_tags": ["stern", "principled", "cynical", "unbending"],
+  "story_tags": ["courtroom", "scandal", "verdict", "old_money"],
+  "possible_relationships": ["Former Judge", "Father", "Trustee", "Legal Advisor", "Uncle"]
+}

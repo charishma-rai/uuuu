@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_020",
+  "image_filename": "suspect_020.png",
+  "gender": "elderly_male",
+  "age_group": "elderly",
+  "approximate_age": 67,
+  "ethnicity": "caucasian",
+  "appearance": {
+    "hair": "thinning_gray_hair",
+    "eye_color": "gray",
+    "facial_hair": "short_gray_mustache",
+    "clothing_style": "head_butler_tailcoat",
+    "accessories": ["pocket_watch", "silver_tray"]
+  },
+  "appearance_description": "A veteran head butler of Blackwood Manor who has served three generations, standing immaculately straight in a black tailcoat.",
+  "height": "6 ft 1 in",
+  "body_type": "slender_upright",
+  "dominant_hand": "right",
+  "walking_style": "completely silent, effortless footwork",
+  "voice": "low, respectful baritone with hidden sharpness",
+  "accent": "Classical British Butler",
+  "allowed_occupations": ["Head Butler", "Valet", "Estate Steward", "Major-Domo"],
+  "personality_tags": ["discreet", "unshakable", "observant", "secretive"],
+  "story_tags": ["servant", "manor", "wine_cellar", "estate"],
+  "possible_relationships": ["Head Butler", "Confidant", "Keeper of Secrets", "Witness", "Steward"]
+}

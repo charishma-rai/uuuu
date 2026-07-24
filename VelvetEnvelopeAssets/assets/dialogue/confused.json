@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "confused",
+  "prompt_instructions": "The NPC is genuinely uncertain about details, mixing up times or room names due to shock, poor memory, or intoxication.",
+  "dialogue_cues": ["pausing frequently", "rubbing temples", "asking clarifying questions back"],
+  "sample_phrases": [
+    "Was it 9:00 PM or 9:30 PM? Everything feels hazy after the storm began...",
+    "I could have sworn I saw a shadow near the balcony, but I might be mistaken.",
+    "Wait, who did you say was in the conservatory?"
+  ]
+}

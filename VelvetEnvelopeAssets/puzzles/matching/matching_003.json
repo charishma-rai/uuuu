@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "matching_003",
+  "category": "matching",
+  "puzzle_type": "Shape Matching",
+  "difficulty": "easy",
+  "title": "Broken Locket Filigree Alignment",
+  "question": "Which silver fragment matches the broken edge of the heart locket?",
+  "answer": "Fragment C",
+  "solution": "Fragment C",
+  "hint": "Check the notched curve along the lower right border.",
+  "time_limit": 60,
+  "reward_points": 50,
+  "recommended_for": ["Locket Fragment", "Jewelry Box", "Silver Brooch"]
+}

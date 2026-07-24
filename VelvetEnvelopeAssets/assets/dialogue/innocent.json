@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "innocent",
+  "prompt_instructions": "The NPC is completely cooperative, deeply grieved by the victim's death, and eager to assist the investigation.",
+  "dialogue_cues": ["earnest expression", "open hand gestures", "sorrowful posture"],
+  "sample_phrases": [
+    "Anything I can do to help find who did this, Detective, I am at your full disposal.",
+    "I loved Lord Blackwood like a father. I cannot fathom who could commit such cruelty.",
+    "Here is the key to his study. Take whatever evidence you require."
+  ]
+}

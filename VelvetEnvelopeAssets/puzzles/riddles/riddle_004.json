@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "riddle_004",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "easy",
+  "title": "The Hour of Death",
+  "question": "What has hands, but cannot clap?",
+  "answer": "A clock",
+  "solution": "clock",
+  "hint": "It stopped at 10:15 PM.",
+  "time_limit": 45,
+  "reward_points": 50,
+  "recommended_for": ["Pocket Watch", "Grandfather Clock", "Timepiece"]
+}

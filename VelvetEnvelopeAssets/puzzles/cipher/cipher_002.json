@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_002",
+  "category": "cipher",
+  "puzzle_type": "Morse Code",
+  "difficulty": "easy",
+  "title": "Telegraph Distress Signal",
+  "question": "Decode this Morse signal: '... --- ...'",
+  "answer": "SOS",
+  "solution": "SOS",
+  "hint": "... = S, --- = O",
+  "time_limit": 60,
+  "reward_points": 50,
+  "recommended_for": ["Telegraph Slip", "Radio Broadcast", "Signal Lamp"]
+}

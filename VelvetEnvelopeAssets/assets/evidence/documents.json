@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "category": "documents",
+  "items": [
+    {
+      "id": "doc_001",
+      "name": "Torn Encrypted Diary Page",
+      "description": "A scorched leaf of parchment torn from a leather journal, filled with substitution cipher symbols.",
+      "puzzle_type_recommendation": "Caesar Cipher"
+    },
+    {
+      "id": "doc_002",
+      "name": "Altered Will & Testament",
+      "description": "A legal document transferring estate ownership, with forged signature handwriting at the bottom.",
+      "puzzle_type_recommendation": "Torn Letter Assembly"
+    },
+    {
+      "id": "doc_003",
+      "name": "Coded Telegraph Slip",
+      "description": "A yellowed telegraph form containing dots, dashes, and timestamped coordinates.",
+      "puzzle_type_recommendation": "Morse Code"
+    }
+  ]
+}

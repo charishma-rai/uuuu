@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "lighting": [
+    { "id": "dim_candlelight", "name": "Dim Candlelight", "prompt_modifier": "flickering candlelight casting long dramatic shadows" },
+    { "id": "harsh_neon", "name": "Harsh Neon Glow", "prompt_modifier": "stark cyan and magenta neon illumination reflected on wet surfaces" },
+    { "id": "moonlight_stained_glass", "name": "Moonlight Through Stained Glass", "prompt_modifier": "ethereal cobalt and crimson beams passing through cathedral glass" },
+    { "id": "gaslamp_glow", "name": "Warm Gaslamp Illumination", "prompt_modifier": "warm amber gaslamp light with soft vignette edges" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "matching_001",
+  "category": "matching",
+  "puzzle_type": "Fingerprint Matching",
+  "difficulty": "medium",
+  "title": "Crystal Goblet Fingerprint Analysis",
+  "question": "Match the smudged fingerprint print on the wine glass with suspect 1, 2, or 3.",
+  "answer": "suspect_001",
+  "solution": "suspect_001",
+  "hint": "Focus on the double-loop pattern in the central core.",
+  "time_limit": 90,
+  "reward_points": 100,
+  "recommended_for": ["Wine Glass", "Crystal Goblet", "Glass Cabinet"]
+}

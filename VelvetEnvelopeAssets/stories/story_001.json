@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "story_001",
+  "title": "The Poisoned Goblet of Blackwood Manor",
+  "difficulty": "Easy",
+  "victim_id": "victim_001",
+  "victim_image_filename": "victim_001.png",
+  "suspect_ids": ["suspect_001", "suspect_008", "suspect_015", "suspect_020"],
+  "suspect_relationships": {
+    "suspect_001": "Personal Physician & Niece",
+    "suspect_008": "Financial Advisor & Debtor",
+    "suspect_015": "Estate Widow",
+    "suspect_020": "Head Butler"
+  },
+  "location": "Blackwood Manor Private Library",
+  "weapon": "Arsenic-laced Nightshade Tea",
+  "motive": "Inheritance disputes following a secret modification to Lord Blackwood's will.",
+  "timeline": [
+    { "time": "08:00 PM", "event": "Guests assemble in the dining hall for dinner." },
+    { "time": "09:15 PM", "event": "Lord Blackwood retires to his private library with his personal physician." },
+    { "time": "10:00 PM", "event": "Head butler serves tea on a silver tray." },
+    { "time": "10:15 PM", "event": "Glass shatters inside the library." },
+    { "time": "10:20 PM", "event": "Housemaid discovers Lord Blackwood collapsed at his desk." }
+  ],
+  "crime_scene_theme": "Gothic Victorian Mansion",
+  "evidence_list": [
+    {
+      "id": "ev_01",
+      "name": "Torn Note in Trash",
+      "evidence_category": "documents",
+      "puzzle_category": "sorting",
+      "puzzle_type": "Torn Letter Assembly",
+      "puzzle_id": "sorting_001"
+    },
+    {
+      "id": "ev_02",
+      "name": "Locked Library Drawer",
+      "evidence_category": "keys",
+      "puzzle_category": "logic",
+      "puzzle_type": "Number Lock",
+      "puzzle_id": "logic_002"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_001": "I administered his usual heart tonic at 9:20 PM and left him reading.",
+    "suspect_008": "Reginald and I discussed estate investments over cognac, but I departed before 9:45 PM.",
+    "suspect_015": "My husband was acting paranoid all evening about his new testament.",
+    "suspect_020": "I delivered the nightshade tea as instructed by Dr. Blackwood."
+  }
+}

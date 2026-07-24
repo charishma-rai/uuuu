@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "id": "victim_001",
+  "image_filename": "victim_001.png",
+  "name": "Lord Reginald Blackwood",
+  "occupation": "Aristocratic Antiquarian & Estate Owner",
+  "short_backstory": "Wealthy collector found dead at his mahogany desk holding a poisoned crystal wine glass shortly after announcing a new will.",
+  "recommended_story_title": "The Poisoned Goblet of Blackwood Manor",
+  "recommended_location": "Blackwood Manor Private Library",
+  "recommended_theme": "Gothic Victorian Mansion"
+}

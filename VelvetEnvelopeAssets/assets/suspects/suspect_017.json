@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_017",
+  "image_filename": "suspect_017.png",
+  "gender": "elderly_female",
+  "age_group": "elderly",
+  "approximate_age": 65,
+  "ethnicity": "afro_descendant",
+  "appearance": {
+    "hair": "gray_locs_wrapped_in_velvet",
+    "eye_color": "warm_hazel",
+    "facial_hair": "none",
+    "clothing_style": "tailored_wool_cardigan_and_skirt",
+    "accessories": ["spectacles", "herbal_apothecary_pouch"]
+  },
+  "appearance_description": "A seasoned herbalist and house physician carrying a velvet pouch of dried roots and medicinal tinctures.",
+  "height": "5 ft 6 in",
+  "body_type": "medium",
+  "dominant_hand": "left",
+  "walking_style": "steady, measured stride",
+  "voice": "deep, comforting contralto with gravelly undertones",
+  "accent": "Jamaican Patois Victorian",
+  "allowed_occupations": ["Herbalist", "Apothecary", "Midwife", "House Doctor"],
+  "personality_tags": ["nurturing", "shrewd", "cautious", "secretive"],
+  "story_tags": ["apothecary", "herbs", "medicine", "manor"],
+  "possible_relationships": ["House Doctor", "Apothecary", "Confidante", "Godmother", "Tenant"]
+}

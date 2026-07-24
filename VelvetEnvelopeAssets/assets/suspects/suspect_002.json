@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_002",
+  "image_filename": "suspect_002.png",
+  "gender": "female",
+  "age_group": "young_adult",
+  "approximate_age": 24,
+  "ethnicity": "east_asian",
+  "appearance": {
+    "hair": "black_bob_with_bangs",
+    "eye_color": "dark_brown",
+    "facial_hair": "none",
+    "clothing_style": "silk_opera_gown",
+    "accessories": ["pearl_necklace", "lace_folding_fan"]
+  },
+  "appearance_description": "An elegant opera singer adorned in crimson silk and pearls, holding an intricate lace fan.",
+  "height": "5 ft 4 in",
+  "body_type": "petite",
+  "dominant_hand": "left",
+  "walking_style": "graceful gliding steps",
+  "voice": "melodic, expressive soprano with a subtle quaver",
+  "accent": "Parisian French",
+  "allowed_occupations": ["Opera Singer", "Actress", "Musician", "Socialite"],
+  "personality_tags": ["dramatic", "ambitious", "secretive", "charming"],
+  "story_tags": ["theatre", "romance", "jealousy", "high_society"],
+  "possible_relationships": ["Protégée", "Secret Lover", "Heiress", "Wife", "Performer"]
+}

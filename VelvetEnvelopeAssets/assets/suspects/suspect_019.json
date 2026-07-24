@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "suspect_019",
+  "image_filename": "suspect_019.png",
+  "gender": "elderly_male",
+  "age_group": "elderly",
+  "approximate_age": 70,
+  "ethnicity": "south_asian",
+  "appearance": {
+    "hair": "silver_hair_and_beard",
+    "eye_color": "dark_brown",
+    "facial_hair": "full_silver_beard",
+    "clothing_style": "tailored_silk_sherwani",
+    "accessories": ["pocket_watch_chain", "signet_ring"]
+  },
+  "appearance_description": "A wealthy shipping magnate with a magnificent silver beard, dressed in an emerald silk sherwani.",
+  "height": "5 ft 10 in",
+  "body_type": "stocky",
+  "dominant_hand": "right",
+  "walking_style": "heavy, confident paces",
+  "voice": "deep, resonant tenor",
+  "accent": "Bombay Mercantile English",
+  "allowed_occupations": ["Shipping Magnate", "Merchant", "Industrialist", "Collector"],
+  "personality_tags": ["shrewd", "hospitable", "guarded", "ruthless"],
+  "story_tags": ["shipping", "harbor", "trade", "mansion"],
+  "possible_relationships": ["Shipping Partner", "Father-in-law", "Creditor", "Host", "Competitor"]
+}

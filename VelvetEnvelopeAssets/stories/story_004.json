@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "story_004",
+  "title": "Murder on the Midnight Express Liner",
+  "difficulty": "Medium",
+  "victim_id": "victim_004",
+  "victim_image_filename": "victim_004.png",
+  "suspect_ids": ["suspect_010", "suspect_011", "suspect_013", "suspect_019"],
+  "suspect_relationships": {
+    "suspect_010": "Expedition Partner",
+    "suspect_011": "Gambling Creditor",
+    "suspect_013": "Ship Security Officer",
+    "suspect_019": "Rival Shipping Magnate"
+  },
+  "location": "SS Sovereign Captain's Quarters",
+  "weapon": "Heavy Brass Navigation Sextant Strike",
+  "motive": "Unpaid maritime gambling debts and contested shipping lane rights.",
+  "timeline": [
+    { "time": "09:00 PM", "event": "High-stakes poker game in the VIP saloon." },
+    { "time": "10:30 PM", "event": "Captain Vance leaves poker table after a heated argument." },
+    { "time": "11:00 PM", "event": "Ship enters severe storm turbulence." },
+    { "time": "11:30 PM", "event": "Steward finds Vance dead in his cabin." }
+  ],
+  "crime_scene_theme": "Nautical Luxury Steamship",
+  "evidence_list": [
+    {
+      "id": "ev_05",
+      "name": "Stained Deck Blueprint",
+      "evidence_category": "documents",
+      "puzzle_category": "matching",
+      "puzzle_type": "Map Navigation",
+      "puzzle_id": "matching_004"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_010": "He owed me half the expedition profits!",
+    "suspect_011": "Vance was down 5,000 pounds when he stormed out.",
+    "suspect_013": "I posted guards at the upper deck hatch as ordered.",
+    "suspect_019": "Business competition is tough, but I don't bludgeon men."
+  }
+}

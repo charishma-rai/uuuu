@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "name": "VelvetEnvelopeAssets",
+  "version": "1.0.0",
+  "description": "Asset library, metadata repository, and modular puzzle engine for Velvet Envelope AI Detective Game.",
+  "counts": {
+    "suspects": 20,
+    "victims": 6,
+    "stories": 6,
+    "puzzles": 42,
+    "evidence_categories": 8,
+    "dialogue_styles": 6,
+    "crime_scene_themes": 8,
+    "ui_categories": 11
+  },
+  "demographics": {
+    "young_female_suspects": 7,
+    "young_male_suspects": 7,
+    "elderly_female_suspects": 3,
+    "elderly_male_suspects": 3
+  },
+  "last_updated": "2026-07-24"
+}

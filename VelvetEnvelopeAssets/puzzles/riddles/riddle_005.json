@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "riddle_005",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "medium",
+  "title": "The Cryptic Bottle",
+  "question": "Pour me out and I am nothing; keep me contained and I can end a dynasty. What am I?",
+  "answer": "Poison",
+  "solution": "poison",
+  "hint": "Found in an apothecary bottle.",
+  "time_limit": 60,
+  "reward_points": 100,
+  "recommended_for": ["Vial", "Apothecary Jar", "Medicine Goblet"]
+}

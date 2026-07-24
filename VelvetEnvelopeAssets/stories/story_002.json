@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "story_002",
+  "title": "The Last Encore at Palais Garnier",
+  "difficulty": "Medium",
+  "victim_id": "victim_002",
+  "victim_image_filename": "victim_002.png",
+  "suspect_ids": ["suspect_002", "suspect_003", "suspect_012"],
+  "suspect_relationships": {
+    "suspect_002": "Rival Opera Soprano",
+    "suspect_003": "Investigative Journalist",
+    "suspect_012": "Playwright & Ex-Lover"
+  },
+  "location": "Palais Garnier Opera House Dressing Room",
+  "weapon": "Toxified Vocal Spray",
+  "motive": "Jealousy over lead role in Carmen and extortion regarding fake aristocracy claims.",
+  "timeline": [
+    { "time": "07:30 PM", "event": "Overture begins in the main hall." },
+    { "time": "08:10 PM", "event": "Madame Dupont enters dressing room for intermission costume change." },
+    { "time": "08:25 PM", "event": "Stage manager hears a muffled scream." },
+    { "time": "08:30 PM", "event": "Madame Dupont found unconscious holding a broken flower bouquet." }
+  ],
+  "crime_scene_theme": "Belle Époque Theatre",
+  "evidence_list": [
+    {
+      "id": "ev_03",
+      "name": "Encrypted Love Letter",
+      "evidence_category": "documents",
+      "puzzle_category": "cipher",
+      "puzzle_type": "Caesar Cipher",
+      "puzzle_id": "cipher_001"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_002": "Genevieve's voice was failing anyway! I had no need to poison her spray!",
+    "suspect_003": "I was writing a expose on opera house corruption in the lobby.",
+    "suspect_012": "We argued about the script, but I loved her!"
+  }
+}

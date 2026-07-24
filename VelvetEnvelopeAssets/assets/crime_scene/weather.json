@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "weather": [
+    { "id": "heavy_rainstorm", "name": "Torrential Downpour", "prompt_modifier": "heavy rain streaking outside windows with lightning flashes" },
+    { "id": "dense_fog", "name": "Thick London Fog", "prompt_modifier": "dense swirling fog pressing against window panes" },
+    { "id": "blinding_blizzard", "name": "Blinding Snow Blizzard", "prompt_modifier": "frost-covered glass and howling wind outside" },
+    { "id": "clear_starlit", "name": "Clear Midnight Sky", "prompt_modifier": "deep indigo sky illuminated by a full silver moon" }
+  ]
+}

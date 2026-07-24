@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "style": "truthful",
+  "prompt_instructions": "The NPC responds calmly, providing exact timelines, clear facts, and admitting what they do not know without hesitation.",
+  "dialogue_cues": ["direct eye contact", "steady voice", "specific time references"],
+  "sample_phrases": [
+    "I entered the study at precisely 9:15 PM to deliver the mail.",
+    "I cannot speak to what happened after 10:00 PM as I had retired to my quarters.",
+    "Lord Blackwood was alive when I left the room."
+  ]
+}

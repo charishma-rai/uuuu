@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "category": "electronics",
+  "items": [
+    {
+      "id": "elec_001",
+      "name": "Damaged Telegraph Receiver",
+      "description": "An early copper-wired pulse receiver with jammed rotary gears.",
+      "puzzle_type_recommendation": "Rotate Symbols"
+    },
+    {
+      "id": "elec_002",
+      "name": "Encrypted Radio Transmitter",
+      "description": "A portable vacuum-tube transmitter set to a secret broadcast frequency.",
+      "puzzle_type_recommendation": "Number Lock"
+    }
+  ]
+}

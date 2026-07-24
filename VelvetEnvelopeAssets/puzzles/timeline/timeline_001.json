@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_001",
+  "category": "timeline",
+  "puzzle_type": "Timeline Ordering",
+  "difficulty": "medium",
+  "title": "Blackwood Manor Evening Sequence",
+  "question": "Order these 4 events chronologically: A. Body Discovered, B. Guests Arrive, C. Tea Served, D. Glass Shatters",
+  "answer": "B, C, D, A",
+  "solution": "B, C, D, A",
+  "hint": "Dinner starts at 8:00 PM; discovery happens last at 10:20 PM.",
+  "time_limit": 90,
+  "reward_points": 100,
+  "recommended_for": ["Police Chronology", "Coroner Report", "Case Timeline"]
+}

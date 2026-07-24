@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "riddle_002",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "medium",
+  "title": "The Poisoner's Shadow",
+  "question": "The more of me you take, the more you leave behind. What am I?",
+  "answer": "Footsteps",
+  "solution": "footsteps",
+  "hint": "Left in mud outside the conservatory.",
+  "time_limit": 60,
+  "reward_points": 100,
+  "recommended_for": ["Footprint", "Muddy Track", "Rug Impression"]
+}
