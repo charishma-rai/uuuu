@@ -5,21 +5,11 @@
     "suspect_schema": "1.0",
     "victim_schema": "1.0",
     "story_schema": "1.0",
-    "puzzle_schema": "1.0",
-    "asset_schema": "1.0",
-    "evidence_schema": "1.0",
-    "dialogue_schema": "1.0",
-    "crime_scene_schema": "1.0"
+    "puzzle_schema": "1.0"
   },
   "required_asset_directories": [
     "assets/suspects",
     "assets/victims",
-    "assets/crime_scene",
-    "assets/evidence",
-    "assets/dialogue",
-    "assets/ui",
-    "assets/music",
-    "assets/fonts",
     "stories",
     "puzzles"
   ]

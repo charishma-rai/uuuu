@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 class MetadataLoader:
-    """Loads suspect and victim metadata dynamically without hardcoded paths."""
+    """Loads suspect and victim metadata dynamically."""
 
     def __init__(self, root_dir: str = None):
         if root_dir is None:

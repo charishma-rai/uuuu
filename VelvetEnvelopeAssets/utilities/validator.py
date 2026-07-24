@@ -1,14 +1,13 @@
 import json
 import os
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 class RepositoryValidator:
     """Validates repository files and JSON schemas against root game_schema.json."""
 
     def __init__(self, root_dir: str = None):
         if root_dir is None:
-            # Default to parent directory of utilities
             root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
         self.root_dir = Path(root_dir)
         self.schema_path = self.root_dir / "game_schema.json"
@@ -55,9 +54,3 @@ class RepositoryValidator:
             results["valid"] = False
 
         return results
-
-if __name__ == "__main__":
-    validator = RepositoryValidator()
-    report = validator.validate_repository()
-    print("Repository Validation Report:")
-    print(json.dumps(report, indent=2))

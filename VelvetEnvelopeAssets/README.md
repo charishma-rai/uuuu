@@ -1,43 +1,25 @@
 # Velvet Envelope Assets & Content Pack (`VelvetEnvelopeAssets`)
 
-![Velvet Envelope Asset Library](https://img.shields.io/badge/VelvetEnvelope-AssetPack%20v1.0.0-gold) ![Plug & Play](https://img.shields.io/badge/Architecture-Plug--and--Play-blue) ![Data Driven](https://img.shields.io/badge/Engine-Data--Driven-green)
+`VelvetEnvelopeAssets` is the lightweight, data-driven content library and puzzle pack for **Velvet Envelope**, an AI detective game.
 
-`VelvetEnvelopeAssets` is the official modular content library and puzzle engine for **Velvet Envelope**, an AI-driven detective mystery game.
+The notebook/game engine loads all UI, graphics, and interactive interfaces dynamically at runtime. This repository stores only game metadata, suspect/victim profiles, predefined case stories, and puzzle engine templates.
 
-This repository serves as a **plug-and-play asset pack**. External game engines, Python notebooks, or LLM narrative pipelines can dynamically scan this repository at runtime to load suspect portraits, physical metadata, victims, sample cases, context-mapped puzzles, dialogue styles, and UI elements **without requiring code changes**.
+No decorative UI graphics or placeholder images are included. All image filenames referenced in JSON files (`suspect_001.png`, `victim_001.png`) will be added manually to their respective folders.
 
 ---
 
-## 🏛️ Repository Architecture
+## 📂 Repository Structure
 
 ```
 VelvetEnvelopeAssets/
-├── game_schema.json               # Root repository schema validation rules
-├── README.md                      # Primary documentation
+├── game_schema.json           # Repository schema specification
+├── README.md                  # Master documentation
 ├── assets/
-│   ├── manifest.json              # Repository manifest & asset counts
-│   ├── suspects/                  # Flat directory: suspect_001.json .. suspect_020.json
-│   ├── victims/                   # victim_001.json .. victim_006.json
-│   ├── crime_scene/               # Prompt templates (themes, locations, lighting, weather)
-│   ├── evidence/                  # Shared evidence catalogs (weapons, documents, etc.)
-│   ├── dialogue/                  # NPC dialogue behavioral style prompt templates
-│   ├── ui/                        # UI categories, manifests, and resolution guides
-│   │   ├── manifest.json
-│   │   ├── backgrounds/
-│   │   ├── folders/
-│   │   ├── paper/
-│   │   ├── wax_seals/
-│   │   ├── buttons/
-│   │   ├── icons/
-│   │   ├── textures/
-│   │   ├── bookmarks/
-│   │   ├── pins/
-│   │   ├── coffee_stains/
-│   │   └── stamps/
-│   ├── music/                     # Audio track specifications (intro.mp3, investigation.mp3)
-│   └── fonts/                     # Typography guide (Playfair Display, Cinzel, Special Elite)
-├── stories/                       # Predefined sample mystery cases (story_001.json .. story_006.json)
-├── puzzles/                       # Modular puzzle engine (8 category directories with 40+ templates)
+│   ├── manifest.json          # Repository manifest (counts & versioning)
+│   ├── suspects/              # Suspect metadata JSON files (suspect_001.json .. suspect_020.json)
+│   └── victims/               # Victim metadata JSON files (victim_001.json .. victim_006.json)
+├── stories/                   # Predefined case stories (story_001.json .. story_006.json)
+├── puzzles/                   # Modular puzzle engine (8 category folders)
 │   ├── riddles/
 │   ├── logic/
 │   ├── cipher/
@@ -46,53 +28,23 @@ VelvetEnvelopeAssets/
 │   ├── timeline/
 │   ├── matching/
 │   └── sorting/
-└── utilities/                     # Modular Python loaders & schema validator
+└── utilities/                 # Python loader scripts
     ├── __init__.py
-    ├── validator.py               # Validates whole repository against game_schema.json
-    ├── metadata_loader.py         # Dynamic suspect & victim metadata scanner
-    ├── asset_loader.py            # UI, crime scene, music, and font scanner
-    ├── puzzle_loader.py           # Context-aware puzzle loader & filter
-    ├── story_loader.py            # Case story loader
-    ├── evidence_loader.py         # Shared evidence catalog loader
-    ├── dialogue_loader.py         # Dialogue style loader
-    ├── random_selector.py         # Random sampling helper for LLM narrative pipeline
-    └── test_loaders.py            # Automated loader test runner
+    ├── asset_loader.py
+    ├── metadata_loader.py
+    ├── puzzle_loader.py
+    ├── story_loader.py
+    └── random_selector.py
 ```
 
 ---
 
-## 🤖 Metadata-Driven Story Generation Workflow
+## 📖 Content Management & Extension Guide
 
-The repository is designed to support **metadata-driven narrative generation**:
-
-```
-[Repository Assets]
-       │
-       ▼ (Scan folder dynamically)
-[RandomSelector.select_random_suspects(3-4)]
-       │
-       ▼ (Pass Suspect Metadata to LLM)
-   { Gender, Age, Appearance, Allowed Occupations, Personality, Voice, Relationships }
-       │
-       ▼ (LLM generates customized mystery story)
-[Custom Case Story matching artwork & metadata with zero hallucinations]
-```
-
-### Why metadata comes *first*:
-1. **Zero Conflict**: The story automatically adapts to the visual artwork instead of trying to generate images for a pre-written story.
-2. **Believable Cast**: Suspect occupations, clothing, voice, and age align with artwork.
-3. **Rich Dialogue**: Voice, accent, and physical traits enhance LLM NPC roleplay.
-
----
-
-## 📖 How to Add Content (Plug & Play Guide)
-
-No notebook or engine code needs to be modified when adding new assets. Simply drop files into their respective directories!
+Everything is fully modular. Adding new content requires dropping files into their respective folders—no notebook or engine code changes are required.
 
 ### 1. How to Add a New Suspect
-1. Place your suspect image in `assets/suspects/` (e.g. `suspect_021.png`).
-2. Create a matching JSON file in `assets/suspects/suspect_021.json`:
-
+1. Place the suspect metadata JSON file in `assets/suspects/` (e.g. `suspect_021.json`):
 ```json
 {
   "schema_version": "1.0",
@@ -103,28 +55,29 @@ No notebook or engine code needs to be modified when adding new assets. Simply d
   "approximate_age": 26,
   "ethnicity": "caucasian",
   "appearance": {
-    "hair": "black_bob",
+    "hair": "dark_updo",
     "eye_color": "green",
     "facial_hair": "none",
     "clothing_style": "victorian_riding_habit",
-    "accessories": ["leather_riding_crop", "silver_spurs"]
+    "accessories": ["leather_gloves"]
   },
-  "appearance_description": "An athletic equestrian clad in a dark velvet riding habit.",
+  "appearance_description": "An athletic equestrian in a dark velvet riding habit.",
   "height": "5 ft 8 in",
   "body_type": "athletic",
   "dominant_hand": "right",
-  "walking_style": "confident, brisk steps",
-  "voice": "clear, ringing soprano",
-  "accent": "English Country Aristocrat",
-  "allowed_occupations": ["Equestrian", "Stable Master", "Heiress"],
-  "personality_tags": ["bold", "headstrong", "impatient"],
-  "story_tags": ["stables", "manor", "equestrian"],
-  "possible_relationships": ["Niece", "Rival", "Neighbor"]
+  "walking_style": "brisk pace",
+  "voice": "clear soprano",
+  "accent": "English Country",
+  "allowed_occupations": ["Equestrian", "Stable Master"],
+  "personality_tags": ["bold", "headstrong"],
+  "story_tags": ["stables", "manor"],
+  "possible_relationships": ["Niece", "Rival"]
 }
 ```
+2. Manually add `suspect_021.png` artwork into `assets/suspects/`.
 
 ### 2. How to Add a New Victim
-1. Create `assets/victims/victim_007.json`:
+1. Place the victim metadata JSON file in `assets/victims/` (e.g. `victim_007.json`):
 ```json
 {
   "schema_version": "1.0",
@@ -138,63 +91,81 @@ No notebook or engine code needs to be modified when adding new assets. Simply d
   "recommended_theme": "Orient Express Parlor Car"
 }
 ```
+2. Manually add `victim_007.png` artwork into `assets/victims/`.
 
-### 3. How to Add a New Puzzle
-1. Choose the appropriate category directory in `puzzles/` (e.g. `puzzles/cipher/`).
-2. Create a new JSON file (e.g. `cipher_006.json`):
-
+### 3. How to Add a New Story
+Place a new case story JSON file in `stories/` (e.g. `story_007.json`):
 ```json
 {
   "schema_version": "1.0",
-  "id": "cipher_006",
-  "category": "cipher",
-  "puzzle_type": "Caesar Cipher",
-  "difficulty": "medium",
-  "title": "The Conspirator's Cipher",
-  "question": "Decode shift +4: 'EXPI'",
-  "answer": "ATLE",
-  "solution": "ATLE",
-  "hint": "Shift each letter back by 4.",
-  "time_limit": 60,
-  "reward_points": 80,
-  "recommended_for": ["Telegram", "Coded Note", "Diary"]
+  "id": "story_007",
+  "title": "The Iron Express Tragedy",
+  "difficulty": "Medium",
+  "victim_id": "victim_007",
+  "victim_image_filename": "victim_007.png",
+  "suspect_ids": ["suspect_008", "suspect_010", "suspect_014"],
+  "location": "Vance Rail Parlor Car",
+  "weapon": "Poisoned Cigar",
+  "motive": "Contested railroad expansion contracts",
+  "timeline": [
+    { "time": "09:00 PM", "event": "Train departs station." },
+    { "time": "10:30 PM", "event": "Vance retires to his private car." },
+    { "time": "11:00 PM", "event": "Conductor finds Vance unresponsive." }
+  ],
+  "evidence_list": [
+    {
+      "id": "ev_08",
+      "name": "Cigar Band",
+      "puzzle_type": "Pattern Recognition",
+      "puzzle_id": "logic_003"
+    }
+  ],
+  "dialogue_placeholders": {
+    "suspect_008": "I was in the dining car discussing stocks.",
+    "suspect_010": "Vance cut off funding for our expedition."
+  }
 }
 ```
 
-### 4. How to Add UI Assets, Music, or Fonts
-- **UI Assets**: Drop transparent `.png` graphics into the corresponding category folder in `assets/ui/` (e.g. `assets/ui/buttons/button_green.png`).
-- **Music**: Place `.mp3` files in `assets/music/` following recommendations in `assets/music/README.md`.
-- **Fonts**: Place `.ttf` or `.woff2` font files in `assets/fonts/` per `assets/fonts/README.md`.
+### 4. How to Add a New Puzzle
+Create a new puzzle JSON file in the appropriate category directory under `puzzles/` (e.g., `puzzles/riddles/riddle_006.json`):
+```json
+{
+  "schema_version": "1.0",
+  "id": "riddle_006",
+  "category": "riddles",
+  "puzzle_type": "Riddles",
+  "difficulty": "easy",
+  "title": "The Broken Pocket Watch",
+  "question": "What has hands but cannot grip?",
+  "answer": "A clock",
+  "solution": "clock",
+  "hint": "Check the victim's vest pocket.",
+  "time_limit": 45,
+  "reward_points": 50,
+  "recommended_for": ["Pocket Watch", "Timepiece"]
+}
+```
 
 ---
 
-## 🛠️ Python Helper Utilities Usage
+## 🛠️ Python Utilities
 
-The `utilities/` package allows easy scanning and random sampling:
+Load content programmatically using the `utilities/` package:
 
 ```python
-from utilities import MetadataLoader, PuzzleLoader, RandomSelector, RepositoryValidator
+from utilities import MetadataLoader, PuzzleLoader, StoryLoader, RandomSelector
 
-# 1. Validate repository integrity
-validator = RepositoryValidator()
-report = validator.validate_repository()
-print("Repository Valid:", report["valid"])
+# Load metadata
+meta = MetadataLoader()
+suspects = meta.load_all_suspects()
+victims = meta.load_all_victims()
 
-# 2. Select 4 random suspects for LLM narrative prompt
+# Select 4 random suspects for LLM narrative generation
 selector = RandomSelector()
-selected_suspects = selector.select_random_suspects(count=4)
+sampled = selector.select_random_suspects(count=4)
 
-# 3. Load a puzzle matching evidence context (e.g. "Diary")
-puzzle_loader = PuzzleLoader()
-diary_puzzles = puzzle_loader.get_puzzles_for_evidence("Diary")
+# Load stories and puzzles
+story_loader = StoryLoader()
+puzzles_loader = PuzzleLoader()
 ```
-
-To run the automated test suite for all loaders:
-```bash
-python utilities/test_loaders.py
-```
-
----
-
-## 📜 License
-This asset repository is created for the *Velvet Envelope* AI Detective Game. All schemas and utilities are open for extension.
