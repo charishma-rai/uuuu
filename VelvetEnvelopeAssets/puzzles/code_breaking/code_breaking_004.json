@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_004",
+  "title": "The Prime Number Dial",
+  "category": "code_breaking",
+  "difficulty": "easy",
+  "description": "📄 Forensic Report #104: Prime sequence safe lock: 2, 3, 5, 7, 11, ?",
+  "question": "What is the next prime number?",
+  "answer": "13",
+  "hints": [
+    "List prime numbers greater than 11.",
+    "13 is divisible only by 1 and itself."
+  ],
+  "solution": "Next prime after 11 is 13."
+}

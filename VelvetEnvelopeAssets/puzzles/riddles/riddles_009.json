@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_009",
+  "title": "The Locked Carriage Mystery",
+  "category": "riddles",
+  "difficulty": "medium",
+  "description": "🗝️ Recovered Notebook Page: The victim was found dead inside a horse-drawn carriage. Both doors were locked with iron deadbolts from the inside. The key was found on the outside road.",
+  "question": "What object did the killer use from outside to move the iron key back out through the window gap?",
+  "answer": "MAGNET",
+  "hints": [
+    "The iron key was pulled across the carriage floor toward the window gap.",
+    "No string or thread was left on the key.",
+    "A powerful magnetic force dragged the iron key through the gap from the outside."
+  ],
+  "solution": "The killer locked the carriage door from outside using a heavy magnet to slide the iron deadbolt key into place through the narrow glass slit."
+}

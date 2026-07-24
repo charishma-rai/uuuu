@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_008",
+  "title": "Arsenic Poison Dosage",
+  "category": "evidence_analysis",
+  "difficulty": "medium",
+  "description": "🔐 Encrypted USB Drive:\nFatal arsenic dose: 100mg.\nAutopsy findings: 150mg arsenic in stomach, ingested 2 hours prior during dinner served by Chef.",
+  "question": "Who served the fatal poisoned meal?",
+  "answer": "CHEF",
+  "hints": [
+    "Poison ingested during dinner served by Chef."
+  ],
+  "solution": "Chef served the meal containing fatal arsenic."
+}

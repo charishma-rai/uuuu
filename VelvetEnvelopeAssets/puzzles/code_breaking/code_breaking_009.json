@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_009",
+  "title": "The Binary Telegraph Code",
+  "category": "code_breaking",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet: Binary 0001 = 1, 0010 = 2, 0011 = 3, 0100 = ?",
+  "question": "What decimal number does binary 0100 represent?",
+  "answer": "4",
+  "hints": [
+    "Binary 0100 = 2^2 = 4."
+  ],
+  "solution": "Binary 0100 equals decimal 4."
+}

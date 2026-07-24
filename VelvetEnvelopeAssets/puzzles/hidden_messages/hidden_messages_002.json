@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_002",
+  "title": "Every Second Letter Pattern",
+  "category": "hidden_messages",
+  "difficulty": "easy",
+  "description": "🗝️ Recovered Notebook Page: Extract every second letter from the string: 'X S Y A Z F W E'",
+  "question": "What secret word is revealed?",
+  "answer": "SAFE",
+  "hints": [
+    "Take letters at position 2, 4, 6, 8.",
+    "Position 2 = S, Position 4 = A, Position 6 = F, Position 8 = E."
+  ],
+  "solution": "Selecting positions 2, 4, 6, 8 yields S-A-F-E."
+}

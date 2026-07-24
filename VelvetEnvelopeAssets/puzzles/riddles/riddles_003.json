@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_003",
+  "title": "The Unopened Package in the Field",
+  "category": "riddles",
+  "difficulty": "easy",
+  "description": "📝 Witness Deposition: A man is found dead in the middle of a deserted field with no tracks near him. Next to him lies an unopened package strapped to his back.",
+  "question": "What was inside the unopened package?",
+  "answer": "PARACHUTE",
+  "hints": [
+    "He arrived in the field from high above.",
+    "His life depended on opening that package before reaching the ground.",
+    "It was a parachute that failed to open during a jump."
+  ],
+  "solution": "The man jumped from an airplane, but his parachute failed to open, resulting in his fatal fall into the field."
+}

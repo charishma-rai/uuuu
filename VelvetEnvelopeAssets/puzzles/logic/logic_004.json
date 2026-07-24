@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "logic_004",
+  "title": "The Key Ring Contradiction",
   "category": "logic",
-  "puzzle_type": "Sequence Puzzle",
-  "difficulty": "hard",
-  "title": "Clockwork Gear Teeth Sequence",
-  "question": "What number completes the gear train sequence: 3, 5, 9, 17, 33, ?",
-  "answer": "65",
-  "solution": "65",
-  "hint": "Multiply by 2 and subtract 1 (or add 2, 4, 8, 16, 32...).",
-  "time_limit": 90,
-  "reward_points": 150,
-  "recommended_for": ["Clock Mechanism", "Safe Lock", "Brass Contraption"]
+  "difficulty": "easy",
+  "description": "📄 Forensic Report #104:\nLord Vance says: 'I gave the master key to the Maid.'\nMaid says: 'The Butler took the master key from me.'\nButler says: 'The Maid is lying.'\nDetective note: The Maid is telling the complete truth.",
+  "question": "Who currently possesses the master key?",
+  "answer": "BUTLER",
+  "hints": [
+    "The Maid tells the truth.",
+    "The Maid states that the Butler took the key from her.",
+    "Therefore, the Butler holds the master key."
+  ],
+  "solution": "Since the Maid tells the truth, her statement that the Butler took the key means the Butler has it."
 }

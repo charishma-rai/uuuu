@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_005",
+  "title": "Ink Chromatography Analysis",
+  "category": "evidence_analysis",
+  "difficulty": "easy",
+  "description": "📝 Witness Deposition:\nRansom note ink: Water-soluble black ink.\nSuspect A pen: Iron gall ink\nSuspect B pen: Water-soluble black ink\nSuspect C pen: Blue ballpoint",
+  "question": "Which suspect's pen was used?",
+  "answer": "SUSPECT B",
+  "hints": [
+    "Water-soluble black ink matches Suspect B."
+  ],
+  "solution": "Suspect B matches water-soluble black ink."
+}

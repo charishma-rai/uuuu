@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_012",
+  "title": "The Matrix System Key",
+  "category": "code_breaking",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104:\nx + 2 = 6 (so x = 4)\ny - x = 1 (so y = 5)\nz = x + y (so z = 9)",
+  "question": "Enter key as x-y-z:",
+  "answer": "4-5-9",
+  "hints": [
+    "x = 6 - 2 = 4.",
+    "y = 1 + 4 = 5.",
+    "z = 4 + 5 = 9."
+  ],
+  "solution": "x=4, y=5, z=9. Key: 4-5-9."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "witness_statements_010",
+  "title": "The Spectacles Vision Contradiction",
+  "category": "witness_statements",
+  "difficulty": "medium",
+  "description": "📄 Forensic Report #104:\nWitness B (legally blind without thick glasses): 'I lost my glasses at noon, but at 10 PM in pitch darkness I clearly recognized the killer's facial mole from 100 yards away.'",
+  "question": "Which witness is lying?",
+  "answer": "WITNESS B",
+  "hints": [
+    "Blind without glasses + pitch darkness + 100 yards away."
+  ],
+  "solution": "Witness B's vision claim is physically impossible."
+}

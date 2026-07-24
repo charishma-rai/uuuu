@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_011",
+  "title": "The Telegram From Beyond",
+  "category": "riddles",
+  "difficulty": "hard",
+  "description": "📜 Anonymous Letter: A suspect died at 9:00 PM in a mountain hut. Yet a telegram signed with his private code was dispatched from the central office at 10:00 PM.",
+  "question": "How did his telegram get sent after his death?",
+  "answer": "PRE-SCHEDULED",
+  "hints": [
+    "The suspect didn't send it at 10:00 PM personally.",
+    "He arranged the delivery before his demise.",
+    "He scheduled a delayed automatic dispatch with the telegraph clerk earlier in the day."
+  ],
+  "solution": "The suspect had pre-scheduled the telegram dispatch with the operator earlier that afternoon to execute at 10:00 PM."
+}

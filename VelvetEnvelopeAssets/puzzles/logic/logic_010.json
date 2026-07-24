@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_010",
+  "title": "The Dinner Table Seating Arrangement",
+  "category": "logic",
+  "difficulty": "medium",
+  "description": "📂 Evidence Folder #7:\n4 guests seated around a square table (North, South, East, West).\n1. The Host sat at North.\n2. Suspect A sat directly across from the Host.\n3. Suspect B sat to the Host's Right (West).\n4. Suspect C sat to the Host's Left (East).",
+  "question": "Which suspect sat at the East seat?",
+  "answer": "SUSPECT C",
+  "hints": [
+    "Host = North.",
+    "Across from Host (South) = Suspect A.",
+    "Right of Host (West) = Suspect B. Left of Host (East) = Suspect C."
+  ],
+  "solution": "Host = North, Suspect A = South, Suspect B = West, Suspect C = East."
+}

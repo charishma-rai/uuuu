@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "timeline_001",
+  "title": "The Manor Security Alarm Sequence",
   "category": "timeline",
-  "puzzle_type": "Timeline Ordering",
-  "difficulty": "medium",
-  "title": "Blackwood Manor Evening Sequence",
-  "question": "Order these 4 events chronologically: A. Body Discovered, B. Guests Arrive, C. Tea Served, D. Glass Shatters",
-  "answer": "B, C, D, A",
-  "solution": "B, C, D, A",
-  "hint": "Dinner starts at 8:00 PM; discovery happens last at 10:20 PM.",
-  "time_limit": 90,
-  "reward_points": 100,
-  "recommended_for": ["Police Chronology", "Coroner Report", "Case Timeline"]
+  "difficulty": "easy",
+  "description": "📂 Evidence Folder #7: Reconstruct the chronological sequence of events from log fragments:\nEvents: [A] Security alarm sounded, [B] Victim entered room, [C] Lights went out, [D] Body discovered.",
+  "question": "What is the correct event order (e.g. B-C-A-D)?",
+  "answer": "B-C-A-D",
+  "hints": [
+    "The victim must enter the room before anything happens to him.",
+    "The lights were cut before the trap/alarm was tripped.",
+    "The body was discovered last after the alarm drew servants."
+  ],
+  "solution": "1. Victim entered room (B), 2. Lights went out (C), 3. Security alarm sounded (A), 4. Body discovered (D). Order: B-C-A-D."
 }

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_006",
+  "title": "Capital Letters Love Letter",
+  "category": "hidden_messages",
+  "difficulty": "medium",
+  "description": "📜 Anonymous Letter: 'My Dearest, I Hope Everything Is Fine. Regard Only Intentions. Send Help Now.'",
+  "question": "Extract capitalized letters H-I-D-E I-N S-H-E-D to reveal secret location:",
+  "answer": "HIDE IN SHED",
+  "hints": [
+    "Look at the capitalized words in the note.",
+    "H-I-D-E I-N S-H-E-D."
+  ],
+  "solution": "The uppercase pattern reveals HIDE IN SHED."
+}

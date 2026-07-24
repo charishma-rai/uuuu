@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_013",
+  "title": "The Sealed Vault Oxygen",
+  "category": "riddles",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104: Two men were locked inside an airtight steel safe for 8 hours. When opened, one man was alive and healthy, but the other had suffocated from lack of oxygen.",
+  "question": "Why did one man suffocate while the other survived?",
+  "answer": "ONE WAS ALREADY DEAD",
+  "hints": [
+    "They didn't share the oxygen equally.",
+    "One person was not breathing when they were locked inside.",
+    "The victim was already a corpse before the vault door closed."
+  ],
+  "solution": "One man was already a dead body before the door locked, so only the living man consumed the vault's oxygen supply."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_013",
+  "title": "The Simple Substitution Key",
+  "category": "cipher",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104 showing a cipher substitution key: Z=T, Y=H, X=E, W=O, U=N, V=E.",
+  "question": "Decode the encrypted message: 'ZYX WUZV'",
+  "answer": "THE ONE",
+  "hints": [
+    "Use the provided substitution key directly.",
+    "Z -> T, Y -> H, X -> E.",
+    "W -> O, U -> N, Z -> T? Wait: W -> O, U -> N, V -> E."
+  ],
+  "solution": "Substituting each character according to the key yields 'THE ONE'."
+}

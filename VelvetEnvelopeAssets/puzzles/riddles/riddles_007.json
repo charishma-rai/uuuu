@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_007",
+  "title": "The Dumbwaiter Scream",
+  "category": "riddles",
+  "difficulty": "medium",
+  "description": "📝 Witness Deposition: The mansion's vault room is completely soundproofed with heavy lead lining. Yet a servant heard the victim's scream clearly in the scullery 2 floors down.",
+  "question": "Through what channel did the sound travel?",
+  "answer": "DUMBWAITER SHAFT",
+  "hints": [
+    "Soundproof walls block room sound, but small physical shafts bypass the insulation.",
+    "Food and dishes were moved between floors using a mechanical lift shaft.",
+    "The open dumbwaiter shaft carried the audio directly to the scullery."
+  ],
+  "solution": "The open dumbwaiter shaft created a direct acoustic channel from the vault to the scullery, bypassing the soundproof walls."
+}

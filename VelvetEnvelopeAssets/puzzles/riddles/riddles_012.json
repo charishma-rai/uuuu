@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_012",
+  "title": "The Uncut Novel Pages",
+  "category": "riddles",
+  "difficulty": "hard",
+  "description": "📂 Evidence Folder #7: The suspect claimed he sat in the library for 3 hours reading the victim's rare new antique book from cover to cover.",
+  "question": "What physical feature of 19th-century unread books proved he was lying?",
+  "answer": "UNCUT PAGES",
+  "hints": [
+    "19th-century printed books required a paper knife to open folded sheet edges.",
+    "The detective inspected the top edges of the book's pages.",
+    "The paper edges were still joined together and uncut, making reading impossible."
+  ],
+  "solution": "The book's pages were still uncut at the top folds, proving the book had never been opened or read."
+}

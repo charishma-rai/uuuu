@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_006",
+  "title": "Gunpowder Residue Location",
+  "category": "evidence_analysis",
+  "difficulty": "medium",
+  "description": "📻 Decoded Radio Transmission:\nResidue found on right hand only.\nSuspect A: Left-handed, residue on left hand\nSuspect B: Right-handed, residue on right hand\nSuspect C: No residue",
+  "question": "Which suspect fired the weapon?",
+  "answer": "SUSPECT B",
+  "hints": [
+    "Right hand residue matches Suspect B."
+  ],
+  "solution": "Suspect B matches right hand gunpowder residue."
+}

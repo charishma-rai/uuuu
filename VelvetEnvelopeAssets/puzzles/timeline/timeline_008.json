@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_008",
+  "title": "The Theater Intermission Murder",
+  "category": "timeline",
+  "difficulty": "medium",
+  "description": "📜 Anonymous Letter:\nAct I: 8:00 PM - 8:45 PM\nIntermission: 8:45 PM - 9:05 PM\nAct II: 9:05 PM - 9:50 PM\nVictim shot at 9:15 PM during a stage gunshot sound effect.",
+  "question": "During which part of the evening did the murder take place?",
+  "answer": "ACT II",
+  "hints": [
+    "Murder time: 9:15 PM.",
+    "Act II runs from 9:05 PM to 9:50 PM."
+  ],
+  "solution": "9:15 PM falls within Act II (9:05 PM - 9:50 PM)."
+}

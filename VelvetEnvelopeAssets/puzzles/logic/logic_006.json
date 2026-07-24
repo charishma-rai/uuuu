@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_006",
+  "title": "Knights and Knaves at the Gala",
+  "category": "logic",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet:\nLord A says: 'Lord B is a liar.'\nLord B says: 'Lord C is a liar.'\nLord C says: 'Lord A and Lord B are both liars.'\nDetective note: Honest men always tell the truth; liars always lie. Exactly one man is honest.",
+  "question": "Which Lord is telling the truth?",
+  "answer": "LORD B",
+  "hints": [
+    "Test Lord A as honest: Then B is a liar -> C is honest (contradicts 'exactly one honest').",
+    "Test Lord B as honest: Then C is a liar, and A is a liar (since B is honest, A's claim that B lies is false, so A is a liar!).",
+    "Check Lord B = honest: A = liar, B = honest, C = liar. Works perfectly!"
+  ],
+  "solution": "If Lord B is honest: C is a liar (matching B's claim), and A is a liar (since A claimed B was a liar, which is false). Lord B is the honest noble."
+}

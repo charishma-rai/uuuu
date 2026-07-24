@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_015",
+  "title": "The Four Locks Combination",
+  "category": "logic",
+  "difficulty": "hard",
+  "description": "🔐 Encrypted USB Drive: A 4-digit code (Digits A-B-C-D).\n1. A is double B (A = 2*B).\n2. C is sum of A and B (C = A + B).\n3. D equals 6.\n4. The sum of all four digits is 24.",
+  "question": "What is the 4-digit combination (e.g. 6-3-9-6)?",
+  "answer": "6-3-9-6",
+  "hints": [
+    "D = 6. Total sum = 24, so A + B + C = 18.",
+    "Substitute C = A + B: A + B + (A + B) = 2(A + B) = 18 -> A + B = 9.",
+    "Substitute A = 2B: 2B + B = 3B = 9 -> B = 3, A = 6, C = 9."
+  ],
+  "solution": "B=3, A=6, C=9, D=6. Combination: 6-3-9-6."
+}

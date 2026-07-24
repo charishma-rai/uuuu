@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_008",
+  "title": "The Conservatory Shift (-5)",
+  "category": "cipher",
+  "difficulty": "medium",
+  "description": "📜 Anonymous Letter recovered from the victim's coat pocket with a Caesar shift of -5.",
+  "question": "Decrypt this message: 'YMJ BIFUMX NX NSIYMJ XIFI'",
+  "answer": "THE WEAPON IS IN THE SAFE",
+  "hints": [
+    "Each letter was shifted backward by 5 positions.",
+    "To restore the original text, shift each letter forward by 5 positions in the alphabet.",
+    "Y plus 5 steps is T, M plus 5 steps is H, J plus 5 steps is E."
+  ],
+  "solution": "Shifting each letter forward by 5 steps produces: 'THE WEAPON IS IN THE SAFE'."
+}

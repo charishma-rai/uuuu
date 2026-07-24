@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_011",
+  "title": "Line First-Letter Book Acrostic",
+  "category": "hidden_messages",
+  "difficulty": "hard",
+  "description": "📂 Evidence Folder #7:\n**A**lways watch him.\n**L**ook at hands.\n**I**nspect coat.\n**B**eware trap.\n**I**nspect vault.",
+  "question": "What secret word is formed by line initial letters?",
+  "answer": "ALIBI",
+  "hints": [
+    "A-L-I-B-I."
+  ],
+  "solution": "First letters spell ALIBI."
+}

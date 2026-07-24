@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "logic_003",
+  "title": "The Murder Weapon Ownership",
   "category": "logic",
-  "puzzle_type": "Pattern Recognition",
-  "difficulty": "medium",
-  "title": "Victorian Tincture Ratio",
-  "question": "Complete the ratio sequence: 2, 4, 8, 16, ?",
-  "answer": "32",
-  "solution": "32",
-  "hint": "Each number doubles the previous.",
-  "time_limit": 45,
-  "reward_points": 50,
-  "recommended_for": ["Apothecary Ledger", "Chemical Vial", "Formula Sheet"]
+  "difficulty": "easy",
+  "description": "📜 Anonymous Letter detailing three suspects (Arthur, Beatrice, Charles) who each possess one weapon (Dagger, Poison, Pistol).\n1. Arthur does not have the Pistol.\n2. Beatrice has the Poison.",
+  "question": "Which weapon does Arthur possess?",
+  "answer": "DAGGER",
+  "hints": [
+    "Beatrice has Poison.",
+    "That leaves Dagger and Pistol for Arthur and Charles.",
+    "Arthur does NOT have the Pistol, so Arthur must have the Dagger."
+  ],
+  "solution": "Beatrice = Poison. Remaining weapons: Dagger, Pistol. Since Arthur does not have the Pistol, Arthur = Dagger."
 }

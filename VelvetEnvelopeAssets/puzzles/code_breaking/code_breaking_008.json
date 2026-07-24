@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_008",
+  "title": "The Phone Keypad Word Code",
+  "category": "code_breaking",
+  "difficulty": "medium",
+  "description": "📻 Decoded Radio Transmission: Standard keypad (2=ABC, 8=TUV, 4=GHI). Decode '2-4-8'.",
+  "question": "Decode letter sequence from digits 2-4-8 (first letter of each key: A-G-T):",
+  "answer": "AGT",
+  "hints": [
+    "Key 2 = A, Key 4 = G, Key 8 = T."
+  ],
+  "solution": "2=A, 4=G, 8=T -> AGT."
+}

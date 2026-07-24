@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_014",
+  "title": "Dental Bite Mark Spacing",
+  "category": "evidence_analysis",
+  "difficulty": "hard",
+  "description": "📻 Decoded Radio Transmission:\nBite mark on apple shows missing left upper canine.\nSuspect X: All teeth intact\nSuspect Y: Missing left upper canine",
+  "question": "Which suspect bit the apple?",
+  "answer": "SUSPECT Y",
+  "hints": [
+    "Suspect Y missing left upper canine."
+  ],
+  "solution": "Suspect Y matches dental impression."
+}

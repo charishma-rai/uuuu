@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "witness_statements_005",
+  "title": "The Shadow Direction Contradiction",
+  "category": "witness_statements",
+  "difficulty": "easy",
+  "description": "🗝️ Recovered Notebook Page:\nWitness C: 'At high noon (12:00 PM) under the direct overhead sun, the killer's shadow stretched 50 feet due East.'",
+  "question": "Which witness is lying?",
+  "answer": "WITNESS C",
+  "hints": [
+    "Direct overhead noon sun casts minimal shadow directly below, not 50 ft East."
+  ],
+  "solution": "Overhead noon sun cannot cast a 50-foot shadow due East. Witness C lied."
+}

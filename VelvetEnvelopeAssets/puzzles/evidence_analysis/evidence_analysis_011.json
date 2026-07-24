@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_011",
+  "title": "Triple Factor Forensic Elimination",
+  "category": "evidence_analysis",
+  "difficulty": "hard",
+  "description": "🗝️ Recovered Notebook Page:\nCrime scene evidence: Blood A+, Footprint Size 10, Tweed fiber.\nSuspect 1: Blood A+, Size 10, Tweed fiber\nSuspect 2: Blood B+, Size 10, Tweed fiber\nSuspect 3: Blood A+, Size 8, Silk fiber",
+  "question": "Which suspect matches ALL three evidence factors?",
+  "answer": "SUSPECT 1",
+  "hints": [
+    "Suspect 1 has A+, Size 10, Tweed."
+  ],
+  "solution": "Suspect 1 matches all three forensic criteria."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_009",
+  "title": "Fabric Fiber Matching",
+  "category": "evidence_analysis",
+  "difficulty": "medium",
+  "description": "📂 Evidence Folder #7:\nWindow latch snagged fiber: Green velvet.\nSuspect A: Tweed suit\nSuspect B: Green velvet jacket\nSuspect C: Silk gown",
+  "question": "Which suspect's clothing matches the fiber?",
+  "answer": "SUSPECT B",
+  "hints": [
+    "Green velvet jacket matches Suspect B."
+  ],
+  "solution": "Suspect B matches green velvet fiber."
+}

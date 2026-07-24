@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
   "id": "timeline_005",
+  "title": "The Carriage Arrival Order",
   "category": "timeline",
-  "puzzle_type": "Timeline Ordering",
   "difficulty": "easy",
-  "title": "Alibi Verification Sequence",
-  "question": "Which event occurred FIRST? (A. Screaming sound, B. Lightning flash, C. Power outage)",
-  "answer": "B. Lightning flash",
-  "solution": "B. Lightning flash",
-  "hint": "Light travels faster than sound.",
-  "time_limit": 45,
-  "reward_points": 40,
-  "recommended_for": ["Interrogation Log", "Witness Statement", "Flashback"]
+  "description": "📝 Witness Deposition:\nCarriage 2 arrived at 9:00 PM.\nCarriage 1 arrived 10 minutes BEFORE Carriage 2.\nCarriage 3 arrived 15 minutes AFTER Carriage 2.",
+  "question": "At what time did Carriage 3 arrive?",
+  "answer": "9:15 PM",
+  "hints": [
+    "Carriage 2 = 9:00 PM.",
+    "Carriage 3 = 9:00 PM + 15 minutes."
+  ],
+  "solution": "9:00 PM + 15 minutes = 9:15 PM."
 }

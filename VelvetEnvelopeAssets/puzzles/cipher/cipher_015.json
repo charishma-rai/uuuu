@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_015",
+  "title": "The Polybius Square Grid",
+  "category": "cipher",
+  "difficulty": "hard",
+  "description": "🗝️ Recovered Notebook Page containing a 5x5 Polybius Square grid (Row 1: A B C D E, Row 2: F G H I K, Row 3: L M N O P, Row 4: Q R S T U, Row 5: V W X Y Z).",
+  "question": "Decode coordinates '44 23 15' (Row-Column):",
+  "answer": "THE",
+  "hints": [
+    "Each number pair represents (Row, Column) in the 5x5 grid.",
+    "Row 4, Col 4 is T.",
+    "Row 2, Col 3 is H; Row 1, Col 5 is E."
+  ],
+  "solution": "Lookup of coordinates (4,4), (2,3), (1,5) produces the word 'THE'."
+}

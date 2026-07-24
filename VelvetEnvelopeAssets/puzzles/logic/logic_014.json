@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_014",
+  "title": "The Masquerade Mask Deduction",
+  "category": "logic",
+  "difficulty": "hard",
+  "description": "🧩 Locked Filing Cabinet: Red Mask, Blue Mask, Gold Mask.\n1. The killer wore a Gold Mask.\n2. Lady Clara did NOT wear a Gold Mask.\n3. Duke Thomas wore a Red Mask.",
+  "question": "Which guest wore the Gold Mask?",
+  "answer": "LORD VAUGHAN",
+  "hints": [
+    "Three guests: Lady Clara, Duke Thomas, Lord Vaughan.",
+    "Duke Thomas = Red Mask.",
+    "Lady Clara did NOT wear Gold Mask (so Clara = Blue Mask). Lord Vaughan must wear Gold Mask."
+  ],
+  "solution": "Duke Thomas = Red Mask. Lady Clara != Gold Mask -> Clara = Blue Mask. Lord Vaughan = Gold Mask."
+}

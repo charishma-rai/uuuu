@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_015",
+  "title": "The Double Shift Micro-Lock",
+  "category": "code_breaking",
+  "difficulty": "hard",
+  "description": "📝 Witness Deposition: Shift letter 'A' forward by 2, then forward by 3.",
+  "question": "What final letter is reached?",
+  "answer": "F",
+  "hints": [
+    "A + 2 = C.",
+    "C + 3 = F."
+  ],
+  "solution": "A -> C -> F."
+}

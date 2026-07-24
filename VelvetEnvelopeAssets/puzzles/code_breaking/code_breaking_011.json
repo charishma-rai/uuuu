@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "code_breaking_011",
+  "title": "Mastermind Style Code Elimination",
+  "category": "code_breaking",
+  "difficulty": "hard",
+  "description": "📂 Evidence Folder #7:\nCode is 4 digits.\n1-2-3-4 has 0 correct digits.\n5-6-7-8 has all 4 correct digits in exact order.",
+  "question": "What is the code?",
+  "answer": "5678",
+  "hints": [
+    "1-2-3-4 eliminated completely.",
+    "5-6-7-8 contains all correct digits."
+  ],
+  "solution": "The code is 5678."
+}

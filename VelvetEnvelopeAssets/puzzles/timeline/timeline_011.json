@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_011",
+  "title": "The Steamship Timezone Crossing",
+  "category": "timeline",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104:\nDeparture: 10:00 PM (Port A time).\nVoyage duration: 4 hours elapsed.\nAt midnight, the ship crossed into a new timezone (+1 hour ahead).",
+  "question": "What local time did the ship arrive at Port B?",
+  "answer": "3:00 AM",
+  "hints": [
+    "Departure 10:00 PM + 4 hours elapsed = 2:00 AM (Port A time).",
+    "Add +1 hour for the timezone change crossed at midnight.",
+    "2:00 AM + 1 hour = 3:00 AM."
+  ],
+  "solution": "10:00 PM + 4 hrs = 2:00 AM + 1 hr timezone shift = 3:00 AM local time."
+}

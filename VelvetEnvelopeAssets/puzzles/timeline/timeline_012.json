@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_012",
+  "title": "The Carriage Speed Alibi Discrepancy",
+  "category": "timeline",
+  "difficulty": "hard",
+  "description": "🗝️ Recovered Notebook Page:\nSuspect claims he drove carriage 15 miles in 30 minutes (requires 30 mph average).\nMaximum carriage speed: 15 mph.",
+  "question": "Is the suspect's alibi PHYSICALLY POSSIBLE or IMPOSSIBLE?",
+  "answer": "IMPOSSIBLE",
+  "hints": [
+    "Distance: 15 miles.",
+    "Time: 30 minutes (0.5 hours). Required speed = 15 / 0.5 = 30 mph.",
+    "Carriage max speed is 15 mph, so 15 miles takes at least 1 hour."
+  ],
+  "solution": "At 15 mph, traveling 15 miles takes 60 minutes. Driving it in 30 minutes is IMPOSSIBLE."
+}

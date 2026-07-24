@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_007",
+  "title": "The Alibi Verification Grid",
+  "category": "logic",
+  "difficulty": "medium",
+  "description": "📻 Decoded Radio Transmission:\nMurder occurred at 9:00 PM in the Parlor.\nSuspect 1 was in the Study at 9:00 PM.\nSuspect 2 claims he was in the Parlor at 10:00 PM.\nSuspect 3 was verified in the Billiard Room at 9:00 PM.",
+  "question": "Which suspect lacks a verified alibi for the Parlor at 9:00 PM?",
+  "answer": "SUSPECT 2",
+  "hints": [
+    "Murder time: 9:00 PM.",
+    "Suspect 1 = Study at 9:00 PM (Alibi OK).",
+    "Suspect 3 = Billiard Room at 9:00 PM (Alibi OK). Suspect 2 only accounts for 10:00 PM!"
+  ],
+  "solution": "Suspect 2 only provided an alibi for 10:00 PM, leaving him completely unaccounted for at the 9:00 PM murder time."
+}

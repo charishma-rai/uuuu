@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "witness_statements_011",
+  "title": "The Sound Speed Delay Contradiction",
+  "category": "witness_statements",
+  "difficulty": "hard",
+  "description": "📜 Anonymous Letter:\nWitness C: 'I saw the gunshot flash on the hill 2 miles away and heard the bang at the exact same millisecond.'",
+  "question": "Which witness is lying?",
+  "answer": "WITNESS C",
+  "hints": [
+    "Sound travels ~1 mile per 5 seconds. 2 miles takes ~10 seconds."
+  ],
+  "solution": "Sound delay over 2 miles is ~10 seconds. Witness C lied."
+}

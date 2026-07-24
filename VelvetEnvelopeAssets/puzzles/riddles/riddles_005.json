@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_005",
+  "title": "The Mirror Image Alibi",
+  "category": "riddles",
+  "difficulty": "easy",
+  "description": "📜 Anonymous Letter: A witness swears he saw the killer shoot the victim with his left hand while looking in a large parlor mirror.",
+  "question": "Which hand did the killer actually use to pull the trigger?",
+  "answer": "RIGHT HAND",
+  "hints": [
+    "Mirrors reverse left and right orientations.",
+    "If an action appears left-handed in a mirror reflection, what hand is actually moving?",
+    "A right hand raising a pistol appears as a left hand in a mirror image."
+  ],
+  "solution": "Because mirrors invert left and right, seeing a left-handed action in a mirror reflection means the killer was actually using his right hand."
+}

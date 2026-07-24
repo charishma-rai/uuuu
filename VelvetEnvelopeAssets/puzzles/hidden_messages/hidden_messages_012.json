@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_012",
+  "title": "Steganographic Number Index Code",
+  "category": "hidden_messages",
+  "difficulty": "hard",
+  "description": "🔐 Encrypted USB Drive: Message says 'Word 3 of: [The red poison vault]'",
+  "question": "Extract Word 3:",
+  "answer": "POISON",
+  "hints": [
+    "Word 1 = The, Word 2 = red, Word 3 = poison."
+  ],
+  "solution": "Word 3 is POISON."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "witness_statements_007",
+  "title": "The Cold Motor Engine",
+  "category": "witness_statements",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet:\nWitness B: 'I just drove my motor car 50 miles at high speed, arriving at 9:00 PM.'\nDetective Inspection at 9:02 PM: The motor car engine block is freezing cold.",
+  "question": "Which witness is lying?",
+  "answer": "WITNESS B",
+  "hints": [
+    "Driving 50 miles leaves the engine block hot, not freezing cold."
+  ],
+  "solution": "A freshly driven engine is hot. Witness B's cold engine proves he lied."
+}

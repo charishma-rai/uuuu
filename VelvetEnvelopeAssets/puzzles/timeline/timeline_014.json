@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "timeline_014",
+  "title": "The Quadruple Movement Window",
+  "category": "timeline",
+  "difficulty": "hard",
+  "description": "🧩 Locked Filing Cabinet:\nVictim was alone from 9:30 PM to 9:45 PM.\nLord Craven left parlor at 9:25 PM and returned at 9:50 PM.\nBaron moved 9:00-9:20 PM.\nLady Clara moved 9:50-10:10 PM.",
+  "question": "Which suspect was unaccounted for during the victim's 9:30-9:45 PM alone window?",
+  "answer": "LORD CRAVEN",
+  "hints": [
+    "Victim alone window: 9:30 - 9:45 PM.",
+    "Lord Craven's absence: 9:25 PM to 9:50 PM (spans 9:30-9:45 PM completely)."
+  ],
+  "solution": "Lord Craven was absent from 9:25 to 9:50 PM, covering the exact 9:30-9:45 PM murder window."
+}

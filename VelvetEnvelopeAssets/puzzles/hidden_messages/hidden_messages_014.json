@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_014",
+  "title": "Palindrome Word Extraction",
+  "category": "hidden_messages",
+  "difficulty": "hard",
+  "description": "📜 Anonymous Letter: From words [CAT, DEED, DOOR, WALL], select the palindrome.",
+  "question": "Which word reads the same forward and backward?",
+  "answer": "DEED",
+  "hints": [
+    "D-E-E-D reversed is D-E-E-D."
+  ],
+  "solution": "DEED is the only palindrome."
+}

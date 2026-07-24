@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_015",
+  "title": "Double Head-Tail Acrostic",
+  "category": "hidden_messages",
+  "difficulty": "hard",
+  "description": "🗝️ Recovered Notebook Page: First letter of Line 1 (**T**), last letter of Line 2 (**O**)... spell 'TO'.",
+  "question": "Decode 2-letter destination: Line 1 start **T**, Line 2 end **O**.",
+  "answer": "TO",
+  "hints": [
+    "Line 1 start = T.",
+    "Line 2 end = O."
+  ],
+  "solution": "T + O = TO."
+}

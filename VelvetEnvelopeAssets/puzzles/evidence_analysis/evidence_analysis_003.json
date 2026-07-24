@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_003",
+  "title": "Rigor Mortis Time of Death",
+  "category": "evidence_analysis",
+  "difficulty": "easy",
+  "description": "🗝️ Recovered Notebook Page:\nRigor mortis takes 12 hours to fully set.\nBody discovered at 8:00 AM with full rigor mortis.",
+  "question": "At what time the previous evening did death occur?",
+  "answer": "8:00 PM",
+  "hints": [
+    "8:00 AM minus 12 hours = 8:00 PM."
+  ],
+  "solution": "Death occurred 12 hours prior at 8:00 PM."
+}

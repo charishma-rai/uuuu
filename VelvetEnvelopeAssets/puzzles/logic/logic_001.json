@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "logic_001",
+  "title": "Three Suspects and One Liar",
   "category": "logic",
-  "puzzle_type": "Grid Logic",
-  "difficulty": "medium",
-  "title": "Alibi Elimination Matrix",
-  "question": "Suspect A was in the library. Suspect B was not in the conservatory. Who was in the dining hall if only Suspect C remains?",
-  "answer": "Suspect C",
-  "solution": "Suspect C",
-  "hint": "Use process of elimination for three suspects.",
-  "time_limit": 120,
-  "reward_points": 100,
-  "recommended_for": ["Police Dossier", "Suspect Timetable", "Interrogation Grid"]
+  "difficulty": "easy",
+  "description": "📝 Witness Deposition of three suspects:\nAlice says: 'Bob was in the kitchen.'\nBob says: 'Charlie never left the study.'\nCharlie says: 'Alice is lying.'\nDetective note: Exactly ONE person is lying.",
+  "question": "Who is lying?",
+  "answer": "CHARLIE",
+  "hints": [
+    "If Charlie is telling the truth, then Alice must be lying.",
+    "If Alice lies, then Bob wasn't in the kitchen, but Bob's statement would need to be evaluated.",
+    "Test Charlie being the liar: Alice is telling the truth, Bob is telling the truth. Everything remains consistent!"
+  ],
+  "solution": "If Charlie is lying, Alice and Bob are both telling the truth. Alice says Bob was in the kitchen (True), Bob says Charlie was in the study (True). Thus, Charlie is the sole liar."
 }

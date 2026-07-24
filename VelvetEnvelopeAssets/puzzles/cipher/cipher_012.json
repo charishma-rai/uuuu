@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_012",
+  "title": "The Rail Fence Cipher",
+  "category": "cipher",
+  "difficulty": "hard",
+  "description": "📜 Anonymous Letter written on a zig-zag paper strip across 2 rails.",
+  "question": "Decrypt the 2-rail fence cipher text: 'TSFISPNEAEON'",
+  "answer": "THE SAFE IS OPEN",
+  "hints": [
+    "Rail fence cipher splits text into top and bottom rows alternating.",
+    "Top rail characters: T S F I S P",
+    "Bottom rail characters: H E A E O N. Interleave top and bottom rail characters."
+  ],
+  "solution": "Interleaving the top and bottom rail characters (T-H-E-S-A-F-E-I-S-O-P-E-N) reconstructs the original phrase: 'THE SAFE IS OPEN'."
+}

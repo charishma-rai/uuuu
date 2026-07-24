@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_012",
+  "title": "Tox Peak Reaction Timing",
+  "category": "evidence_analysis",
+  "difficulty": "hard",
+  "description": "📜 Anonymous Letter:\nStrychnine peak toxicity occurs 1 hour after ingestion.\nVictim died of peak toxicity at 10:00 PM.",
+  "question": "At what time was the poison ingested?",
+  "answer": "9:00 PM",
+  "hints": [
+    "10:00 PM minus 1 hour = 9:00 PM."
+  ],
+  "solution": "Poison ingested at 9:00 PM."
+}

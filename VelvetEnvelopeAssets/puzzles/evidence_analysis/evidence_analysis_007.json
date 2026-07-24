@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_007",
+  "title": "Soil Analysis from Boots",
+  "category": "evidence_analysis",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet:\nCrime scene soil: Red clay.\nSuspect 1 boots: White chalk\nSuspect 2 boots: Red clay\nSuspect 3 boots: Clean",
+  "question": "Which suspect walked through the crime scene?",
+  "answer": "SUSPECT 2",
+  "hints": [
+    "Red clay soil matches Suspect 2."
+  ],
+  "solution": "Suspect 2 matches red clay soil."
+}

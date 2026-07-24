@@ -1,10 +1,8 @@
 # Velvet Envelope Assets & Content Pack (`VelvetEnvelopeAssets`)
 
-`VelvetEnvelopeAssets` is the lightweight, data-driven content library and puzzle pack for **Velvet Envelope**, an AI detective game.
+`VelvetEnvelopeAssets` is the lightweight, data-driven content library and detective puzzle system for **Velvet Envelope**, an AI murder mystery game.
 
-The notebook/game engine loads all UI, graphics, and interactive interfaces dynamically at runtime. This repository stores only game metadata, suspect/victim profiles, predefined case stories, and puzzle engine templates.
-
-No decorative UI graphics or placeholder images are included. All image filenames referenced in JSON files (`suspect_001.png`, `victim_001.png`) will be added manually to their respective folders.
+All puzzles are data-driven JSON files designed to run in plain Python and Google Colab without external dependencies, images, timers, or web requests.
 
 ---
 
@@ -19,153 +17,97 @@ VelvetEnvelopeAssets/
 │   ├── suspects/              # Suspect metadata JSON files (suspect_001.json .. suspect_020.json)
 │   └── victims/               # Victim metadata JSON files (victim_001.json .. victim_006.json)
 ├── stories/                   # Predefined case stories (story_001.json .. story_006.json)
-├── puzzles/                   # Modular puzzle engine (8 category folders)
-│   ├── riddles/
-│   ├── logic/
-│   ├── cipher/
-│   ├── memory/
-│   ├── observation/
-│   ├── timeline/
-│   ├── matching/
-│   └── sorting/
-└── utilities/                 # Python loader scripts
+├── puzzles/                   # Brand-New Modular Detective Puzzle System (8 Categories)
+│   ├── cipher/                # 15 Cipher Puzzles (Caesar, ROT13, Morse, Vigenère, Atbash, etc.)
+│   ├── riddles/               # 15 Detective Riddles (Locked rooms, physical anomalies, crime scene logic)
+│   ├── logic/                 # 15 Logic Deduction Puzzles (Truth/Liar, room grids, alibi matrices)
+│   ├── timeline/              # 15 Timeline Reconstruction Puzzles (Event ordering, schedules, decay)
+│   ├── hidden_messages/       # 15 Hidden Messages Puzzles (Acrostics, Nth-letter shifts, word grids)
+│   ├── code_breaking/         # 15 Code Breaking Puzzles (Safe combos, PINs, number sequences, dials)
+│   ├── witness_statements/    # 15 Witness Statements Puzzles (Spotting testimony contradictions)
+│   └── evidence_analysis/     # 15 Evidence Analysis Puzzles (Blood type, footprints, forensics)
+└── utilities/                 # Python loader scripts & interactive puzzle engine
     ├── __init__.py
     ├── asset_loader.py
     ├── metadata_loader.py
-    ├── puzzle_loader.py
+    ├── puzzle_loader.py       # Core puzzle loader with discovery formatting & answer validation
+    ├── puzzle_runner.py       # Interactive DetectivePuzzleSession runner for Google Colab / Python
+    ├── random_selector.py     # Random sampler for suspects, victims, stories, and puzzles
     ├── story_loader.py
-    └── random_selector.py
+    └── validator.py           # Repository schema & 120-puzzle integrity validator
 ```
 
 ---
 
-## 📖 Content Management & Extension Guide
+## 🧩 The Velvet Envelope Puzzle System
 
-Everything is fully modular. Adding new content requires dropping files into their respective folders—no notebook or engine code changes are required.
+Every puzzle is stored as an individual JSON file matching the strict schema:
 
-### 1. How to Add a New Suspect
-1. Place the suspect metadata JSON file in `assets/suspects/` (e.g. `suspect_021.json`):
 ```json
 {
   "schema_version": "1.0",
-  "id": "suspect_021",
-  "image_filename": "suspect_021.png",
-  "gender": "female",
-  "age_group": "young_adult",
-  "approximate_age": 26,
-  "ethnicity": "caucasian",
-  "appearance": {
-    "hair": "dark_updo",
-    "eye_color": "green",
-    "facial_hair": "none",
-    "clothing_style": "victorian_riding_habit",
-    "accessories": ["leather_gloves"]
-  },
-  "appearance_description": "An athletic equestrian in a dark velvet riding habit.",
-  "height": "5 ft 8 in",
-  "body_type": "athletic",
-  "dominant_hand": "right",
-  "walking_style": "brisk pace",
-  "voice": "clear soprano",
-  "accent": "English Country",
-  "allowed_occupations": ["Equestrian", "Stable Master"],
-  "personality_tags": ["bold", "headstrong"],
-  "story_tags": ["stables", "manor"],
-  "possible_relationships": ["Niece", "Rival"]
-}
-```
-2. Manually add `suspect_021.png` artwork into `assets/suspects/`.
-
-### 2. How to Add a New Victim
-1. Place the victim metadata JSON file in `assets/victims/` (e.g. `victim_007.json`):
-```json
-{
-  "schema_version": "1.0",
-  "id": "victim_007",
-  "image_filename": "victim_007.png",
-  "name": "Sir Charles Vance",
-  "occupation": "Railroad Baron",
-  "short_backstory": "Discovered dead in his private locomotive lounge car.",
-  "recommended_story_title": "The Iron Express Tragedy",
-  "recommended_location": "Vance Rail Parlor Car",
-  "recommended_theme": "Orient Express Parlor Car"
-}
-```
-2. Manually add `victim_007.png` artwork into `assets/victims/`.
-
-### 3. How to Add a New Story
-Place a new case story JSON file in `stories/` (e.g. `story_007.json`):
-```json
-{
-  "schema_version": "1.0",
-  "id": "story_007",
-  "title": "The Iron Express Tragedy",
-  "difficulty": "Medium",
-  "victim_id": "victim_007",
-  "victim_image_filename": "victim_007.png",
-  "suspect_ids": ["suspect_008", "suspect_010", "suspect_014"],
-  "location": "Vance Rail Parlor Car",
-  "weapon": "Poisoned Cigar",
-  "motive": "Contested railroad expansion contracts",
-  "timeline": [
-    { "time": "09:00 PM", "event": "Train departs station." },
-    { "time": "10:30 PM", "event": "Vance retires to his private car." },
-    { "time": "11:00 PM", "event": "Conductor finds Vance unresponsive." }
-  ],
-  "evidence_list": [
-    {
-      "id": "ev_08",
-      "name": "Cigar Band",
-      "puzzle_type": "Pattern Recognition",
-      "puzzle_id": "logic_003"
-    }
-  ],
-  "dialogue_placeholders": {
-    "suspect_008": "I was in the dining car discussing stocks.",
-    "suspect_010": "Vance cut off funding for our expedition."
-  }
-}
-```
-
-### 4. How to Add a New Puzzle
-Create a new puzzle JSON file in the appropriate category directory under `puzzles/` (e.g., `puzzles/riddles/riddle_006.json`):
-```json
-{
-  "schema_version": "1.0",
-  "id": "riddle_006",
-  "category": "riddles",
-  "puzzle_type": "Riddles",
+  "id": "cipher_001",
+  "title": "The Cipher of Lord Blackwood",
+  "category": "cipher",
   "difficulty": "easy",
-  "title": "The Broken Pocket Watch",
-  "question": "What has hands but cannot grip?",
-  "answer": "A clock",
-  "solution": "clock",
-  "hint": "Check the victim's vest pocket.",
-  "time_limit": 45,
-  "reward_points": 50,
-  "recommended_for": ["Pocket Watch", "Timepiece"]
+  "description": "🗝️ Recovered Notebook Page found in Lord Blackwood's study. The message is encrypted using a Caesar shift (+3).",
+  "question": "Decrypt the message: 'PHHW PH DW PIGQLJKW'",
+  "answer": "MEET ME AT MIDNIGHT",
+  "hints": [
+    "The letters appear consistently shifted by the same offset.",
+    "Try moving each letter backward by 3 positions in the alphabet.",
+    "P minus 3 positions is M, H minus 3 is E, W minus 3 is T."
+  ],
+  "solution": "Shift each letter backward by 3 positions (P->M, H->E, H->E, W->T). Decoded phrase: MEET ME AT MIDNIGHT."
 }
 ```
 
+### 💡 3-Tiered Hint System
+Every puzzle contains exactly three progressive hints:
+1. **Hint 1**: Very subtle clue.
+2. **Hint 2**: Points the player in the correct solving direction.
+3. **Hint 3**: Almost reveals the solving strategy without directly giving the answer.
+
+### 🗝️ Investigation Discovery Headers
+Puzzles are presented as discovered evidence:
+- 🗝️ Recovered Notebook Page
+- 📜 Anonymous Letter
+- 🧩 Locked Filing Cabinet
+- 🔐 Encrypted USB Drive
+- 📝 Witness Deposition
+- 📂 Evidence Folder #7
+- 📻 Decoded Radio Transmission
+- 📄 Forensic Report
+
 ---
 
-## 🛠️ Python Utilities
+## 🛠️ Python / Google Colab Interactive Usage
 
-Load content programmatically using the `utilities/` package:
+Load and play puzzles interactively in Google Colab or Python using `utilities`:
 
 ```python
-from utilities import MetadataLoader, PuzzleLoader, StoryLoader, RandomSelector
+from utilities import PuzzleLoader, DetectivePuzzleSession, RandomSelector
 
-# Load metadata
-meta = MetadataLoader()
-suspects = meta.load_all_suspects()
-victims = meta.load_all_victims()
+# 1. Start an interactive detective puzzle session
+session = DetectivePuzzleSession()
 
-# Select 4 random suspects for LLM narrative generation
-selector = RandomSelector()
-sampled = selector.select_random_suspects(count=4)
+# 2. Start a random puzzle from any category (e.g. 'cipher', 'logic', 'riddles', etc.)
+evidence_text = session.start_random_puzzle(category="cipher")
+print(evidence_text)
 
-# Load stories and puzzles
-story_loader = StoryLoader()
-puzzles_loader = PuzzleLoader()
+# 3. Request progressive hints when stuck
+print(session.request_hint()) # Reveals Hint 1
+print(session.request_hint()) # Reveals Hint 2
+print(session.request_hint()) # Reveals Hint 3
+
+# 4. Submit deduction answer
+result = session.submit_answer("MEET ME AT MIDNIGHT")
+print(result)
 ```
+
+---
+
+## 📖 Extension Guide
+
+Adding future puzzles requires **zero code modifications**:
+Simply create a new JSON file in the appropriate category folder under `puzzles/<category>/<category>_016.json` following the JSON schema!

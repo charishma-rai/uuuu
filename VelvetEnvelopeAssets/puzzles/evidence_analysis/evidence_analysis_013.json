@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_013",
+  "title": "Ballistic Rifling Grooves",
+  "category": "evidence_analysis",
+  "difficulty": "hard",
+  "description": "📝 Witness Deposition:\nBullet recovered: Left-hand twist rifling.\nGun A: Right-hand twist\nGun B: Left-hand twist",
+  "question": "Which gun fired the fatal shot?",
+  "answer": "GUN B",
+  "hints": [
+    "Left-hand twist matches Gun B."
+  ],
+  "solution": "Gun B matches left-hand twist rifling."
+}

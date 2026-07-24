@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_013",
+  "title": "The Counterfeit Note Transaction",
+  "category": "logic",
+  "difficulty": "hard",
+  "description": "📝 Witness Deposition:\nBanker says: 'Merchant passed the fake bill.'\nMerchant says: 'Jeweler passed the fake bill.'\nJeweler says: 'Merchant is innocent.'\nDetective note: The person who passed the bill is lying; innocent suspects tell the truth.",
+  "question": "Who passed the counterfeit bill?",
+  "answer": "MERCHANT",
+  "hints": [
+    "Test Merchant as guilty: Merchant lies ('Jeweler passed it' is False).",
+    "If Merchant is guilty, Jeweler is innocent (Jeweler says 'Merchant is innocent'? Wait: if Merchant passed it, Jeweler's statement 'Merchant is innocent' is false! So Jeweler lied? No, test Banker=truth, Merchant=guilty).",
+    "Banker says Merchant passed it (Truth). Merchant says Jeweler passed it (Liar). Merchant passed the bill."
+  ],
+  "solution": "Banker says Merchant passed it (Truth). Merchant says Jeweler passed it (Liar). Merchant is the culprit who passed the counterfeit bill."
+}

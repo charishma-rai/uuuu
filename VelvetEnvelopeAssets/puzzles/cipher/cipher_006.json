@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_006",
+  "title": "The Velvet Keyword Cipher",
+  "category": "cipher",
+  "difficulty": "medium",
+  "description": "🔐 Encrypted USB Drive containing a keyword substitution cipher using the keyword 'VELVET'.",
+  "question": "Decrypt the message encoded with key 'VELVET' (Cipher Alphabet: V E L T A B C D F G H I J K M N O P Q R S U W X Y Z): 'TBX TFEP HQ WBLTH'",
+  "answer": "THE DEED IS VALID",
+  "hints": [
+    "A keyword cipher removes duplicate letters from the keyword and appends remaining alphabet letters.",
+    "Keyword VELVET gives unique key header V-E-L-T.",
+    "Map each cipher letter back to its standard A-Z counterpart to reveal 'THE DEED IS VALID'."
+  ],
+  "solution": "Reversing the keyword substitution mapping reveals the underlying secret phrase: 'THE DEED IS VALID'."
+}

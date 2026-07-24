@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "cipher_003",
+  "title": "The Scullery Mirror Note",
   "category": "cipher",
-  "puzzle_type": "Word Search",
-  "difficulty": "medium",
-  "title": "Hidden Poison Word Search",
-  "question": "Find the toxic plant hidden in this grid: A C O N I T E B",
-  "answer": "ACONITE",
-  "solution": "ACONITE",
-  "hint": "Starts with A and ends with E.",
-  "time_limit": 90,
-  "reward_points": 75,
-  "recommended_for": ["Botanical Note", "Apothecary Journal", "Newspaper"]
+  "difficulty": "easy",
+  "description": "📝 Witness Deposition scrap retrieved from the kitchen fireplace, written in reverse.",
+  "question": "Read the hidden phrase: 'RETSAM EHT SILLIK RELTUB EHT'",
+  "answer": "THE BUTLER KILLS THE MASTER",
+  "hints": [
+    "The words are written completely backward.",
+    "Start reading from the very last letter of the last word.",
+    "Reverse each word: RETSAM -> MASTER, EHT -> THE, SILLIK -> KILLS, RELTUB -> BUTLER, EHT -> THE."
+  ],
+  "solution": "Reading backwards word-by-word reveals: 'THE BUTLER KILLS THE MASTER'."
 }

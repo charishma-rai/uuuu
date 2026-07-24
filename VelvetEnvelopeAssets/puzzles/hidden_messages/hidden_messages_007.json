@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_007",
+  "title": "Diagonal Word Grid",
+  "category": "hidden_messages",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet 4x4 Grid:\nL A B C\nD O E F\nG H O I\nJ K L K",
+  "question": "Read top-left to bottom-right main diagonal:",
+  "answer": "LOOK",
+  "hints": [
+    "Row 1 Col 1 = L.",
+    "Row 2 Col 2 = O.",
+    "Row 3 Col 3 = O, Row 4 Col 4 = K."
+  ],
+  "solution": "Main diagonal L-O-O-K spells LOOK."
+}

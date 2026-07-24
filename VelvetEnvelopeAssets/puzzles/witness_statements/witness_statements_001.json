@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "witness_statements_001",
+  "title": "The Rainy Night Alibi Contradiction",
+  "category": "witness_statements",
+  "difficulty": "easy",
+  "description": "📝 Witness Deposition:\nWitness A: 'It poured rain heavily all night from 8 PM to 4 AM.'\nWitness B: 'I sat in the garden at 10 PM admiring the bright full moon in a completely clear sky.'\nWeather Log: Heavy downpour & storm all night.",
+  "question": "Which witness is lying?",
+  "answer": "WITNESS B",
+  "hints": [
+    "Compare Witness B's clear sky claim with the official Weather Log.",
+    "Heavy rain all night makes seeing the moon in a clear sky impossible.",
+    "Witness B lied about sitting outside under a clear sky."
+  ],
+  "solution": "Weather log confirms heavy rain all night. Witness B's claim of a clear full moon is a lie."
+}

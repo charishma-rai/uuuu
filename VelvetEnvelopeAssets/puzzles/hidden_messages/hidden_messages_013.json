@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_013",
+  "title": "Every Fourth Letter Spiral",
+  "category": "hidden_messages",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104: Extract every 4th letter from 'X X X C X X X L X X X U X X X E'",
+  "question": "What word is formed?",
+  "answer": "CLUE",
+  "hints": [
+    "Pos 4 = C, Pos 8 = L, Pos 12 = U, Pos 16 = E."
+  ],
+  "solution": "Positions 4, 8, 12, 16 yield C-L-U-E."
+}

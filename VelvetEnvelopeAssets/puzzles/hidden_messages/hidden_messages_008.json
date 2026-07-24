@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "hidden_messages_008",
+  "title": "Punctuation Exclamation Clue",
+  "category": "hidden_messages",
+  "difficulty": "medium",
+  "description": "🗝️ Recovered Notebook Page: Extract words immediately following an exclamation mark (!):\n'Hurry! Run quickly! To the! Chapel now!'",
+  "question": "What 3 words follow the exclamation marks?",
+  "answer": "RUN TO CHAPEL",
+  "hints": [
+    "Word after 1st ! = Run.",
+    "Word after 2nd ! = To.",
+    "Word after 3rd ! = Chapel."
+  ],
+  "solution": "Words following exclamation marks: RUN TO CHAPEL."
+}

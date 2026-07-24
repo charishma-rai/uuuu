@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "cipher_005",
+  "title": "The Parlor Shift Note",
   "category": "cipher",
-  "puzzle_type": "Caesar Cipher",
   "difficulty": "easy",
-  "title": "The Scrawled Will Code",
-  "question": "Decode shift +1: 'IFJS'",
-  "answer": "HEIR",
-  "solution": "HEIR",
-  "hint": "Shift each letter back by 1 (I -> H).",
-  "time_limit": 45,
-  "reward_points": 50,
-  "recommended_for": ["Will", "Testament", "Legal Slip"]
+  "description": "📄 Forensic Report #104 inspecting a slip of parchment found under the sofa cushion.",
+  "question": "Decrypt this message shifted by +2: 'VJG LCYGN KU KP VJG XCWNV'",
+  "answer": "THE JEWEL IS IN THE VAULT",
+  "hints": [
+    "Each letter has been shifted forward by 2 positions in the alphabet.",
+    "To decrypt, move each letter backward by 2 steps.",
+    "V minus 2 is T, J minus 2 is H, G minus 2 is E. VJG becomes THE."
+  ],
+  "solution": "Moving each letter backward by 2 steps (V->T, J->H, G->E) reveals: 'THE JEWEL IS IN THE VAULT'."
 }

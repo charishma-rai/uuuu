@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "logic_011",
+  "title": "The Five Suspect Alibi Matrix",
+  "category": "logic",
+  "difficulty": "hard",
+  "description": "📄 Forensic Report #104: 4 Suspects (Baron, Doctor, Colonel, Artist).\n1. The killer wore a silk scarf.\n2. The Doctor and Artist wore woolen ties.\n3. The Colonel wore a leather collar.\n4. Baron Raymond wore a silk scarf.",
+  "question": "Who is the killer?",
+  "answer": "BARON RAYMOND",
+  "hints": [
+    "Killer's attire: Silk scarf.",
+    "Eliminate Doctor (wool), Artist (wool), Colonel (leather).",
+    "Baron Raymond is the only suspect who wore a silk scarf."
+  ],
+  "solution": "Matching attire requirements shows Baron Raymond is the only suspect wearing the killer's silk scarf."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_007",
+  "title": "The Mixed Alphabet Alibi",
+  "category": "cipher",
+  "difficulty": "medium",
+  "description": "📂 Evidence Folder #7 containing a cipher where A=Z, B=Y, C=X (Atbash Cipher).",
+  "question": "Decode this Atbash cipher: 'GSV ERXGRN DZH KLISLMVW'",
+  "answer": "THE VICTIM WAS POISONED",
+  "hints": [
+    "Atbash flips the alphabet completely: A becomes Z, B becomes Y, C becomes X.",
+    "G maps to T, S maps to H, V maps to E.",
+    "Translate each letter with its opposite twin from the reverse alphabet."
+  ],
+  "solution": "Applying Atbash substitution (G->T, S->H, V->E...) yields 'THE VICTIM WAS POISONED'."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "evidence_analysis_002",
+  "title": "Shoe Size Footprint Analysis",
+  "category": "evidence_analysis",
+  "difficulty": "easy",
+  "description": "📂 Evidence Folder #7:\nCrime scene mud footprint: Size 11.\nSuspect A: Size 8\nSuspect B: Size 9\nSuspect C: Size 11",
+  "question": "Which suspect matches the crime scene footprint?",
+  "answer": "SUSPECT C",
+  "hints": [
+    "Footprint size is 11.",
+    "Suspect C wears size 11."
+  ],
+  "solution": "Suspect C matches size 11."
+}

@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "timeline_002",
+  "title": "The Poisoning Course Timeline",
   "category": "timeline",
-  "puzzle_type": "Timeline Ordering",
   "difficulty": "easy",
-  "title": "Pocket Watch Log Sorting",
-  "question": "Place the 3 stopped pocket watches in ascending chronological time.",
-  "answer": "Watch A (09:15 PM), Watch C (09:45 PM), Watch B (10:15 PM)",
-  "solution": "A, C, B",
-  "hint": "Check the hour hands first.",
-  "time_limit": 60,
-  "reward_points": 50,
-  "recommended_for": ["Pocket Watch", "Station Master Clock", "Log Book"]
+  "description": "📄 Forensic Report #104:\n8:00 PM - Soup served\n8:30 PM - Fish served\n9:00 PM - Roast served\n9:30 PM - Victim collapsed\nMedical fact: The poison used takes exactly 60 minutes to cause collapse.",
+  "question": "Which course was poisoned?",
+  "answer": "FISH",
+  "hints": [
+    "Collapse time: 9:30 PM.",
+    "Poison onset delay: Exactly 60 minutes.",
+    "9:30 PM minus 60 minutes = 8:30 PM."
+  ],
+  "solution": "Victim collapsed at 9:30 PM. 60 minutes prior is 8:30 PM, when the Fish course was served."
 }

@@ -1,15 +1,16 @@
 {
   "schema_version": "1.0",
   "id": "cipher_004",
+  "title": "The Telegrapher's Morse Code",
   "category": "cipher",
-  "puzzle_type": "Code Breaking",
-  "difficulty": "hard",
-  "title": "Substituted Vigenere Key",
-  "question": "Crack the 4-letter keyword used to lock the vault ledger.",
-  "answer": "RUBY",
-  "solution": "RUBY",
-  "hint": "It is the name of a precious gemstone.",
-  "time_limit": 120,
-  "reward_points": 150,
-  "recommended_for": ["Vault Ledger", "Encrypted Dispatch", "Cipher Book"]
+  "difficulty": "easy",
+  "description": "📻 Decoded Radio Transmission tape found near the telegraph desk.",
+  "question": "Decode this Morse code string (slashes separate words): '- .... . / ... .- ..-. . / .. ... / -... . .... .. -. -.. / - .... . / --. .-. .. -..'",
+  "answer": "THE SAFE IS BEHIND THE GRID",
+  "hints": [
+    "Standard international Morse code is used.",
+    "-... is B, . is E, .... is H, .. is I, -. is N, -.. is D.",
+    "Translate each letter: -.... = THE, ... .- ..-. . = SAFE, .. ... = IS, -... . .... .. -. -.. = BEHIND, - .... . = THE, --. .-. .. -.. = GRID."
+  ],
+  "solution": "Translating the Morse code characters reveals: 'THE SAFE IS BEHIND THE GRID'."
 }

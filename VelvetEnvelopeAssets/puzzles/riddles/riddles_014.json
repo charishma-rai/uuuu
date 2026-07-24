@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_014",
+  "title": "The Single Bullet Chandelier Drop",
+  "category": "riddles",
+  "difficulty": "hard",
+  "description": "🔐 Encrypted USB Drive: A single gunshot killed Victim A standing near the entrance and Victim B standing 20 feet away at the head table.",
+  "question": "What heavy ceiling object did the bullet strike to cause Victim B's death?",
+  "answer": "CHANDELIER",
+  "hints": [
+    "The bullet didn't hit Victim B directly.",
+    "The bullet severed a holding chain above Victim B.",
+    "The shot severed the heavy iron chain supporting the crystal chandelier."
+  ],
+  "solution": "The bullet struck the hanging chain of the massive iron chandelier, causing it to fall directly onto Victim B."
+}

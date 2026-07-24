@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_001",
+  "title": "The Wet Floor in the Sealed Study",
+  "category": "riddles",
+  "difficulty": "easy",
+  "description": "📄 Forensic Report #104: A locked study contains a victim lying dead on the floor. The door is locked from the inside. The windows are sealed shut. The floor is covered in a pool of clear water. No weapon is found.",
+  "question": "What weapon was used to kill the victim?",
+  "answer": "ICE DAGGER",
+  "hints": [
+    "Consider weapons that leave no solid trace behind at room temperature.",
+    "The pool of water on the floor is the melted remains of the weapon.",
+    "An icicle or weapon made of frozen water melted after inflicting the fatal wound."
+  ],
+  "solution": "The killer used an ice dagger. After the murder, the ice melted into a pool of water, leaving no physical weapon for investigators to find."
+}

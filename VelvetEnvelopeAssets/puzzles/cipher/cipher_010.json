@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "cipher_010",
+  "title": "The Letter Shift Matrix",
+  "category": "cipher",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet slip with alternating +1 / -1 letter shifts applied to the original word.",
+  "question": "Decrypt 'T D D Q F S' where odd letters were shifted +1 and even letters were shifted -1:",
+  "answer": "SECRET",
+  "hints": [
+    "Odd positions (1, 3, 5) were shifted +1.",
+    "Even positions (2, 4, 6) were shifted -1.",
+    "Reverse it: subtract 1 from T -> S; add 1 to D -> E; subtract 1 from D -> C; add 1 to Q -> R; subtract 1 from F -> E; add 1 to S -> T."
+  ],
+  "solution": "Reversing the alternating shift on 'T D D Q F S' yields 'SECRET'."
+}

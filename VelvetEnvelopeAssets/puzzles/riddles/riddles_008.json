@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "riddles_008",
+  "title": "The Poisoned Wine Ice Cubes",
+  "category": "riddles",
+  "difficulty": "medium",
+  "description": "🧩 Locked Filing Cabinet: Two men drank wine poured from the exact same carafe. Man A drank his glass fast in 10 seconds and lived. Man B sipped his glass slowly over 20 minutes and died of poison.",
+  "question": "Where was the poison hidden?",
+  "answer": "ICE CUBES",
+  "hints": [
+    "The wine itself in the carafe was harmless.",
+    "Man A drank quickly before something in the glass could change.",
+    "The poison was frozen inside the ice cubes; drinking fast meant the ice hadn't melted yet."
+  ],
+  "solution": "The poison was inside the ice cubes. Man A drank so fast the ice didn't melt, while Man B drank slowly as the poisonous ice melted into his wine."
+}
