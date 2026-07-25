@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "riddles_010",
   "title": "The Half-Burned Candle Draft",
   "category": "riddles",
   "difficulty": "medium",
-  "description": "📻 Decoded Radio Transmission: In a room with no open windows, a candle burned down twice as fast as an identical candle in the hallway.",
+  "description": "In a room with no open windows, a candle burned down twice as fast as an identical candle in the hallway.",
   "question": "What secret room feature caused the increased air oxygen flow?",
-  "answer": "SECRET PASSAGE",
+  "acceptable_answer_format": "Type the room feature.\n\nExample:\nSecret passage",
+  "accepted_answers": [
+    "Secret passage",
+    "secret passage",
+    "SECRET PASSAGE",
+    "Secret door",
+    "A secret passage"
+  ],
   "hints": [
     "Increased airflow burns candles much faster.",
     "Air was circulating into the room from behind a wall fixture.",
     "A hidden door or secret passage created a strong draft."
   ],
-  "solution": "A draft coming from an unsealed secret passage behind the bookcase supplied fresh oxygen, causing the candle to burn at double speed."
+  "solution_explanation": "An unsealed secret passage behind the bookcase created a continuous air draft that supplied extra oxygen, causing the candle to burn twice as fast.",
+  "time_limit": 300,
+  "reward_points": 200
 }

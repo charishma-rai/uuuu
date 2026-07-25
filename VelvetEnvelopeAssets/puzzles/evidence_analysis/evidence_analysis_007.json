@@ -1,14 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_007",
   "title": "Soil Analysis from Boots",
   "category": "evidence_analysis",
   "difficulty": "medium",
-  "description": "🧩 Locked Filing Cabinet:\nCrime scene soil: Red clay.\nSuspect 1 boots: White chalk\nSuspect 2 boots: Red clay\nSuspect 3 boots: Clean",
+  "description": "Crime scene soil: Red clay.\nSuspect 1 boots: White chalk\nSuspect 2 boots: Red clay\nSuspect 3 boots: Clean",
   "question": "Which suspect walked through the crime scene?",
-  "answer": "SUSPECT 2",
+  "acceptable_answer_format": "Type only the suspect number.\n\nExample:\nSuspect 2",
+  "accepted_answers": [
+    "Suspect 2",
+    "suspect 2",
+    "SUSPECT 2",
+    "2"
+  ],
   "hints": [
     "Red clay soil matches Suspect 2."
   ],
-  "solution": "Suspect 2 matches red clay soil."
+  "solution_explanation": "Crime scene soil is red clay. Suspect 2's boots match red clay soil.",
+  "time_limit": 300,
+  "reward_points": 200
 }

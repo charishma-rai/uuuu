@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_014",
   "title": "Dental Bite Mark Spacing",
   "category": "evidence_analysis",
   "difficulty": "hard",
-  "description": "📻 Decoded Radio Transmission:\nBite mark on apple shows missing left upper canine.\nSuspect X: All teeth intact\nSuspect Y: Missing left upper canine",
+  "description": "Bite mark on apple shows missing left upper canine.\nSuspect X: All teeth intact\nSuspect Y: Missing left upper canine",
   "question": "Which suspect bit the apple?",
-  "answer": "SUSPECT Y",
+  "acceptable_answer_format": "Type only the suspect letter.\n\nExample:\nSuspect Y",
+  "accepted_answers": [
+    "Suspect Y",
+    "suspect y",
+    "SUSPECT Y",
+    "Y",
+    "y"
+  ],
   "hints": [
     "Suspect Y missing left upper canine."
   ],
-  "solution": "Suspect Y matches dental impression."
+  "solution_explanation": "The bite mark shows a missing left upper canine. Suspect Y is missing a left upper canine.",
+  "time_limit": 450,
+  "reward_points": 300
 }

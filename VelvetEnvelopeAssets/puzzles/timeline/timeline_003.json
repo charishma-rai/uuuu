@@ -1,15 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_003",
   "title": "The Midnight Express Train Stops",
   "category": "timeline",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter:\nTrain schedule:\n10:00 PM - Departs Station A\n10:30 PM - Arrives Station B\n11:15 PM - Arrives Station C\n12:00 AM - Arrives Station D\nSuspect boarded at Station B and exited at the very next stop.",
+  "description": "Train schedule:\n10:00 PM - Departs Station A\n10:30 PM - Arrives Station B\n11:15 PM - Arrives Station C\n12:00 AM - Arrives Station D\nSuspect boarded at Station B and exited at the very next stop.",
   "question": "At which station did the suspect exit?",
-  "answer": "STATION C",
+  "acceptable_answer_format": "Type only the station name.\n\nExample:\nStation C",
+  "accepted_answers": [
+    "Station C",
+    "station c",
+    "STATION C",
+    "C",
+    "c"
+  ],
   "hints": [
     "Boarding station: Station B (10:30 PM).",
     "The very next stop on the line is Station C (11:15 PM)."
   ],
-  "solution": "Boarded at Station B (10:30 PM); the next stop is Station C at 11:15 PM."
+  "solution_explanation": "The suspect boarded at Station B (10:30 PM) and exited at the very next stop, which was Station C (11:15 PM).",
+  "time_limit": 180,
+  "reward_points": 100
 }

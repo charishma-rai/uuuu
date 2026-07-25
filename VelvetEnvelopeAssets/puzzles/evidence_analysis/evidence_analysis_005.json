@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_005",
   "title": "Ink Chromatography Analysis",
   "category": "evidence_analysis",
   "difficulty": "easy",
-  "description": "📝 Witness Deposition:\nRansom note ink: Water-soluble black ink.\nSuspect A pen: Iron gall ink\nSuspect B pen: Water-soluble black ink\nSuspect C pen: Blue ballpoint",
+  "description": "Ransom note ink: Water-soluble black ink.\nSuspect A pen: Iron gall ink\nSuspect B pen: Water-soluble black ink\nSuspect C pen: Blue ballpoint",
   "question": "Which suspect's pen was used?",
-  "answer": "SUSPECT B",
+  "acceptable_answer_format": "Type only the suspect letter or number.\n\nExample:\nSuspect B",
+  "accepted_answers": [
+    "Suspect B",
+    "suspect b",
+    "SUSPECT B",
+    "B",
+    "b"
+  ],
   "hints": [
     "Water-soluble black ink matches Suspect B."
   ],
-  "solution": "Suspect B matches water-soluble black ink."
+  "solution_explanation": "Ransom note ink is water-soluble black ink. Suspect B's pen uses water-soluble black ink.",
+  "time_limit": 180,
+  "reward_points": 100
 }

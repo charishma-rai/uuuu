@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_005",
   "title": "The Parlor Shift Note",
   "category": "cipher",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104 inspecting a slip of parchment found under the sofa cushion.",
-  "question": "Decrypt this message shifted by +2: 'VJG LCYGN KU KP VJG XCWNV'",
-  "answer": "THE JEWEL IS IN THE VAULT",
-  "hints": [
-    "Each letter has been shifted forward by 2 positions in the alphabet.",
-    "To decrypt, move each letter backward by 2 steps.",
-    "V minus 2 is T, J minus 2 is H, G minus 2 is E. VJG becomes THE."
+  "description": "A slip of parchment was discovered hidden under a parlor sofa cushion.\nThe text was encoded using a Caesar shift of +2.",
+  "question": "Decrypt this message shifted by +2:\n\nRFC NCKCJ GQ GL RFC TCYUR",
+  "acceptable_answer_format": "Type the decoded sentence exactly.\n\nExample:\nTHE KEY IS SAFE",
+  "accepted_answers": [
+    "THE JEWEL IS IN THE VAULT",
+    "the jewel is in the vault"
   ],
-  "solution": "Moving each letter backward by 2 steps (V->T, J->H, G->E) reveals: 'THE JEWEL IS IN THE VAULT'."
+  "hints": [
+    "Each letter has been shifted forward by 2 positions.",
+    "To decrypt, move each letter backward by 2 steps in the alphabet.",
+    "Shift backward: R - 2 = T? No, T - 2 = R, H - 2 = F, E - 2 = C, so RFC represents THE."
+  ],
+  "solution_explanation": "Moving each letter backward by 2 positions in the alphabet (R->T, F->H, C->E) reveals: 'THE JEWEL IS IN THE VAULT'.",
+  "time_limit": 180,
+  "reward_points": 100
 }

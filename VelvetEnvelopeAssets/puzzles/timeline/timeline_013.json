@@ -1,15 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_013",
   "title": "The Clock Tower Chimes Calculation",
   "category": "timeline",
   "difficulty": "hard",
-  "description": "📝 Witness Deposition:\nClock tower chimes 4 times at top of hour, followed by hour gongs.\nDetective hears 4 prelude chimes followed by 10 deep gongs.",
-  "question": "What time is it (e.g. 10:00)?",
-  "answer": "10:00",
+  "description": "The clock tower chimes 4 prelude notes at the top of the hour, followed by deep gongs matching the hour.\nThe detective hears 4 prelude chimes followed by 10 deep gongs.",
+  "question": "What time is it?",
+  "acceptable_answer_format": "Type the time.\n\nExample:\n10:00",
+  "accepted_answers": [
+    "10:00",
+    "10:00 PM",
+    "10:00 AM",
+    "10 o'clock"
+  ],
   "hints": [
     "4 prelude chimes signal top of the hour.",
     "Count of deep gongs = Hour of the day (10 gongs = 10 o'clock)."
   ],
-  "solution": "4 prelude chimes = top of hour; 10 gongs = 10:00."
+  "solution_explanation": "The 4 prelude chimes signal the top of the hour, and the 10 deep gongs indicate 10 o'clock (10:00).",
+  "time_limit": 450,
+  "reward_points": 300
 }

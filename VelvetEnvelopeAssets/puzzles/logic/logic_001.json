@@ -1,16 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "logic_001",
   "title": "Three Suspects and One Liar",
   "category": "logic",
   "difficulty": "easy",
-  "description": "📝 Witness Deposition of three suspects:\nAlice says: 'Bob was in the kitchen.'\nBob says: 'Charlie never left the study.'\nCharlie says: 'Alice is lying.'\nDetective note: Exactly ONE person is lying.",
+  "description": "Three suspects gave depositions after the theft:\nAlice says: 'Bob was in the kitchen.'\nBob says: 'Charlie never left the study.'\nCharlie says: 'Alice is lying.'\nDetective note: Exactly ONE person is lying.",
   "question": "Who is lying?",
-  "answer": "CHARLIE",
+  "acceptable_answer_format": "Type only the suspect's name.\n\nExample:\nAlice",
+  "accepted_answers": [
+    "Charlie",
+    "charlie",
+    "CHARLIE"
+  ],
   "hints": [
     "If Charlie is telling the truth, then Alice must be lying.",
     "If Alice lies, then Bob wasn't in the kitchen, but Bob's statement would need to be evaluated.",
     "Test Charlie being the liar: Alice is telling the truth, Bob is telling the truth. Everything remains consistent!"
   ],
-  "solution": "If Charlie is lying, Alice and Bob are both telling the truth. Alice says Bob was in the kitchen (True), Bob says Charlie was in the study (True). Thus, Charlie is the sole liar."
+  "solution_explanation": "If Charlie is lying, then Alice and Bob are both telling the truth. Alice says Bob was in the kitchen (True), and Bob says Charlie never left the study (True). This maintains consistency with exactly one liar.",
+  "time_limit": 180,
+  "reward_points": 100
 }

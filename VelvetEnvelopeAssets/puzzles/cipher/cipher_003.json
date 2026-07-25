@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_003",
   "title": "The Scullery Mirror Note",
   "category": "cipher",
   "difficulty": "easy",
-  "description": "📝 Witness Deposition scrap retrieved from the kitchen fireplace, written in reverse.",
-  "question": "Read the hidden phrase: 'RETSAM EHT SILLIK RELTUB EHT'",
-  "answer": "THE BUTLER KILLS THE MASTER",
+  "description": "A charred scrap of paper was retrieved from the kitchen fireplace.\nThe message was written entirely in reverse order.",
+  "question": "Read the hidden phrase:\n\nRETSAM EHT SILLIK RELTUB EHT",
+  "acceptable_answer_format": "Type the decoded sentence exactly.\n\nExample:\nTHE KEY IS SAFE",
+  "accepted_answers": [
+    "THE BUTLER KILLS THE MASTER",
+    "the butler kills the master"
+  ],
   "hints": [
     "The words are written completely backward.",
     "Start reading from the very last letter of the last word.",
     "Reverse each word: RETSAM -> MASTER, EHT -> THE, SILLIK -> KILLS, RELTUB -> BUTLER, EHT -> THE."
   ],
-  "solution": "Reading backwards word-by-word reveals: 'THE BUTLER KILLS THE MASTER'."
+  "solution_explanation": "Reading the words backwards from right to left reveals: 'THE BUTLER KILLS THE MASTER'.",
+  "time_limit": 180,
+  "reward_points": 100
 }

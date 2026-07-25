@@ -1,15 +1,20 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_001",
   "title": "The First Letter Acrostic",
   "category": "hidden_messages",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter:\n**P**lease come at once.\n**O**ver the ridge.\n**I**n the chapel.\n**S**ee the crypt.\n**O**btain key.\n**N**ow hurry.",
+  "description": "An anonymous letter contained the following verse:\n**P**lease come at once.\n**O**ver the ridge.\n**I**n the chapel.\n**S**ee the crypt.\n**O**btain key.\n**N**ow hurry.",
   "question": "Extract the secret word formed by the first letter of each line:",
-  "answer": "POISON",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nSECRET",
+  "accepted_answers": [
+    "POISON",
+    "poison"
+  ],
   "hints": [
     "Look at the first letter of each line.",
     "P-O-I-S-O-N."
   ],
-  "solution": "Taking the initial letter of each line spells POISON."
+  "solution_explanation": "Extracting the first letter of each line (**P**lease, **O**ver, **I**n, **S**ee, **O**btain, **N**ow) spells POISON.",
+  "time_limit": 180,
+  "reward_points": 100
 }

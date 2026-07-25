@@ -1,16 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "logic_005",
   "title": "The Four Heirs Inheritance",
   "category": "logic",
   "difficulty": "easy",
-  "description": "🗝️ Recovered Notebook Page:\nGeorge, Edward, and Henry are three brothers.\n1. George is older than Edward.\n2. Edward is older than Henry.\nRule: The oldest brother inherits the Manor.",
+  "description": "George, Edward, and Henry are three brothers.\n1. George is older than Edward.\n2. Edward is older than Henry.\nRule: The oldest brother inherits the Manor.",
   "question": "Which brother inherits the Manor?",
-  "answer": "GEORGE",
+  "acceptable_answer_format": "Type only the brother's name.\n\nExample:\nGeorge",
+  "accepted_answers": [
+    "George",
+    "george",
+    "GEORGE"
+  ],
   "hints": [
     "Compare ages: George > Edward.",
     "Edward > Henry.",
     "Order from oldest to youngest: George, Edward, Henry."
   ],
-  "solution": "George is older than Edward, who is older than Henry. George is the oldest and inherits the Manor."
+  "solution_explanation": "George is older than Edward, and Edward is older than Henry. George is the oldest brother and inherits the Manor.",
+  "time_limit": 180,
+  "reward_points": 100
 }

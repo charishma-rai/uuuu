@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_015",
   "title": "Comprehensive Lab Summary Match",
   "category": "evidence_analysis",
   "difficulty": "hard",
-  "description": "🧩 Locked Filing Cabinet:\nLab report: Fingerprint Loop, Footprint Size 9, Blood O negative.\nSuspect Alpha: Loop, Size 9, O negative\nSuspect Beta: Whorl, Size 11, AB positive",
+  "description": "Lab report summary: Fingerprint Loop, Footprint Size 9, Blood O negative.\nSuspect Alpha: Loop, Size 9, O negative\nSuspect Beta: Whorl, Size 11, AB positive",
   "question": "Which suspect matches the lab report summary?",
-  "answer": "SUSPECT ALPHA",
+  "acceptable_answer_format": "Type only the suspect designation.\n\nExample:\nSuspect Alpha",
+  "accepted_answers": [
+    "Suspect Alpha",
+    "suspect alpha",
+    "SUSPECT ALPHA",
+    "Alpha",
+    "alpha"
+  ],
   "hints": [
     "Suspect Alpha matches Loop, Size 9, O-."
   ],
-  "solution": "Suspect Alpha matches the lab report."
+  "solution_explanation": "Suspect Alpha matches all lab summary criteria: Fingerprint Loop, Footprint Size 9, and Blood O negative.",
+  "time_limit": 450,
+  "reward_points": 300
 }

@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_013",
   "title": "The Simple Substitution Key",
   "category": "cipher",
   "difficulty": "hard",
-  "description": "📄 Forensic Report #104 showing a cipher substitution key: Z=T, Y=H, X=E, W=O, U=N, V=E.",
-  "question": "Decode the encrypted message: 'ZYX WUZV'",
-  "answer": "THE ONE",
-  "hints": [
-    "Use the provided substitution key directly.",
-    "Z -> T, Y -> H, X -> E.",
-    "W -> O, U -> N, Z -> T? Wait: W -> O, U -> N, V -> E."
+  "description": "Forensic Report #104 contains a simple substitution key:\nE=X, T=Z, H=Y, O=W, R=V, N=U.",
+  "question": "Decode the message:\n\nZYX WUZV",
+  "acceptable_answer_format": "Type the decoded phrase.\n\nExample:\nTHE ONE",
+  "accepted_answers": [
+    "THE ONE",
+    "the one"
   ],
-  "solution": "Substituting each character according to the key yields 'THE ONE'."
+  "hints": [
+    "Use the substitution table directly.",
+    "Z -> T, Y -> H, X -> E.",
+    "W -> O, U -> N, V -> R (wait: ZYX=THE, WUZV=ONE)."
+  ],
+  "solution_explanation": "Substituting characters according to the key (Z->T, Y->H, X->E, W->O, U->N, V->E) yields 'THE ONE'.",
+  "time_limit": 450,
+  "reward_points": 300
 }

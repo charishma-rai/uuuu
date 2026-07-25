@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_003",
   "title": "The Wall Reflection Contradiction",
   "category": "witness_statements",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104:\nWitness A: 'I stood in the hallway and saw the killer's face reflected in the brick wall mirror.'\nArchitecture Report: The hallway brick wall contains zero mirrors.",
+  "description": "Witness A: 'I stood in the hallway and saw the killer's face reflected in the brick wall mirror.'\nArchitecture Report: The hallway brick wall contains zero mirrors.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS A",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness A",
+  "accepted_answers": [
+    "Witness A",
+    "witness a",
+    "WITNESS A",
+    "A",
+    "a"
+  ],
   "hints": [
     "There are no mirrors on the hallway brick wall."
   ],
-  "solution": "Witness A claimed to see a reflection in a non-existent mirror."
+  "solution_explanation": "The architecture report confirms the hallway brick wall contains zero mirrors. Witness A lied about seeing a reflection.",
+  "time_limit": 180,
+  "reward_points": 100
 }

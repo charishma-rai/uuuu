@@ -62,20 +62,26 @@ class PuzzleLoader:
         return [p for p in self.load_all_puzzles() if p.get("difficulty", "").lower() == diff_lower]
 
     def validate_answer(self, puzzle: Dict[str, Any], user_answer: str) -> bool:
-        """Validates player answer against solution key using flexible normalization."""
-        if not puzzle or "answer" not in puzzle or user_answer is None:
+        """Validates player answer against accepted_answers list using flexible normalization."""
+        if not puzzle or user_answer is None:
             return False
-        
-        target = str(puzzle["answer"]).strip().upper()
+
+        answers = puzzle.get("accepted_answers", [])
+        if not answers and "answer" in puzzle:
+            answers = [puzzle["answer"]]
+
         given = str(user_answer).strip().upper()
-        
-        if given == target:
-            return True
-            
-        target_clean = "".join(c for c in target if c.isalnum() or c.isspace())
-        given_clean = "".join(c for c in given if c.isalnum() or c.isspace())
-        
-        return target_clean == given_clean
+        given_clean = "".join(c for c in given if c.isalnum() or c.isspace()).strip()
+
+        for target in answers:
+            target_str = str(target).strip().upper()
+            if given == target_str:
+                return True
+            target_clean = "".join(c for c in target_str if c.isalnum() or c.isspace()).strip()
+            if given_clean == target_clean:
+                return True
+
+        return False
 
     def get_hint(self, puzzle: Dict[str, Any], hint_index: int) -> str:
         """Returns requested hint (1, 2, or 3) for a puzzle."""
@@ -89,17 +95,23 @@ class PuzzleLoader:
         cat = puzzle.get("category", "")
         cat_name = CATEGORY_DISPLAY_NAMES.get(cat, cat.title())
         diff = puzzle.get("difficulty", "medium").upper()
-        
+        time_limit = puzzle.get("time_limit", 180)
+        reward_points = puzzle.get("reward_points", 100)
+        fmt = puzzle.get("acceptable_answer_format", "")
+
         header = (
             f"\n"
             f"===============================================================\n"
             f"🕵️ VELVET ENVELOPE — CASE EVIDENCE FILE [{puzzle.get('id', 'N/A')}]\n"
             f"Category: {cat_name} | Difficulty: [{diff}]\n"
+            f"Time Limit: {time_limit}s | Reward: {reward_points} PTS\n"
             f"Title: {puzzle.get('title', 'Untitled')}\n"
             f"===============================================================\n\n"
             f"{puzzle.get('description', '')}\n\n"
             f"❓ INVESTIGATION QUESTION:\n"
-            f"{puzzle.get('question', '')}\n"
+            f"{puzzle.get('question', '')}\n\n"
+            f"📋 ANSWER FORMAT GUIDANCE:\n"
+            f"{fmt}\n"
             f"---------------------------------------------------------------\n"
         )
         return header

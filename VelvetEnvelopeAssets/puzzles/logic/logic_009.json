@@ -1,16 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "logic_009",
   "title": "The Poisoned Tea Cup Spectrum",
   "category": "logic",
   "difficulty": "medium",
-  "description": "📜 Anonymous Letter: 5 tea cups on the tray: Red, Blue, Green, Yellow, White.\n1. The poison is in a cup of non-primary color (Primary: Red, Blue, Yellow).\n2. The poison is NOT in the White cup.",
+  "description": "5 tea cups are on the tray: Red, Blue, Green, Yellow, White.\n1. The poison is in a cup of non-primary color (Primary colors: Red, Blue, Yellow).\n2. The poison is NOT in the White cup.",
   "question": "Which colored cup contains the poison?",
-  "answer": "GREEN",
+  "acceptable_answer_format": "Type only the color name.\n\nExample:\nGreen",
+  "accepted_answers": [
+    "Green",
+    "green",
+    "GREEN",
+    "The Green Cup"
+  ],
   "hints": [
     "Primary colors are Red, Blue, Yellow.",
     "Non-primary cups on the tray are Green and White.",
     "Rule 2 eliminates White, leaving Green."
   ],
-  "solution": "Non-primary colors present: Green and White. Rule 2 rules out White. Therefore, Green contains the poison."
+  "solution_explanation": "The non-primary color cups are Green and White. Rule 2 eliminates White, leaving Green as the poisoned cup.",
+  "time_limit": 300,
+  "reward_points": 200
 }

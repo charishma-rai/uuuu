@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_009",
   "title": "Fabric Fiber Matching",
   "category": "evidence_analysis",
   "difficulty": "medium",
-  "description": "📂 Evidence Folder #7:\nWindow latch snagged fiber: Green velvet.\nSuspect A: Tweed suit\nSuspect B: Green velvet jacket\nSuspect C: Silk gown",
+  "description": "Window latch snagged fiber: Green velvet.\nSuspect A: Tweed suit\nSuspect B: Green velvet jacket\nSuspect C: Silk gown",
   "question": "Which suspect's clothing matches the fiber?",
-  "answer": "SUSPECT B",
+  "acceptable_answer_format": "Type only the suspect letter or number.\n\nExample:\nSuspect B",
+  "accepted_answers": [
+    "Suspect B",
+    "suspect b",
+    "SUSPECT B",
+    "B",
+    "b"
+  ],
   "hints": [
     "Green velvet jacket matches Suspect B."
   ],
-  "solution": "Suspect B matches green velvet fiber."
+  "solution_explanation": "Window latch snagged a green velvet fiber. Suspect B was wearing a green velvet jacket.",
+  "time_limit": 300,
+  "reward_points": 200
 }

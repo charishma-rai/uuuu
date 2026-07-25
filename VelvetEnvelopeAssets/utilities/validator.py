@@ -5,7 +5,9 @@ from typing import Dict, Any
 
 REQUIRED_PUZZLE_FIELDS = [
     "id", "title", "category", "difficulty",
-    "description", "question", "answer", "hints", "solution"
+    "description", "question", "acceptable_answer_format",
+    "accepted_answers", "hints", "solution_explanation",
+    "time_limit", "reward_points"
 ]
 
 VALID_CATEGORIES = [
@@ -64,9 +66,23 @@ class RepositoryValidator:
                         if field not in data:
                             results["errors"].append(f"Puzzle {json_file.name} missing required field '{field}'")
 
+                    if "accepted_answers" in data:
+                        if not isinstance(data["accepted_answers"], list) or len(data["accepted_answers"]) == 0:
+                            results["errors"].append(f"Puzzle {json_file.name} 'accepted_answers' must be a non-empty list")
+                        elif not all(isinstance(ans, str) for ans in data["accepted_answers"]):
+                            results["errors"].append(f"Puzzle {json_file.name} 'accepted_answers' must contain only strings")
+
                     if "hints" in data:
                         if not isinstance(data["hints"], list) or len(data["hints"]) != 3:
                             results["errors"].append(f"Puzzle {json_file.name} must have exactly 3 hints")
+
+                    if "time_limit" in data:
+                        if not isinstance(data["time_limit"], int) or data["time_limit"] <= 0:
+                            results["errors"].append(f"Puzzle {json_file.name} 'time_limit' must be a positive integer")
+
+                    if "reward_points" in data:
+                        if not isinstance(data["reward_points"], int) or data["reward_points"] <= 0:
+                            results["errors"].append(f"Puzzle {json_file.name} 'reward_points' must be a positive integer")
 
                     cat_val = data.get("category", "").lower()
                     if cat_val != cat:

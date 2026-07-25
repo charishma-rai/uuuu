@@ -1,15 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_002",
   "title": "The Clock Chimes Contradiction",
   "category": "witness_statements",
   "difficulty": "easy",
-  "description": "📂 Evidence Folder #7:\nWitness C: 'I heard the parlor grandfather clock chime 12 full times at 12:30 AM.'\nClockmaker Inspection: The parlor clock chimes once at half-past, and hour counts only at the top of the hour.",
+  "description": "Witness C: 'I heard the parlor grandfather clock chime 12 full times at 12:30 AM.'\nClockmaker Inspection: The parlor clock chimes once at half-past, and hour counts only at the top of the hour.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS C",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness C",
+  "accepted_answers": [
+    "Witness C",
+    "witness c",
+    "WITNESS C",
+    "C",
+    "c"
+  ],
   "hints": [
     "Grandfather clocks chime once on half-hours.",
     "Witness C claims 12 chimes at 12:30 AM."
   ],
-  "solution": "Grandfather clocks chime only once at half-hours. Witness C lied about hearing 12 chimes at 12:30."
+  "solution_explanation": "Grandfather clocks chime only once on half-hours. Witness C lied about hearing 12 full chimes at 12:30 AM.",
+  "time_limit": 180,
+  "reward_points": 100
 }

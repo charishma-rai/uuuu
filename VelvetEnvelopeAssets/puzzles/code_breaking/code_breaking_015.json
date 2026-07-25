@@ -1,15 +1,20 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_015",
   "title": "The Double Shift Micro-Lock",
   "category": "code_breaking",
   "difficulty": "hard",
-  "description": "📝 Witness Deposition: Shift letter 'A' forward by 2, then forward by 3.",
+  "description": "Shift letter 'A' forward by 2 positions, then forward by 3 positions.",
   "question": "What final letter is reached?",
-  "answer": "F",
+  "acceptable_answer_format": "Type only the final letter.\n\nExample:\nF",
+  "accepted_answers": [
+    "F",
+    "f"
+  ],
   "hints": [
     "A + 2 = C.",
     "C + 3 = F."
   ],
-  "solution": "A -> C -> F."
+  "solution_explanation": "Shifting 'A' forward by 2 positions gives 'C'. Shifting 'C' forward by 3 positions gives 'F'.",
+  "time_limit": 450,
+  "reward_points": 300
 }

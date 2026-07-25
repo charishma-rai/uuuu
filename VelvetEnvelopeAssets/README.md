@@ -45,20 +45,26 @@ Every puzzle is stored as an individual JSON file matching the strict schema:
 
 ```json
 {
-  "schema_version": "1.0",
   "id": "cipher_001",
   "title": "The Cipher of Lord Blackwood",
   "category": "cipher",
   "difficulty": "easy",
-  "description": "🗝️ Recovered Notebook Page found in Lord Blackwood's study. The message is encrypted using a Caesar shift (+3).",
-  "question": "Decrypt the message: 'PHHW PH DW PIGQLJKW'",
-  "answer": "MEET ME AT MIDNIGHT",
+  "description": "A coded page was recovered from Lord Blackwood's study desk.\nThe message appears encrypted using a Caesar shift of +3.",
+  "question": "Decrypt the message:\n\nPHHW PH DW PLGQLJKW",
+  "acceptable_answer_format": "Type the decoded sentence exactly.\n\nExample:\nTHE KEY IS SAFE",
+  "accepted_answers": [
+    "MEET ME AT MIDNIGHT",
+    "meet me at midnight",
+    "Meet Me At Midnight"
+  ],
   "hints": [
-    "The letters appear consistently shifted by the same offset.",
+    "The letters appear consistently shifted by the same alphabet offset.",
     "Try moving each letter backward by 3 positions in the alphabet.",
     "P minus 3 positions is M, H minus 3 is E, W minus 3 is T."
   ],
-  "solution": "Shift each letter backward by 3 positions (P->M, H->E, H->E, W->T). Decoded phrase: MEET ME AT MIDNIGHT."
+  "solution_explanation": "Shift each letter backward by 3 positions in the alphabet (P->M, H->E, H->E, W->T). Decoded phrase: MEET ME AT MIDNIGHT.",
+  "time_limit": 180,
+  "reward_points": 100
 }
 ```
 

@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "logic_002",
   "title": "The Room Placement Grid",
   "category": "logic",
   "difficulty": "easy",
-  "description": "📂 Evidence Folder #7: The Maid, Butler, and Chef were in separate rooms (Library, Kitchen, Study).\n1. The Maid was in the Library.\n2. The Chef was NOT in the Kitchen.",
+  "description": "The Maid, Butler, and Chef were in separate rooms (Library, Kitchen, Study).\n1. The Maid was in the Library.\n2. The Chef was NOT in the Kitchen.",
   "question": "In which room was the Butler?",
-  "answer": "KITCHEN",
+  "acceptable_answer_format": "Type only the room name.\n\nExample:\nKitchen",
+  "accepted_answers": [
+    "Kitchen",
+    "kitchen",
+    "KITCHEN",
+    "The Kitchen",
+    "the kitchen"
+  ],
   "hints": [
     "The Maid occupies the Library.",
     "The Chef cannot be in the Library (Maid is there) or the Kitchen (rule 2).",
     "Therefore, the Chef must be in the Study, leaving the Kitchen for the Butler."
   ],
-  "solution": "Maid = Library. Chef cannot be in Kitchen or Library, so Chef = Study. Therefore, Butler = Kitchen."
+  "solution_explanation": "Maid is in the Library. Chef cannot be in Library or Kitchen, so Chef is in the Study. This leaves the Kitchen for the Butler.",
+  "time_limit": 180,
+  "reward_points": 100
 }

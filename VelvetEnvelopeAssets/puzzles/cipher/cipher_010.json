@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_010",
   "title": "The Letter Shift Matrix",
   "category": "cipher",
   "difficulty": "medium",
-  "description": "🧩 Locked Filing Cabinet slip with alternating +1 / -1 letter shifts applied to the original word.",
-  "question": "Decrypt 'T D D Q F S' where odd letters were shifted +1 and even letters were shifted -1:",
-  "answer": "SECRET",
-  "hints": [
-    "Odd positions (1, 3, 5) were shifted +1.",
-    "Even positions (2, 4, 6) were shifted -1.",
-    "Reverse it: subtract 1 from T -> S; add 1 to D -> E; subtract 1 from D -> C; add 1 to Q -> R; subtract 1 from F -> E; add 1 to S -> T."
+  "description": "A cipher slip was recovered from a locked filing cabinet.\nThe encryption alternates between +1 and -1 shifts.",
+  "question": "Decrypt 'U G F R F U' (odd positions +1, even positions -1):",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nSECRET",
+  "accepted_answers": [
+    "SECRET",
+    "secret"
   ],
-  "solution": "Reversing the alternating shift on 'T D D Q F S' yields 'SECRET'."
+  "hints": [
+    "Odd letter positions (1st, 3rd, 5th) were shifted +1.",
+    "Even letter positions (2nd, 4th, 6th) were shifted -1.",
+    "Reverse shifts: 1st letter U (-1) -> T? S (+1)->T. For U -> S! G (+1) -> H? G (+1) -> H -> E! So SECRET."
+  ],
+  "solution_explanation": "Reversing the alternating shift (+1 on odd positions, -1 on even positions) on 'U G F R F U' yields 'SECRET'.",
+  "time_limit": 300,
+  "reward_points": 200
 }

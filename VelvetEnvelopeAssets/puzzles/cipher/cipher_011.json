@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_011",
   "title": "The Vigenère Cryptogram",
   "category": "cipher",
   "difficulty": "hard",
-  "description": "🔐 Encrypted USB Drive containing a Vigenère cipher encrypted with key 'KEY' (K=10, E=4, Y=24).",
-  "question": "Decrypt the cipher text 'KGX' using keyword 'KEY':",
-  "answer": "ACT",
-  "hints": [
-    "Vigenère cipher adds key letter index to plaintext letter index mod 26.",
-    "Subtract K(10) from K(10) -> 0 -> A.",
-    "Subtract E(4) from G(6) -> 2 -> C. Subtract Y(24) from X(23 mod 26) -> 19 -> T."
+  "description": "An encrypted USB drive contained a Vigenère cipher file.\nThe key used for encryption is 'KEY'.",
+  "question": "Decrypt the cipher text 'DLI' using keyword 'KEY':",
+  "acceptable_answer_format": "Type the decoded word.\n\nExample:\nACT",
+  "accepted_answers": [
+    "ACT",
+    "act"
   ],
-  "solution": "Subtracting key values of 'KEY' from cipher text 'KGX' yields 'ACT'."
+  "hints": [
+    "Vigenère cipher adds key values to plaintext values.",
+    "Key values: K=10, E=4, Y=24.",
+    "Subtract key value from cipher text letter modulo 26."
+  ],
+  "solution_explanation": "Subtracting the key values of 'KEY' (K=10, E=4, Y=24) modulo 26 from cipher text 'DLI' yields 'ACT'.",
+  "time_limit": 450,
+  "reward_points": 300
 }

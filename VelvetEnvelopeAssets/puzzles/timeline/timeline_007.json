@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_007",
   "title": "The Telegram Reading Sequence",
   "category": "timeline",
   "difficulty": "medium",
-  "description": "🧩 Locked Filing Cabinet:\nTelegram A sent at 11:00 AM.\nTelegram B sent at 11:20 AM.\nTelegram C sent at 11:45 AM.\nReceiver read Telegram B first, then Telegram A, then Telegram C.",
+  "description": "Telegram dispatch timestamps:\nTelegram A sent at 11:00 AM.\nTelegram B sent at 11:20 AM.\nTelegram C sent at 11:45 AM.\nReceiver read Telegram B first, then Telegram A, then Telegram C.",
   "question": "Which telegram was read SECOND?",
-  "answer": "TELEGRAM A",
+  "acceptable_answer_format": "Type only the telegram name.\n\nExample:\nTelegram A",
+  "accepted_answers": [
+    "Telegram A",
+    "telegram a",
+    "TELEGRAM A",
+    "A",
+    "a"
+  ],
   "hints": [
     "Reading sequence: 1st = Telegram B, 2nd = Telegram A, 3rd = Telegram C."
   ],
-  "solution": "The receiver read Telegram A second in sequence."
+  "solution_explanation": "The receiver read Telegram B first, Telegram A second, and Telegram C third. Telegram A was read second.",
+  "time_limit": 300,
+  "reward_points": 200
 }

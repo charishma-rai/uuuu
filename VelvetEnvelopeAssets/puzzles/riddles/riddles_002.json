@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "riddles_002",
   "title": "The Broken Pocket Watch",
   "category": "riddles",
   "difficulty": "easy",
-  "description": "🗝️ Recovered Notebook Page: The victim was thrown from the manor balcony into the river below. When recovered, his pocket watch had stopped completely due to water impact at 10:15.",
+  "description": "The victim was thrown from the manor balcony into the river below.\nWhen recovered, his pocket watch had stopped completely due to water impact at 10:15.",
   "question": "At what exact time did the victim hit the water?",
-  "answer": "10:15 PM",
+  "acceptable_answer_format": "Type the time.\n\nExample:\n10:15 PM",
+  "accepted_answers": [
+    "10:15 PM",
+    "10:15 pm",
+    "10:15PM",
+    "10:15",
+    "10:15 P.M."
+  ],
   "hints": [
     "The watch mechanism broke instantly upon violent contact with the water.",
     "Look at the hands of the stopped timepiece.",
     "The time displayed on the hands is the exact moment of impact: 10:15."
   ],
-  "solution": "The impact of hitting the water instantly shattered the watch movement, freezing the hands at 10:15 PM."
+  "solution_explanation": "The violent impact of hitting the water instantly stopped the mechanical movement of the pocket watch, freezing the hands at 10:15 PM.",
+  "time_limit": 180,
+  "reward_points": 100
 }

@@ -1,15 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_015",
   "title": "The Thermal Body Decay TOD",
   "category": "timeline",
   "difficulty": "hard",
-  "description": "📄 Forensic Report #104:\nNormal body temp: 98.6°F.\nScene body temp: 89.6°F.\nCooling rate: 1.5°F per hour.",
+  "description": "Normal body temperature: 98.6°F.\nCrime scene body temperature measured: 89.6°F.\nBody cooling rate: 1.5°F per hour.",
   "question": "How many hours prior to measurement did the victim die?",
-  "answer": "6 HOURS",
+  "acceptable_answer_format": "Type the number of hours.\n\nExample:\n6 hours",
+  "accepted_answers": [
+    "6 hours",
+    "6 HOURS",
+    "6",
+    "six hours",
+    "6 Hours"
+  ],
   "hints": [
     "Temperature drop = 98.6°F - 89.6°F = 9.0°F.",
     "Divide drop by rate: 9.0 / 1.5 = 6 hours."
   ],
-  "solution": "9.0°F drop / 1.5°F per hour = 6 hours."
+  "solution_explanation": "Body temp drop = 98.6°F - 89.6°F = 9.0°F. At a cooling rate of 1.5°F per hour, 9.0 / 1.5 = 6 hours prior to measurement.",
+  "time_limit": 450,
+  "reward_points": 300
 }

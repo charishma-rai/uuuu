@@ -1,14 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_011",
   "title": "Line First-Letter Book Acrostic",
   "category": "hidden_messages",
   "difficulty": "hard",
-  "description": "📂 Evidence Folder #7:\n**A**lways watch him.\n**L**ook at hands.\n**I**nspect coat.\n**B**eware trap.\n**I**nspect vault.",
+  "description": "An acrostic note reads:\n**A**lways watch him.\n**L**ook at hands.\n**I**nspect coat.\n**B**eware trap.\n**I**nspect vault.",
   "question": "What secret word is formed by line initial letters?",
-  "answer": "ALIBI",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nALIBI",
+  "accepted_answers": [
+    "ALIBI",
+    "alibi"
+  ],
   "hints": [
     "A-L-I-B-I."
   ],
-  "solution": "First letters spell ALIBI."
+  "solution_explanation": "Taking the initial letter of each line (**A**lways, **L**ook, **I**nspect, **B**eware, **I**nspect) spells ALIBI.",
+  "time_limit": 450,
+  "reward_points": 300
 }

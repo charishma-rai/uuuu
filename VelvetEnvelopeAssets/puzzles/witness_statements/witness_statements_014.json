@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_014",
   "title": "The Sodium Gaslamp Color Contradiction",
   "category": "witness_statements",
   "difficulty": "hard",
-  "description": "📻 Decoded Radio Transmission:\nWitness C: 'Under the monochromatic yellow sodium gaslamp, I clearly distinguished the killer's bright red ribbon from a green ribbon.'",
+  "description": "Witness C: 'Under the monochromatic yellow sodium gaslamp, I clearly distinguished the killer's bright red ribbon from a green ribbon.'",
   "question": "Which witness is lying?",
-  "answer": "WITNESS C",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness C",
+  "accepted_answers": [
+    "Witness C",
+    "witness c",
+    "WITNESS C",
+    "C",
+    "c"
+  ],
   "hints": [
     "Monochromatic sodium light renders red and green as identical dark gray."
   ],
-  "solution": "Color discrimination under monochromatic light is impossible. Witness C lied."
+  "solution_explanation": "Monochromatic yellow sodium light renders red and green as identical shades of dark gray, making color discrimination impossible. Witness C lied.",
+  "time_limit": 450,
+  "reward_points": 300
 }

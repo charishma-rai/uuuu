@@ -48,7 +48,7 @@ class DetectivePuzzleSession:
                 f"Your Answer: '{player_answer}'\n"
                 f"---------------------------------------------------------------\n"
                 f"🔍 DETECTIVE SOLUTION & EVIDENCE REVEALED:\n"
-                f"{self.current_puzzle.get('solution', '')}\n"
+                f"{self.current_puzzle.get('solution_explanation', self.current_puzzle.get('solution', ''))}\n"
                 f"===============================================================\n"
             )
             return res

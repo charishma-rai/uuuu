@@ -1,16 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "logic_012",
   "title": "Logical Implications of Guilt",
   "category": "logic",
   "difficulty": "hard",
-  "description": "🗝️ Recovered Notebook Page:\n1. If Suspect A is innocent, then Suspect B is guilty.\n2. If Suspect B is guilty, then Suspect C has the weapon.\n3. Forensic evidence proves Suspect C does NOT have the weapon.",
-  "question": "Is Suspect A INNOCENT or GUILTY?",
-  "answer": "GUILTY",
+  "description": "1. If Suspect A is innocent, then Suspect B is guilty.\n2. If Suspect B is guilty, then Suspect C has the weapon.\n3. Forensic evidence proves Suspect C does NOT have the weapon.",
+  "question": "Is Suspect A Innocent or Guilty?",
+  "acceptable_answer_format": "Type Innocent or Guilty.\n\nExample:\nGuilty",
+  "accepted_answers": [
+    "Guilty",
+    "guilty",
+    "GUILTY"
+  ],
   "hints": [
     "Work backward from premise 3: C does not have the weapon.",
     "By contrapositive of premise 2: If C doesn't have weapon -> B is NOT guilty.",
     "By contrapositive of premise 1: If B is not guilty -> A is NOT innocent (A is GUILTY)."
   ],
-  "solution": "C has no weapon -> B is not guilty -> A is not innocent. Therefore, Suspect A is GUILTY."
+  "solution_explanation": "Since Suspect C does not have the weapon, by contrapositive B is not guilty. If B is not guilty, by contrapositive Suspect A is not innocent. Therefore, Suspect A is GUILTY.",
+  "time_limit": 450,
+  "reward_points": 300
 }

@@ -1,14 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_014",
   "title": "Multi-Layer Symmetric PIN",
   "category": "code_breaking",
   "difficulty": "hard",
-  "description": "📜 Anonymous Letter: 4-digit code. Symmetrical (palindrome). First digit is 3. Second is 9.",
+  "description": "A 4-digit code is symmetrical (palindrome). First digit is 3. Second digit is 9.",
   "question": "What is the complete 4-digit code?",
-  "answer": "3993",
+  "acceptable_answer_format": "Type only the 4-digit code.\n\nExample:\n3993",
+  "accepted_answers": [
+    "3993",
+    "3-9-9-3"
+  ],
   "hints": [
     "Symmetrical means digit 4 = digit 1 (3), digit 3 = digit 2 (9)."
   ],
-  "solution": "3-9-9-3."
+  "solution_explanation": "A symmetrical 4-digit code starting with 3 and 9 mirrors its digits as 3-9-9-3.",
+  "time_limit": 450,
+  "reward_points": 300
 }

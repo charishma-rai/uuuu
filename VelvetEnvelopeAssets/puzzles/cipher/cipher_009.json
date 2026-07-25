@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_009",
   "title": "The Clockmaker's Book Cipher",
   "category": "cipher",
   "difficulty": "medium",
-  "description": "🗝️ Recovered Notebook Page listing numerical references: '1-1-1 2-1-2'.\nPage excerpt:\nLine 1: BEWARE ALL TRAITORS\nLine 2: THE COUSIN FLEES",
-  "question": "Translate the code 1-1-1 (Line 1, Word 1) 2-1-2 (Line 2, Word 2) to identify the target warning.",
-  "answer": "BEWARE COUSIN",
+  "description": "A notebook page listed numerical references: '1-1-1 2-1-2'.\nFound beside the book with pages:\nLine 1: BEWARE ALL TRAITORS\nLine 2: THE COUSIN FLEES\nLine 3: IN NIGHT FALL",
+  "question": "Translate the code 1-1-1 (Line 1, Word 1) 2-1-2 (Line 2, Word 2) to identify the target:",
+  "acceptable_answer_format": "Type the decoded phrase.\n\nExample:\nTHE KEY",
+  "accepted_answers": [
+    "BEWARE COUSIN",
+    "beware cousin"
+  ],
   "hints": [
     "Book ciphers use pairs or triplets: Line Number - Word Number.",
     "Line 1, Word 1 is 'BEWARE'.",
     "Line 2, Word 2 is 'COUSIN'."
   ],
-  "solution": "Lookup 1-1-1 gives 'BEWARE' and 2-1-2 gives 'COUSIN'. Combined answer: BEWARE COUSIN."
+  "solution_explanation": "Lookup 1-1-1 gives 'BEWARE' from Line 1, and 2-1-2 gives 'COUSIN' from Line 2. Combined phrase: BEWARE COUSIN.",
+  "time_limit": 300,
+  "reward_points": 200
 }

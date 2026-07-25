@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_004",
   "title": "The Cold Tea Cup Contradiction",
   "category": "witness_statements",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter:\nWitness B: 'The victim poured steaming hot tea 1 minute before he died at 9:00 PM.'\nForensic Test: The tea cup on the desk was frozen solid with ice.",
+  "description": "Witness B: 'The victim poured steaming hot tea 1 minute before he died at 9:00 PM.'\nForensic Test: The tea cup on the desk was frozen solid with ice.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS B",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness B",
+  "accepted_answers": [
+    "Witness B",
+    "witness b",
+    "WITNESS B",
+    "B",
+    "b"
+  ],
   "hints": [
     "Steaming tea cannot freeze solid in 1 minute."
   ],
-  "solution": "Witness B's claim of steaming hot tea contradicts the frozen tea cup."
+  "solution_explanation": "Steaming hot tea cannot turn into solid ice within 1 minute. Witness B's claim contradicts physical facts.",
+  "time_limit": 180,
+  "reward_points": 100
 }

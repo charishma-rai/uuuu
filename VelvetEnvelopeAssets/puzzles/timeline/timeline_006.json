@@ -1,15 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_006",
   "title": "The Lighthouse Signal Disruption",
   "category": "timeline",
   "difficulty": "medium",
-  "description": "📻 Decoded Radio Transmission:\n10:00 PM - 1 Flash\n10:15 PM - 2 Flashes\n10:30 PM - 3 Flashes\nLog note: Signal disrupted after the 2nd flash sequence but before the 3rd flash sequence.",
+  "description": "Lighthouse log:\n10:00 PM - 1 Flash\n10:15 PM - 2 Flashes\n10:30 PM - 3 Flashes\nLog note: Signal disrupted after the 2nd flash sequence but before the 3rd flash sequence.",
   "question": "Between what times did the disruption occur (e.g. 10:15 PM AND 10:30 PM)?",
-  "answer": "10:15 PM AND 10:30 PM",
+  "acceptable_answer_format": "Type the time window.\n\nExample:\n10:15 PM AND 10:30 PM",
+  "accepted_answers": [
+    "10:15 PM AND 10:30 PM",
+    "10:15 PM and 10:30 PM",
+    "10:15 AND 10:30",
+    "10:15-10:30 PM"
+  ],
   "hints": [
     "2nd flash occurred at 10:15 PM.",
     "3rd flash occurred at 10:30 PM."
   ],
-  "solution": "Disruption occurred in the interval between 10:15 PM (2nd flash) and 10:30 PM (3rd flash)."
+  "solution_explanation": "The 2nd flash sequence occurred at 10:15 PM and the 3rd flash sequence was at 10:30 PM. The disruption happened between 10:15 PM and 10:30 PM.",
+  "time_limit": 300,
+  "reward_points": 200
 }

@@ -1,14 +1,18 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_009",
   "title": "The Binary Telegraph Code",
   "category": "code_breaking",
   "difficulty": "medium",
-  "description": "🧩 Locked Filing Cabinet: Binary 0001 = 1, 0010 = 2, 0011 = 3, 0100 = ?",
+  "description": "Binary mapping: 0001 = 1, 0010 = 2, 0011 = 3, 0100 = ?",
   "question": "What decimal number does binary 0100 represent?",
-  "answer": "4",
+  "acceptable_answer_format": "Type only the decimal number.\n\nExample:\n4",
+  "accepted_answers": [
+    "4"
+  ],
   "hints": [
     "Binary 0100 = 2^2 = 4."
   ],
-  "solution": "Binary 0100 equals decimal 4."
+  "solution_explanation": "Binary 0100 equals decimal 4 (0*8 + 1*4 + 0*2 + 0*1 = 4).",
+  "time_limit": 300,
+  "reward_points": 200
 }

@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "riddles_004",
   "title": "The Staged Suicide",
   "category": "riddles",
   "difficulty": "easy",
-  "description": "📂 Evidence Folder #7: Lord Vance was found dead at his desk with a gunshot wound to his right temple. The revolver was clutched tightly in his left hand, but gunpowder residue was only on his right cheek.",
-  "question": "Was this SUICIDE or MURDER?",
-  "answer": "MURDER",
+  "description": "Lord Vance was found dead at his desk with a gunshot wound to his right temple.\nThe revolver was clutched tightly in his left hand, but gunpowder residue was only on his right cheek.",
+  "question": "Was this suicide or murder?",
+  "acceptable_answer_format": "Type Murder or Suicide.\n\nExample:\nMurder",
+  "accepted_answers": [
+    "Murder",
+    "murder",
+    "MURDER",
+    "It was murder",
+    "Staged murder"
+  ],
   "hints": [
     "A left-handed shooter would have gunpowder residue on their left hand.",
     "The wound location and hand holding the gun do not match.",
     "The killer placed the gun in the victim's left hand after shooting him from the right."
   ],
-  "solution": "It was murder. The killer shot Lord Vance on his right side and staged the scene by forcing the gun into the victim's left hand."
+  "solution_explanation": "Gunpowder residue was found on the victim's right cheek from a shot fired from the right, but the gun was found in his left hand. The killer placed the gun in his left hand after shooting him.",
+  "time_limit": 180,
+  "reward_points": 100
 }

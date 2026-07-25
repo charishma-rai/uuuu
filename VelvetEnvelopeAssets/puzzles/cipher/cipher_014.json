@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_014",
   "title": "The Columnar Transposition",
   "category": "cipher",
   "difficulty": "hard",
-  "description": "📂 Evidence Folder #7 containing a 3-column transposition cipher.",
-  "question": "Columns read vertically down: Column 1: 'TSN', Column 2: 'HIN', Column 3: 'EEG'. Reconstruct row-by-row (Row 1: T-H-E, Row 2: S-I-E, Row 3: N-N-G):",
-  "answer": "THE SIGN",
+  "description": "Evidence Folder #7 contained a 3-column transposition cipher.\nColumns read: Col 1: 'TSN', Col 2: 'HIO', Col 3: 'EEN'.",
+  "question": "Reconstruct row-by-row (Row 1: T-H-E, Row 2: S-I-G, Row 3: N):",
+  "acceptable_answer_format": "Type the decoded phrase.\n\nExample:\nTHE SIGN",
+  "accepted_answers": [
+    "THE SIGN",
+    "the sign"
+  ],
   "hints": [
-    "Read characters horizontally across rows from Column 1, Column 2, Column 3.",
+    "Read characters across rows from Column 1, Column 2, Column 3.",
     "Row 1: T H E -> THE.",
     "Row 2: S I G -> SIG... Row 3: N."
   ],
-  "solution": "Reading row by row from the 3 columns gives 'THE SIGN'."
+  "solution_explanation": "Reading row by row across the 3 columns (Row 1: T-H-E, Row 2: S-I-G, Row 3: N) produces 'THE SIGN'.",
+  "time_limit": 450,
+  "reward_points": 300
 }

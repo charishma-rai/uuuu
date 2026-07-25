@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_007",
   "title": "Diagonal Word Grid",
   "category": "hidden_messages",
   "difficulty": "medium",
-  "description": "🧩 Locked Filing Cabinet 4x4 Grid:\nL A B C\nD O E F\nG H O I\nJ K L K",
+  "description": "A 4x4 Grid was recovered from a locked cabinet:\nL A B C\nD O E F\nG H O I\nJ K L K",
   "question": "Read top-left to bottom-right main diagonal:",
-  "answer": "LOOK",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nSECRET",
+  "accepted_answers": [
+    "LOOK",
+    "look"
+  ],
   "hints": [
     "Row 1 Col 1 = L.",
     "Row 2 Col 2 = O.",
     "Row 3 Col 3 = O, Row 4 Col 4 = K."
   ],
-  "solution": "Main diagonal L-O-O-K spells LOOK."
+  "solution_explanation": "Reading from top-left to bottom-right along the main diagonal (Row 1 Col 1=L, Row 2 Col 2=O, Row 3 Col 3=O, Row 4 Col 4=K) spells LOOK.",
+  "time_limit": 300,
+  "reward_points": 200
 }

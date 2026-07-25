@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_008",
   "title": "The Smoke Residue Contradiction",
   "category": "witness_statements",
   "difficulty": "medium",
-  "description": "🔐 Encrypted USB Drive:\nWitness C: 'The victim smoked 3 cigars with me right before he died.'\nAutopsy Report: Zero tobacco smoke residue or carbon monoxide in victim's lungs.",
+  "description": "Witness C: 'The victim smoked 3 cigars with me right before he died.'\nAutopsy Report: Zero tobacco smoke residue or carbon monoxide in victim's lungs.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS C",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness C",
+  "accepted_answers": [
+    "Witness C",
+    "witness c",
+    "WITNESS C",
+    "C",
+    "c"
+  ],
   "hints": [
     "Autopsy proves victim inhaled no smoke."
   ],
-  "solution": "Autopsy lung findings disprove Witness C's claim."
+  "solution_explanation": "Autopsy confirmed zero tobacco smoke residue or carbon monoxide in victim's lungs, disproving Witness C's claim that they smoked 3 cigars.",
+  "time_limit": 300,
+  "reward_points": 200
 }

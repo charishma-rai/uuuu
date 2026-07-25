@@ -1,16 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "logic_008",
   "title": "The Missing Emerald Ring",
   "category": "logic",
   "difficulty": "medium",
-  "description": "🔐 Encrypted USB Drive:\nSuspect X says: 'Y took the ring.'\nSuspect Y says: 'I did not take the ring.'\nSuspect Z says: 'X is lying.'\nDetective note: Exactly ONE of these statements is TRUE.",
+  "description": "Suspect X says: 'Y took the ring.'\nSuspect Y says: 'I did not take the ring.'\nSuspect Z says: 'X is lying.'\nDetective note: Exactly ONE of these statements is TRUE.",
   "question": "Who took the emerald ring?",
-  "answer": "Y",
+  "acceptable_answer_format": "Type only the suspect letter.\n\nExample:\nY",
+  "accepted_answers": [
+    "Y",
+    "y",
+    "Suspect Y",
+    "suspect y"
+  ],
   "hints": [
     "Notice that X's statement and Y's statement directly contradict each other.",
     "One of X or Y MUST be telling the truth, and the other lying.",
     "Since exactly ONE statement is true, Z's statement must be FALSE! Z says 'X is lying' is False -> X is telling the Truth ('Y took the ring')."
   ],
-  "solution": "X and Y contradict each other, so one is true. Thus, Z's statement is false ('X is lying' = false -> X tells truth). X says Y took the ring. Y is guilty."
+  "solution_explanation": "X and Y make contradictory claims, so one is telling the truth and the other is lying. Because exactly one statement is true, Z's statement must be false ('X is lying' = false -> X tells the truth). X says Y took the ring, so Y is guilty.",
+  "time_limit": 300,
+  "reward_points": 200
 }

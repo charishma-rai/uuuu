@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_002",
   "title": "The Intercepted ROT13 Telegram",
   "category": "cipher",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter delivered to Scotland Yard, encoded with ROT13.",
-  "question": "Decode the text: 'GUR CBVFBS VF VA GUR JVAR'",
-  "answer": "THE POISON IS IN THE WINE",
+  "description": "An anonymous telegram was delivered to Scotland Yard.\nThe text was encoded using ROT13 cipher substitution.",
+  "question": "Decode the text:\n\nGUR CBVFBS VF VA GUR JVAR",
+  "acceptable_answer_format": "Type the decoded sentence exactly.\n\nExample:\nTHE KEY IS SAFE",
+  "accepted_answers": [
+    "THE POISON IS IN THE WINE",
+    "the poison is in the wine"
+  ],
   "hints": [
-    "ROT13 shifts every letter by exactly half of the alphabet (13 places).",
+    "ROT13 shifts every letter by exactly 13 places in the alphabet.",
     "G shifted by 13 positions becomes T, U becomes H, R becomes E.",
     "Replace each letter with its alphabet midpoint twin to read the warning."
   ],
-  "solution": "Applying ROT13 to 'GUR CBVFBS VF VA GUR JVAR' yields 'THE POISON IS IN THE WINE'."
+  "solution_explanation": "Applying ROT13 (shifting by 13 letters) to 'GUR CBVFBS VF VA GUR JVAR' yields 'THE POISON IS IN THE WINE'.",
+  "time_limit": 180,
+  "reward_points": 100
 }

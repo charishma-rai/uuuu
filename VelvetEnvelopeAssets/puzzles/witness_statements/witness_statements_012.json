@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_012",
   "title": "The Low Tide Landing Contradiction",
   "category": "witness_statements",
   "difficulty": "hard",
-  "description": "🗝️ Recovered Notebook Page:\nWitness A: 'I docked my deep-draft schooner at the high-water pier at 3:00 PM.'\nHarbor Tide Table: 3:00 PM was the lowest ebb tide of the year (pier was completely dry mud).",
+  "description": "Witness A: 'I docked my deep-draft schooner at the high-water pier at 3:00 PM.'\nHarbor Tide Table: 3:00 PM was the lowest ebb tide of the year (pier was completely dry mud).",
   "question": "Which witness is lying?",
-  "answer": "WITNESS A",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness A",
+  "accepted_answers": [
+    "Witness A",
+    "witness a",
+    "WITNESS A",
+    "A",
+    "a"
+  ],
   "hints": [
     "Deep draft ships cannot dock at dry mud low tide."
   ],
-  "solution": "Witness A lied about docking at high tide when harbor was dry mud."
+  "solution_explanation": "A deep-draft schooner cannot dock at a pier surrounded by dry mud during the lowest ebb tide of the year. Witness A lied.",
+  "time_limit": 450,
+  "reward_points": 300
 }

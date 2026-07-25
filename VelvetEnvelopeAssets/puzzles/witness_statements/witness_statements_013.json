@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_013",
   "title": "The Courtyard Echo Contradiction",
   "category": "witness_statements",
   "difficulty": "hard",
-  "description": "📝 Witness Deposition:\nWitness B: 'The gun fired from the open West field, but the sound echoed off the West open field.'\nAcoustics Report: Open fields produce zero echoes; echoes require solid walls.",
+  "description": "Witness B: 'The gun fired from the open West field, but the sound echoed off the West open field.'\nAcoustics Report: Open fields produce zero echoes; echoes require solid walls.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS B",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness B",
+  "accepted_answers": [
+    "Witness B",
+    "witness b",
+    "WITNESS B",
+    "B",
+    "b"
+  ],
   "hints": [
     "Echoes require a reflecting surface."
   ],
-  "solution": "Witness B claimed an echo from an open field."
+  "solution_explanation": "Open fields have no solid surfaces to reflect sound. Witness B lied about hearing an echo off an open field.",
+  "time_limit": 450,
+  "reward_points": 300
 }

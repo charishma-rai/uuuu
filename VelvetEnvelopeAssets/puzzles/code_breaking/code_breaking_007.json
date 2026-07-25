@@ -1,14 +1,20 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_007",
   "title": "The Clockwise Dial Combination",
   "category": "code_breaking",
   "difficulty": "medium",
-  "description": "📝 Witness Deposition: Turn right to 40, turn left 20 steps to 20, turn right 30 steps to 50.",
+  "description": "Turn right to 40, turn left 20 steps to 20, turn right 30 steps to 50.",
   "question": "Enter the 3 combination numbers (e.g. 40-20-50):",
-  "answer": "40-20-50",
+  "acceptable_answer_format": "Type the combination separated by hyphens.\n\nExample:\n40-20-50",
+  "accepted_answers": [
+    "40-20-50",
+    "40 20 50",
+    "402050"
+  ],
   "hints": [
     "List the three stops: 40, 20, 50."
   ],
-  "solution": "Combination stops: 40-20-50."
+  "solution_explanation": "The dial turns right to 40, left to 20, and right to 50. Combination: 40-20-50.",
+  "time_limit": 300,
+  "reward_points": 200
 }

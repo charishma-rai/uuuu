@@ -1,15 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_004",
   "title": "The Doctor's Appointment Log",
   "category": "timeline",
   "difficulty": "easy",
-  "description": "🗝️ Recovered Notebook Page:\n2:00 PM - Patient Arthur\n2:45 PM - Patient Beatrice\n3:30 PM - Patient Charles\nMurder occurred between 2:50 PM and 3:20 PM.",
+  "description": "Doctor's patient appointment log:\n2:00 PM - Patient Arthur\n2:45 PM - Patient Beatrice\n3:30 PM - Patient Charles\nMurder occurred between 2:50 PM and 3:20 PM.",
   "question": "Which patient was in the doctor's office during the murder?",
-  "answer": "BEATRICE",
+  "acceptable_answer_format": "Type only the patient's name.\n\nExample:\nBeatrice",
+  "accepted_answers": [
+    "Beatrice",
+    "beatrice",
+    "BEATRICE"
+  ],
   "hints": [
     "Murder window: 2:50 PM to 3:20 PM.",
     "Patient Beatrice's appointment started at 2:45 PM and ran until 3:30 PM."
   ],
-  "solution": "Patient Beatrice was with the doctor from 2:45 PM to 3:30 PM, covering the 2:50-3:20 PM murder window."
+  "solution_explanation": "The murder occurred between 2:50 PM and 3:20 PM. Patient Beatrice was in the office from 2:45 PM to 3:30 PM.",
+  "time_limit": 180,
+  "reward_points": 100
 }

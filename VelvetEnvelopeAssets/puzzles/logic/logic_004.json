@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "logic_004",
   "title": "The Key Ring Contradiction",
   "category": "logic",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104:\nLord Vance says: 'I gave the master key to the Maid.'\nMaid says: 'The Butler took the master key from me.'\nButler says: 'The Maid is lying.'\nDetective note: The Maid is telling the complete truth.",
+  "description": "Lord Vance says: 'I gave the master key to the Maid.'\nMaid says: 'The Butler took the master key from me.'\nButler says: 'The Maid is lying.'\nDetective note: The Maid is telling the complete truth.",
   "question": "Who currently possesses the master key?",
-  "answer": "BUTLER",
+  "acceptable_answer_format": "Type only the suspect's title or name.\n\nExample:\nButler",
+  "accepted_answers": [
+    "Butler",
+    "butler",
+    "BUTLER",
+    "The Butler",
+    "the butler"
+  ],
   "hints": [
     "The Maid tells the truth.",
     "The Maid states that the Butler took the key from her.",
     "Therefore, the Butler holds the master key."
   ],
-  "solution": "Since the Maid tells the truth, her statement that the Butler took the key means the Butler has it."
+  "solution_explanation": "Since the Maid tells the complete truth, her statement that the Butler took the master key from her confirms the Butler currently possesses it.",
+  "time_limit": 180,
+  "reward_points": 100
 }

@@ -1,15 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_001",
   "title": "Blood Type Matching Analysis",
   "category": "evidence_analysis",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104:\nBlood sample from weapon: Type AB negative.\nSuspect 1: Type O positive\nSuspect 2: Type A positive\nSuspect 3: Type AB negative",
+  "description": "Blood sample from weapon: Type AB negative.\nSuspect 1: Type O positive\nSuspect 2: Type A positive\nSuspect 3: Type AB negative",
   "question": "Which suspect matches the blood sample?",
-  "answer": "SUSPECT 3",
+  "acceptable_answer_format": "Type only the suspect number.\n\nExample:\nSuspect 3",
+  "accepted_answers": [
+    "Suspect 3",
+    "suspect 3",
+    "SUSPECT 3",
+    "3"
+  ],
   "hints": [
     "Compare blood type AB negative to suspects.",
     "Suspect 3 is Type AB negative."
   ],
-  "solution": "Suspect 3 matches the AB negative blood found on the murder weapon."
+  "solution_explanation": "Blood sample from the weapon was Type AB negative. Suspect 3 is the only suspect with Type AB negative blood.",
+  "time_limit": 180,
+  "reward_points": 100
 }

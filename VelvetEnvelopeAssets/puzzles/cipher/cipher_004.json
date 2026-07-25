@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "cipher_004",
   "title": "The Telegrapher's Morse Code",
   "category": "cipher",
   "difficulty": "easy",
-  "description": "📻 Decoded Radio Transmission tape found near the telegraph desk.",
-  "question": "Decode this Morse code string (slashes separate words): '- .... . / ... .- ..-. . / .. ... / -... . .... .. -. -.. / - .... . / --. .-. .. -..'",
-  "answer": "THE SAFE IS BEHIND THE GRID",
+  "description": "A radio transmission tape was recovered near the telegraph desk.\nThe dots and dashes represent standard international Morse code.",
+  "question": "Decode this Morse code string (slashes separate words):\n\n- .... . / ... .- ..-. . / .. ... / -... . .... .. -. -.. / - .... . / --. .-. .. -..",
+  "acceptable_answer_format": "Type the decoded sentence exactly.\n\nExample:\nTHE KEY IS SAFE",
+  "accepted_answers": [
+    "THE SAFE IS BEHIND THE GRID",
+    "the safe is behind the grid"
+  ],
   "hints": [
     "Standard international Morse code is used.",
     "-... is B, . is E, .... is H, .. is I, -. is N, -.. is D.",
-    "Translate each letter: -.... = THE, ... .- ..-. . = SAFE, .. ... = IS, -... . .... .. -. -.. = BEHIND, - .... . = THE, --. .-. .. -.. = GRID."
+    "Translate each letter sequence: -.... = THE, ... .- ..-. . = SAFE, .. ... = IS, -... . .... .. -. -.. = BEHIND, - .... . = THE, --. .-. .. -.. = GRID."
   ],
-  "solution": "Translating the Morse code characters reveals: 'THE SAFE IS BEHIND THE GRID'."
+  "solution_explanation": "Translating each Morse code character (-.... = THE, ... .- ..-. . = SAFE, .. ... = IS, -... . .... .. -. -.. = BEHIND, - .... . = THE, --. .-. .. -.. = GRID) reveals 'THE SAFE IS BEHIND THE GRID'.",
+  "time_limit": 180,
+  "reward_points": 100
 }

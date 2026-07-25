@@ -1,15 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_010",
   "title": "The Arithmetic Sequence Lock",
   "category": "code_breaking",
   "difficulty": "medium",
-  "description": "🗝️ Recovered Notebook Page: Sequence: 4, 9, 14, 19, ?",
+  "description": "Sequence: 4, 9, 14, 19, ?",
   "question": "What is the next number?",
-  "answer": "24",
+  "acceptable_answer_format": "Type only the number.\n\nExample:\n24",
+  "accepted_answers": [
+    "24"
+  ],
   "hints": [
     "Add +5 to each term.",
     "19 + 5 = 24."
   ],
-  "solution": "Common difference is +5. 19 + 5 = 24."
+  "solution_explanation": "The sequence increases by a common difference of +5 (4, 9, 14, 19). 19 + 5 = 24.",
+  "time_limit": 300,
+  "reward_points": 200
 }

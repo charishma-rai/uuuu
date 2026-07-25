@@ -1,14 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_008",
   "title": "The Phone Keypad Word Code",
   "category": "code_breaking",
   "difficulty": "medium",
-  "description": "📻 Decoded Radio Transmission: Standard keypad (2=ABC, 8=TUV, 4=GHI). Decode '2-4-8'.",
+  "description": "Standard telephone keypad (2=ABC, 8=TUV, 4=GHI).\nDecode '2-4-8' using the first letter of each key.",
   "question": "Decode letter sequence from digits 2-4-8 (first letter of each key: A-G-T):",
-  "answer": "AGT",
+  "acceptable_answer_format": "Type the decoded letter sequence.\n\nExample:\nAGT",
+  "accepted_answers": [
+    "AGT",
+    "agt"
+  ],
   "hints": [
     "Key 2 = A, Key 4 = G, Key 8 = T."
   ],
-  "solution": "2=A, 4=G, 8=T -> AGT."
+  "solution_explanation": "Key 2=A, Key 4=G, Key 8=T. First letters of keys 2-4-8 spell AGT.",
+  "time_limit": 300,
+  "reward_points": 200
 }

@@ -1,14 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_002",
   "title": "The Letter-to-Number Locker Code",
   "category": "code_breaking",
   "difficulty": "easy",
-  "description": "🗝️ Recovered Notebook Page: A=1, B=2, C=3... Decode number sequence '3-1-2'.",
+  "description": "Using mapping A=1, B=2, C=3... decode the number sequence '3-1-2'.",
   "question": "What 3-letter word does 3-1-2 represent?",
-  "answer": "CAB",
+  "acceptable_answer_format": "Type the decoded word.\n\nExample:\nCAB",
+  "accepted_answers": [
+    "CAB",
+    "cab"
+  ],
   "hints": [
     "3 = C, 1 = A, 2 = B."
   ],
-  "solution": "3=C, 1=A, 2=B -> CAB."
+  "solution_explanation": "Mapping numbers A=1, B=2, C=3: 3=C, 1=A, 2=B spells CAB.",
+  "time_limit": 180,
+  "reward_points": 100
 }

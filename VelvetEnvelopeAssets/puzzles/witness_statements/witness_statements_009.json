@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_009",
   "title": "The Telegram Timestamp Contradiction",
   "category": "witness_statements",
   "difficulty": "medium",
-  "description": "📂 Evidence Folder #7:\nWitness A: 'I received the victim's telegram at 2:00 PM.'\nTelegraph Office Record: Telegram was dispatched at 4:00 PM.",
+  "description": "Witness A: 'I received the victim's telegram at 2:00 PM.'\nTelegraph Office Record: Telegram was dispatched at 4:00 PM.",
   "question": "Which witness is lying?",
-  "answer": "WITNESS A",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness A",
+  "accepted_answers": [
+    "Witness A",
+    "witness a",
+    "WITNESS A",
+    "A",
+    "a"
+  ],
   "hints": [
     "You cannot receive a telegram before it is sent."
   ],
-  "solution": "Witness A claimed receipt 2 hours prior to dispatch."
+  "solution_explanation": "Witness A claimed to receive the telegram at 2:00 PM, but the telegraph office records show it was dispatched at 4:00 PM. A message cannot be received before it is sent.",
+  "time_limit": 300,
+  "reward_points": 200
 }

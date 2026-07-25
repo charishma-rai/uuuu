@@ -1,15 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_009",
   "title": "The Bank Vault Override Time",
   "category": "timeline",
   "difficulty": "medium",
-  "description": "🔐 Encrypted USB Drive:\nVault timer set for 12 hours at 8:00 PM.\nOverride key used 2 hours earlier than scheduled opening time.",
+  "description": "Vault timer was set for 12 hours at 8:00 PM.\nThe override key was used 2 hours earlier than the scheduled opening time.",
   "question": "At what time was the vault opened?",
-  "answer": "6:00 AM",
+  "acceptable_answer_format": "Type the time.\n\nExample:\n6:00 AM",
+  "accepted_answers": [
+    "6:00 AM",
+    "6:00 am",
+    "6:00AM",
+    "6:00"
+  ],
   "hints": [
     "Scheduled opening: 8:00 PM + 12 hours = 8:00 AM.",
     "Opened 2 hours earlier: 8:00 AM minus 2 hours = 6:00 AM."
   ],
-  "solution": "Scheduled opening 8:00 AM minus 2 hours override = 6:00 AM."
+  "solution_explanation": "The 12-hour timer set at 8:00 PM scheduled opening for 8:00 AM. Opening 2 hours earlier means the vault opened at 6:00 AM.",
+  "time_limit": 300,
+  "reward_points": 200
 }

@@ -5,7 +5,7 @@
     "suspect_schema": "1.0",
     "victim_schema": "1.0",
     "story_schema": "1.0",
-    "puzzle_schema": "1.0"
+    "puzzle_schema": "2.0"
   },
   "required_asset_directories": [
     "assets/suspects",

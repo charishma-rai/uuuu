@@ -1,14 +1,18 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_013",
   "title": "Modular Arithmetic Padlock",
   "category": "code_breaking",
   "difficulty": "hard",
-  "description": "🔐 Encrypted USB Drive: Calculate (17 mod 5):",
+  "description": "Calculate (17 mod 5):",
   "question": "What is 17 modulo 5 (remainder of 17 / 5)?",
-  "answer": "2",
+  "acceptable_answer_format": "Type only the remainder number.\n\nExample:\n2",
+  "accepted_answers": [
+    "2"
+  ],
   "hints": [
     "17 divided by 5 is 3 with remainder 2."
   ],
-  "solution": "17 = 5 * 3 + 2. Remainder is 2."
+  "solution_explanation": "17 divided by 5 equals 3 with a remainder of 2. 17 mod 5 = 2.",
+  "time_limit": 450,
+  "reward_points": 300
 }

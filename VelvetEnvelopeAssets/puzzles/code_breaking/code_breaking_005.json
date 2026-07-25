@@ -1,15 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_005",
   "title": "The Keypad Pattern Code",
   "category": "code_breaking",
   "difficulty": "easy",
-  "description": "🔐 Encrypted USB Drive: 4-digit PIN where each digit increases by 2: 1, 3, 5, ?",
+  "description": "A 4-digit PIN where each digit increases by 2: 1, 3, 5, ?",
   "question": "What is the 4th digit?",
-  "answer": "7",
+  "acceptable_answer_format": "Type only the digit.\n\nExample:\n7",
+  "accepted_answers": [
+    "7"
+  ],
   "hints": [
     "Add +2 to each step.",
     "5 + 2 = 7."
   ],
-  "solution": "1, 3, 5, 7."
+  "solution_explanation": "Each digit increases by +2 (1, 3, 5). 5 + 2 = 7.",
+  "time_limit": 180,
+  "reward_points": 100
 }

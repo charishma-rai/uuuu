@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_006",
   "title": "The Footstep Distance Contradiction",
   "category": "witness_statements",
   "difficulty": "medium",
-  "description": "📻 Decoded Radio Transmission:\nWitness A: 'I heard the killer take 100 heavy paces walking down the 10-foot scullery hallway.'",
+  "description": "Witness A: 'I heard the killer take 100 heavy paces walking down the 10-foot scullery hallway.'",
   "question": "Which witness is lying?",
-  "answer": "WITNESS A",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness A",
+  "accepted_answers": [
+    "Witness A",
+    "witness a",
+    "WITNESS A",
+    "A",
+    "a"
+  ],
   "hints": [
     "100 paces in a 10-foot hallway means each step is 1.2 inches long."
   ],
-  "solution": "Taking 100 paces in a 10-foot hallway is absurd. Witness A lied."
+  "solution_explanation": "Taking 100 paces in a 10-foot hallway would require tiny 1.2-inch steps. Witness A's claim is absurd and false.",
+  "time_limit": 300,
+  "reward_points": 200
 }

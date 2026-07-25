@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "logic_003",
   "title": "The Murder Weapon Ownership",
   "category": "logic",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter detailing three suspects (Arthur, Beatrice, Charles) who each possess one weapon (Dagger, Poison, Pistol).\n1. Arthur does not have the Pistol.\n2. Beatrice has the Poison.",
+  "description": "Three suspects (Arthur, Beatrice, Charles) each possess one weapon (Dagger, Poison, Pistol).\n1. Arthur does not have the Pistol.\n2. Beatrice has the Poison.",
   "question": "Which weapon does Arthur possess?",
-  "answer": "DAGGER",
+  "acceptable_answer_format": "Type only the weapon name.\n\nExample:\nDagger",
+  "accepted_answers": [
+    "Dagger",
+    "dagger",
+    "DAGGER",
+    "The Dagger",
+    "the dagger"
+  ],
   "hints": [
     "Beatrice has Poison.",
     "That leaves Dagger and Pistol for Arthur and Charles.",
     "Arthur does NOT have the Pistol, so Arthur must have the Dagger."
   ],
-  "solution": "Beatrice = Poison. Remaining weapons: Dagger, Pistol. Since Arthur does not have the Pistol, Arthur = Dagger."
+  "solution_explanation": "Beatrice has the Poison. Arthur does not have the Pistol, so Arthur must have the Dagger (leaving the Pistol for Charles).",
+  "time_limit": 180,
+  "reward_points": 100
 }

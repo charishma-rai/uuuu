@@ -1,16 +1,26 @@
 {
-  "schema_version": "1.0",
   "id": "riddles_006",
   "title": "The Footprints in the Snow",
   "category": "riddles",
   "difficulty": "medium",
-  "description": "📄 Forensic Report #104: Fresh snow fell at midnight. Footprints lead straight FROM the victim's cabin TO the town, but NO footprints lead toward the cabin. Yet the suspect was inside the cabin at 1 AM.",
+  "description": "Fresh snow fell at midnight. Footprints lead straight FROM the victim's cabin TO the town, but NO footprints lead toward the cabin.\nYet the suspect was inside the cabin at 1 AM.",
   "question": "How did the suspect reach the cabin without leaving incoming footprints?",
-  "answer": "WALKED BACKWARD",
+  "acceptable_answer_format": "Type the action.\n\nExample:\nWalked backward",
+  "accepted_answers": [
+    "Walked backward",
+    "walked backward",
+    "WALKED BACKWARD",
+    "Walking backward",
+    "He walked backward",
+    "Walked backwards",
+    "walked backwards"
+  ],
   "hints": [
-    "He altered how he walked while moving toward the cabin.",
+    "He walked to the cabin before or during the snowfall, or altered how he walked.",
     "Think about the direction the boot prints face.",
     "He walked toward the cabin while stepping backward, making it look like someone walked away."
   ],
-  "solution": "The suspect reached the cabin by walking backward, creating footprints that appeared to face away from the cabin."
+  "solution_explanation": "The suspect walked to the cabin while facing away and stepping backward, making his incoming footprints point toward the town.",
+  "time_limit": 300,
+  "reward_points": 200
 }

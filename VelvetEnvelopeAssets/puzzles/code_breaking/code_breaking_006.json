@@ -1,14 +1,19 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_006",
   "title": "The Master Vault Odd Numbers",
   "category": "code_breaking",
   "difficulty": "medium",
-  "description": "📜 Anonymous Letter: 4-digit code. All digits are consecutive odd numbers starting at 1.",
+  "description": "A 4-digit code consists of all consecutive odd numbers starting at 1.",
   "question": "What is the 4-digit code?",
-  "answer": "1357",
+  "acceptable_answer_format": "Type only the numerical code.\n\nExample:\n1357",
+  "accepted_answers": [
+    "1357",
+    "1-3-5-7"
+  ],
   "hints": [
     "Consecutive odd numbers starting at 1: 1, 3, 5, 7."
   ],
-  "solution": "Code is 1357."
+  "solution_explanation": "The consecutive odd numbers starting at 1 are 1, 3, 5, and 7. Code: 1357.",
+  "time_limit": 300,
+  "reward_points": 200
 }

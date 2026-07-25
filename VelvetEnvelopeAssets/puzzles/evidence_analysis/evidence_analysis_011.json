@@ -1,14 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_011",
   "title": "Triple Factor Forensic Elimination",
   "category": "evidence_analysis",
   "difficulty": "hard",
-  "description": "🗝️ Recovered Notebook Page:\nCrime scene evidence: Blood A+, Footprint Size 10, Tweed fiber.\nSuspect 1: Blood A+, Size 10, Tweed fiber\nSuspect 2: Blood B+, Size 10, Tweed fiber\nSuspect 3: Blood A+, Size 8, Silk fiber",
+  "description": "Crime scene evidence: Blood A+, Footprint Size 10, Tweed fiber.\nSuspect 1: Blood A+, Size 10, Tweed fiber\nSuspect 2: Blood B+, Size 10, Tweed fiber\nSuspect 3: Blood A+, Size 8, Silk fiber",
   "question": "Which suspect matches ALL three evidence factors?",
-  "answer": "SUSPECT 1",
+  "acceptable_answer_format": "Type only the suspect number.\n\nExample:\nSuspect 1",
+  "accepted_answers": [
+    "Suspect 1",
+    "suspect 1",
+    "SUSPECT 1",
+    "1"
+  ],
   "hints": [
     "Suspect 1 has A+, Size 10, Tweed."
   ],
-  "solution": "Suspect 1 matches all three forensic criteria."
+  "solution_explanation": "Suspect 1 is the only suspect who matches all three criteria: Blood A+, Footprint Size 10, and Tweed fiber.",
+  "time_limit": 450,
+  "reward_points": 300
 }

@@ -1,15 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_005",
   "title": "Capital Letters in Scullery Note",
   "category": "hidden_messages",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104: Extract only capital letters from: 'tHe BuTlEr DiD iT'",
+  "description": "Extract only the capital letters from: 'tHe BuTlEr DiD iT'",
   "question": "What capitalized letters emerge?",
-  "answer": "HBT LERDDT",
+  "acceptable_answer_format": "Type only the capitalized letters.\n\nExample:\nHBT LERDDT",
+  "accepted_answers": [
+    "HBT LERDDT",
+    "hbt lerddt",
+    "HBTLERDDT"
+  ],
   "hints": [
     "Look for uppercase characters.",
     "H, B, T, L, E, R, D, D, T."
   ],
-  "solution": "Extracting uppercase characters yields HBT LERDDT."
+  "solution_explanation": "Extracting only the uppercase characters from 'tHe BuTlEr DiD iT' yields HBT LERDDT.",
+  "time_limit": 180,
+  "reward_points": 100
 }

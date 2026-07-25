@@ -1,17 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_004",
   "title": "Last Letter Word Cipher",
   "category": "hidden_messages",
   "difficulty": "easy",
-  "description": "📂 Evidence Folder #7: Extract the last letter of each word in: 'FROG THOU TAXI MELT YUCK'",
+  "description": "Extract the last letter of each word in: 'FROG THOU TAXI MELT YUCK'",
   "question": "What secret word is formed?",
-  "answer": "GUILT",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nSECRET",
+  "accepted_answers": [
+    "GUILT",
+    "guilt"
+  ],
   "hints": [
     "FRO**G** -> G",
     "THO**U** -> U",
     "TAX**I** -> I",
     "MEL**T** -> T"
   ],
-  "solution": "Taking the final letters G-U-I-L-T spells GUILT."
+  "solution_explanation": "Extracting the last letter of each word in 'FROG THOU TAXI MELT YUCK' (G-U-I-L-T) spells GUILT.",
+  "time_limit": 180,
+  "reward_points": 100
 }

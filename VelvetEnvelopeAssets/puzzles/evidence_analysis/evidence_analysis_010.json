@@ -1,14 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_010",
   "title": "Glass Splatter Direction",
   "category": "evidence_analysis",
   "difficulty": "medium",
-  "description": "📄 Forensic Report #104:\nBroken glass fragments were found entirely INSIDE the study room.",
+  "description": "Broken glass fragments were found entirely INSIDE the study room.",
   "question": "Was the window broken from OUTSIDE or INSIDE?",
-  "answer": "OUTSIDE",
+  "acceptable_answer_format": "Type Outside or Inside.\n\nExample:\nOutside",
+  "accepted_answers": [
+    "Outside",
+    "outside",
+    "OUTSIDE",
+    "From outside"
+  ],
   "hints": [
     "Impact force pushes glass fragments in the direction of blow (into the room)."
   ],
-  "solution": "Glass inside room means force came from OUTSIDE."
+  "solution_explanation": "Glass fragments found entirely inside the study room indicate the impact force came from OUTSIDE.",
+  "time_limit": 300,
+  "reward_points": 200
 }

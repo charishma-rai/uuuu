@@ -1,14 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "evidence_analysis_004",
   "title": "Fingerprint Pattern Matching",
   "category": "evidence_analysis",
   "difficulty": "easy",
-  "description": "📜 Anonymous Letter:\nWeapon print: Whorl pattern.\nSuspect 1: Arch\nSuspect 2: Loop\nSuspect 3: Whorl",
+  "description": "Weapon print: Whorl pattern.\nSuspect 1: Arch\nSuspect 2: Loop\nSuspect 3: Whorl",
   "question": "Which suspect matches the print?",
-  "answer": "SUSPECT 3",
+  "acceptable_answer_format": "Type only the suspect number.\n\nExample:\nSuspect 3",
+  "accepted_answers": [
+    "Suspect 3",
+    "suspect 3",
+    "SUSPECT 3",
+    "3"
+  ],
   "hints": [
     "Whorl pattern matches Suspect 3."
   ],
-  "solution": "Suspect 3 matches Whorl pattern."
+  "solution_explanation": "Weapon print has a Whorl pattern. Suspect 3 matches the Whorl pattern.",
+  "time_limit": 180,
+  "reward_points": 100
 }

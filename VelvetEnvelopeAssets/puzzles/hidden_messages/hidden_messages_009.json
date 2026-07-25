@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_009",
   "title": "Sentence Opening Words",
   "category": "hidden_messages",
   "difficulty": "medium",
-  "description": "📝 Witness Deposition: Read the FIRST word of each sentence:\n'Meet at dusk. Me near gate. In dark. Study well.'",
+  "description": "Read the FIRST word of each sentence:\n'Meet at dusk. Me near gate. In dark. Study well.'",
   "question": "What 4-word message is formed?",
-  "answer": "MEET ME IN STUDY",
+  "acceptable_answer_format": "Type the extracted phrase.\n\nExample:\nMEET ME IN STUDY",
+  "accepted_answers": [
+    "MEET ME IN STUDY",
+    "meet me in study"
+  ],
   "hints": [
     "Sentence 1: Meet.",
     "Sentence 2: Me.",
     "Sentence 3: In. Sentence 4: Study."
   ],
-  "solution": "First words: MEET ME IN STUDY."
+  "solution_explanation": "Taking the first word of each sentence ('Meet at dusk. Me near gate. In dark. Study well.') spells MEET ME IN STUDY.",
+  "time_limit": 300,
+  "reward_points": 200
 }

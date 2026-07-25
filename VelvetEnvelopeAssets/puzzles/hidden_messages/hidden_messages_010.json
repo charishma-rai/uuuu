@@ -1,15 +1,20 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_010",
   "title": "Reversed Sentence Word Order",
   "category": "hidden_messages",
   "difficulty": "medium",
-  "description": "📻 Decoded Radio Transmission: Reverse the word order in: 'VAULT THE IN IS POISON THE'",
+  "description": "Reverse the word order in: 'VAULT THE IN IS POISON THE'",
   "question": "Read the reconstructed sentence:",
-  "answer": "THE POISON IS IN THE VAULT",
+  "acceptable_answer_format": "Type the decoded sentence.\n\nExample:\nTHE POISON IS IN THE VAULT",
+  "accepted_answers": [
+    "THE POISON IS IN THE VAULT",
+    "the poison is in the vault"
+  ],
   "hints": [
     "Reverse word sequence from last to first.",
     "THE -> POISON -> IS -> IN -> THE -> VAULT."
   ],
-  "solution": "Reversing word sequence yields: THE POISON IS IN THE VAULT."
+  "solution_explanation": "Reversing the word sequence of 'VAULT THE IN IS POISON THE' from last to first produces 'THE POISON IS IN THE VAULT'.",
+  "time_limit": 300,
+  "reward_points": 200
 }

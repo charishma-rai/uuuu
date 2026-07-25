@@ -1,15 +1,23 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_010",
   "title": "The Servant Duty Schedule",
   "category": "timeline",
   "difficulty": "medium",
-  "description": "📂 Evidence Folder #7:\nButler: 8:00 PM - 10:00 PM\nFootman: 10:00 PM - 12:00 AM\nGuard: 12:00 AM - 2:00 AM\nMurder occurred at 11:15 PM.",
+  "description": "Servant duty schedule:\nButler: 8:00 PM - 10:00 PM\nFootman: 10:00 PM - 12:00 AM\nGuard: 12:00 AM - 2:00 AM\nMurder occurred at 11:15 PM.",
   "question": "Which servant was on duty at the time of the murder?",
-  "answer": "FOOTMAN",
+  "acceptable_answer_format": "Type only the servant title.\n\nExample:\nFootman",
+  "accepted_answers": [
+    "Footman",
+    "footman",
+    "FOOTMAN",
+    "The Footman",
+    "the footman"
+  ],
   "hints": [
     "Murder time: 11:15 PM.",
     "Footman shift covers 10:00 PM to 12:00 AM."
   ],
-  "solution": "The Footman was on duty during his 10:00 PM - 12:00 AM shift."
+  "solution_explanation": "The murder occurred at 11:15 PM. The Footman was on duty during the 10:00 PM - 12:00 AM shift.",
+  "time_limit": 300,
+  "reward_points": 200
 }

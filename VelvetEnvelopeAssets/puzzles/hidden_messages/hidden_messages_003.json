@@ -1,15 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_003",
   "title": "Every Third Letter Sequence",
   "category": "hidden_messages",
   "difficulty": "easy",
-  "description": "📝 Witness Deposition: Take every 3rd letter from string: 'A B D A C G G G E E E R'",
+  "description": "Extract every 3rd letter from string: 'A B D A C G G G E E E R'",
   "question": "What word does it form?",
-  "answer": "DAGER",
+  "acceptable_answer_format": "Type only the hidden word.\n\nExample:\nSECRET",
+  "accepted_answers": [
+    "DAGER",
+    "dager",
+    "DAGGER",
+    "dagger"
+  ],
   "hints": [
     "Positions 3, 6, 9, 12.",
     "Pos 3 = D, Pos 6 = A, Pos 9 = E, Pos 12 = R."
   ],
-  "solution": "Extracting every 3rd letter yields D-A-G-E-R (DAGGER variation DAGER)."
+  "solution_explanation": "Extracting every 3rd letter from 'A B D A C G G G E E E R' (positions 3, 6, 9, 12) yields D-A-G-E-R.",
+  "time_limit": 180,
+  "reward_points": 100
 }

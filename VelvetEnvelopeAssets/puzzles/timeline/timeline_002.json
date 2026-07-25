@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "timeline_002",
   "title": "The Poisoning Course Timeline",
   "category": "timeline",
   "difficulty": "easy",
-  "description": "📄 Forensic Report #104:\n8:00 PM - Soup served\n8:30 PM - Fish served\n9:00 PM - Roast served\n9:30 PM - Victim collapsed\nMedical fact: The poison used takes exactly 60 minutes to cause collapse.",
+  "description": "Dinner service log:\n8:00 PM - Soup served\n8:30 PM - Fish served\n9:00 PM - Roast served\n9:30 PM - Victim collapsed\nMedical fact: The poison used takes exactly 60 minutes to cause collapse.",
   "question": "Which course was poisoned?",
-  "answer": "FISH",
+  "acceptable_answer_format": "Type only the meal course name.\n\nExample:\nFish",
+  "accepted_answers": [
+    "Fish",
+    "fish",
+    "FISH",
+    "The Fish course",
+    "The fish"
+  ],
   "hints": [
     "Collapse time: 9:30 PM.",
     "Poison onset delay: Exactly 60 minutes.",
     "9:30 PM minus 60 minutes = 8:30 PM."
   ],
-  "solution": "Victim collapsed at 9:30 PM. 60 minutes prior is 8:30 PM, when the Fish course was served."
+  "solution_explanation": "Victim collapsed at 9:30 PM. Since the poison takes 60 minutes to act, it was ingested at 8:30 PM, when the Fish course was served.",
+  "time_limit": 180,
+  "reward_points": 100
 }

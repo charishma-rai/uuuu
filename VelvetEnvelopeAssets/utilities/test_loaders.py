@@ -11,6 +11,7 @@ from utilities.puzzle_loader import PuzzleLoader, CATEGORIES
 from utilities.story_loader import StoryLoader
 from utilities.random_selector import RandomSelector
 from utilities.puzzle_runner import DetectivePuzzleSession
+import utilities.generate_all_puzzles
 
 def run_repository_tests():
     print("=== 1. Validating Repository Schema & Puzzle Integrity ===")
@@ -45,7 +46,7 @@ def run_repository_tests():
         print(f" Category '{cat}': {len(cat_puzzles)} puzzles")
         assert len(cat_puzzles) >= 15, f"Category '{cat}' requires at least 15 puzzles, found {len(cat_puzzles)}"
         
-        # Verify schema keys & 3 hints on every puzzle
+        # Verify 12 schema keys & 3 hints on every puzzle
         for p in cat_puzzles:
             assert "id" in p, f"Puzzle missing 'id': {p}"
             assert "title" in p, f"Puzzle {p['id']} missing 'title'"
@@ -53,17 +54,21 @@ def run_repository_tests():
             assert "difficulty" in p, f"Puzzle {p['id']} missing 'difficulty'"
             assert "description" in p, f"Puzzle {p['id']} missing 'description'"
             assert "question" in p, f"Puzzle {p['id']} missing 'question'"
-            assert "answer" in p, f"Puzzle {p['id']} missing 'answer'"
-            assert "solution" in p, f"Puzzle {p['id']} missing 'solution'"
+            assert "acceptable_answer_format" in p, f"Puzzle {p['id']} missing 'acceptable_answer_format'"
+            assert "accepted_answers" in p and isinstance(p["accepted_answers"], list) and len(p["accepted_answers"]) > 0, f"Puzzle {p['id']} missing valid 'accepted_answers'"
+            assert "solution_explanation" in p, f"Puzzle {p['id']} missing 'solution_explanation'"
+            assert "time_limit" in p and isinstance(p["time_limit"], int), f"Puzzle {p['id']} missing 'time_limit'"
+            assert "reward_points" in p and isinstance(p["reward_points"], int), f"Puzzle {p['id']} missing 'reward_points'"
             assert "hints" in p and isinstance(p["hints"], list) and len(p["hints"]) == 3, f"Puzzle {p['id']} must have exactly 3 hints"
 
     print("\n=== 4. Testing Puzzle Answer Validation & Hint Progression ===")
     sample_puzzle = all_puzzles[0]
     print(f"Sample Puzzle: {sample_puzzle['id']} [{sample_puzzle['title']}]")
     
-    # Test valid answer
-    val_correct = puzzles_loader.validate_answer(sample_puzzle, sample_puzzle["answer"])
-    assert val_correct, f"Answer validation failed for correct answer '{sample_puzzle['answer']}'"
+    # Test valid answer against accepted_answers
+    for correct_ans in sample_puzzle["accepted_answers"]:
+        val_correct = puzzles_loader.validate_answer(sample_puzzle, correct_ans)
+        assert val_correct, f"Answer validation failed for correct answer '{correct_ans}'"
     
     # Test invalid answer
     val_incorrect = puzzles_loader.validate_answer(sample_puzzle, "WRONG_ANSWER_123")

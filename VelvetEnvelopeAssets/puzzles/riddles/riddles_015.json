@@ -1,16 +1,25 @@
 {
-  "schema_version": "1.0",
   "id": "riddles_015",
   "title": "The Portrait's Eye Peepholes",
   "category": "riddles",
   "difficulty": "hard",
-  "description": "🗝️ Recovered Notebook Page: The killer spied on the secret meeting in the gallery through a portrait on the wall without cutting new holes in the canvas.",
+  "description": "The killer spied on the secret meeting in the gallery through a portrait on the wall without cutting new holes in the canvas.",
   "question": "Where were the original hidden openings located in the portrait?",
-  "answer": "EYES",
+  "acceptable_answer_format": "Type the location on the portrait.\n\nExample:\nEyes",
+  "accepted_answers": [
+    "Eyes",
+    "eyes",
+    "EYES",
+    "The eyes",
+    "Portrait eyes",
+    "Eye holes"
+  ],
   "hints": [
     "The artist included dark circular details in the subject's face.",
     "Look at the pupils of the painted figure.",
     "The eye pupils of the painting had been hollowed out from behind."
   ],
-  "solution": "The eye pupils in the portrait were hollowed out, allowing someone standing in the secret corridor behind the wall to watch through the canvas."
+  "solution_explanation": "The eye pupils of the portrait were hollowed out from behind, allowing an observer standing in the secret corridor behind the wall to watch the gallery.",
+  "time_limit": 450,
+  "reward_points": 300
 }

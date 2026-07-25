@@ -1,15 +1,20 @@
 {
-  "schema_version": "1.0",
   "id": "hidden_messages_006",
   "title": "Capital Letters Love Letter",
   "category": "hidden_messages",
   "difficulty": "medium",
-  "description": "📜 Anonymous Letter: 'My Dearest, I Hope Everything Is Fine. Regard Only Intentions. Send Help Now.'",
-  "question": "Extract capitalized letters H-I-D-E I-N S-H-E-D to reveal secret location:",
-  "answer": "HIDE IN SHED",
+  "description": "An intercepted note reads: 'Help Is Desperately Needed In South Hall Entrance Dark.'",
+  "question": "Extract the capitalized words forming the secret location:",
+  "acceptable_answer_format": "Type only the hidden message.\n\nExample:\nHIDE IN SHED",
+  "accepted_answers": [
+    "HIDE IN SHED",
+    "hide in shed"
+  ],
   "hints": [
     "Look at the capitalized words in the note.",
     "H-I-D-E I-N S-H-E-D."
   ],
-  "solution": "The uppercase pattern reveals HIDE IN SHED."
+  "solution_explanation": "Reading the capitalized words in the love letter reveals the secret location: HIDE IN SHED.",
+  "time_limit": 300,
+  "reward_points": 200
 }

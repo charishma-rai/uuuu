@@ -1,16 +1,24 @@
 {
-  "schema_version": "1.0",
   "id": "logic_013",
   "title": "The Counterfeit Note Transaction",
   "category": "logic",
   "difficulty": "hard",
-  "description": "📝 Witness Deposition:\nBanker says: 'Merchant passed the fake bill.'\nMerchant says: 'Jeweler passed the fake bill.'\nJeweler says: 'Merchant is innocent.'\nDetective note: The person who passed the bill is lying; innocent suspects tell the truth.",
+  "description": "Banker says: 'Merchant passed the fake bill.'\nMerchant says: 'Jeweler passed the fake bill.'\nJeweler says: 'Merchant is innocent.'\nDetective note: The person who passed the bill is lying; the innocent suspects tell the truth.",
   "question": "Who passed the counterfeit bill?",
-  "answer": "MERCHANT",
-  "hints": [
-    "Test Merchant as guilty: Merchant lies ('Jeweler passed it' is False).",
-    "If Merchant is guilty, Jeweler is innocent (Jeweler says 'Merchant is innocent'? Wait: if Merchant passed it, Jeweler's statement 'Merchant is innocent' is false! So Jeweler lied? No, test Banker=truth, Merchant=guilty).",
-    "Banker says Merchant passed it (Truth). Merchant says Jeweler passed it (Liar). Merchant passed the bill."
+  "acceptable_answer_format": "Type only the suspect's title.\n\nExample:\nMerchant",
+  "accepted_answers": [
+    "Merchant",
+    "merchant",
+    "MERCHANT",
+    "The Merchant",
+    "the merchant"
   ],
-  "solution": "Banker says Merchant passed it (Truth). Merchant says Jeweler passed it (Liar). Merchant is the culprit who passed the counterfeit bill."
+  "hints": [
+    "Notice Merchant and Jeweler contradict each other.",
+    "If Merchant passed the bill: Merchant lies ('Jeweler passed it' is False).",
+    "Test Merchant: Banker tells truth ('Merchant passed it'), Merchant lies ('Jeweler passed it'), Jeweler lies ('Merchant is innocent')."
+  ],
+  "solution_explanation": "Banker states Merchant passed the bill (Truth). Merchant claims Jeweler passed it (Liar). Jeweler states Merchant is innocent (Liar). The passer of the bill (Merchant) is the one lying.",
+  "time_limit": 450,
+  "reward_points": 300
 }

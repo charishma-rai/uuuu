@@ -1,14 +1,22 @@
 {
-  "schema_version": "1.0",
   "id": "witness_statements_015",
   "title": "The Mirror Reading Contradiction",
   "category": "witness_statements",
   "difficulty": "hard",
-  "description": "🧩 Locked Filing Cabinet:\nWitness A: 'I read the regular non-reversed handwriting on the note reflected in the mirror across the room.'",
+  "description": "Witness A: 'I read the regular non-reversed handwriting on the note reflected in the mirror across the room.'",
   "question": "Which witness is lying?",
-  "answer": "WITNESS A",
+  "acceptable_answer_format": "Type only the witness name.\n\nExample:\nWitness A",
+  "accepted_answers": [
+    "Witness A",
+    "witness a",
+    "WITNESS A",
+    "A",
+    "a"
+  ],
   "hints": [
     "Handwriting reflected in a mirror appears reversed (mirror writing)."
   ],
-  "solution": "Reflected text is mirrored/reversed. Witness A lied."
+  "solution_explanation": "Handwriting reflected in a mirror appears reversed (mirror writing). Witness A lied about reading non-reversed text in a mirror.",
+  "time_limit": 450,
+  "reward_points": 300
 }

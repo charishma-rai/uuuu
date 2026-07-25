@@ -1,16 +1,21 @@
 {
-  "schema_version": "1.0",
   "id": "code_breaking_001",
   "title": "The Four-Digit Safe Code Sum",
   "category": "code_breaking",
   "difficulty": "easy",
-  "description": "🧩 Locked Filing Cabinet: Safe code is 4 digits. Digits sum to 10. First three digits are 4-3-2.",
+  "description": "The safe code is 4 digits long. The digits sum to 10.\nThe first three digits are 4-3-2.",
   "question": "What is the complete 4-digit code?",
-  "answer": "4321",
+  "acceptable_answer_format": "Type only the numerical code.\n\nExample:\n4321",
+  "accepted_answers": [
+    "4321",
+    "4-3-2-1"
+  ],
   "hints": [
     "4 + 3 + 2 = 9.",
     "Total sum must equal 10.",
     "10 - 9 = 1. The 4th digit is 1."
   ],
-  "solution": "4 + 3 + 2 + 1 = 10. Code: 4321."
+  "solution_explanation": "The sum of the digits must equal 10. 4 + 3 + 2 = 9. 10 - 9 = 1, so the 4th digit is 1. Full code: 4321.",
+  "time_limit": 180,
+  "reward_points": 100
 }
